@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on すいすいSwift</title>
+    <link>https://swiswiswift.com/tags/docker/</link>
+    <description>Recent content in Docker on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dockerで Alpineベースのコンテナに入る</title>
+      <link>https://swiswiswift.com/2019-12-21/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-21/</guid>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入る</description>
+    </item>
+    
+    <item>
+      <title>Dockerを使ってPostgreSQLを立て、テーブルを作成する。</title>
+      <link>https://swiswiswift.com/2019-11-22/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-22/</guid>
+      <description>postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーで</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
+      <link>https://swiswiswift.com/2018-12-25/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-25/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS6)</title>
+      <link>https://swiswiswift.com/2018-11-19/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-19/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run</description>
+    </item>
+    
+  </channel>
+</rss>

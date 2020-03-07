@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on すいすいSwift</title>
+    <link>https://swiswiswift.com/post/</link>
+    <description>Recent content in Posts on すいすいSwift</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://swiswiswift.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SwiftUIでListの要素を削除した入り増やしたりする</title>
+      <link>https://swiswiswift.com/2020-03-01/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-03-01/</guid>
+      <description>SwiftUIでListの要素を削除した入り増やしたりする方法です。 Closure で渡すのはあまりよくない気がし</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでキーボードをボタンで隠す</title>
+      <link>https://swiswiswift.com/2020-02-29/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-29/</guid>
+      <description>SwiftUIでキーボードをボタンで隠す方法です。 UIApplicationを拡張して実現しています</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでKeyboardの高さや出現を検知する</title>
+      <link>https://swiswiswift.com/2020-02-28/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-28/</guid>
+      <description>SwiftUIでKeyboardの高さや出現を検知する方法です。 Combineを使って実現しています</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで複数行の文字列を入力する</title>
+      <link>https://swiswiswift.com/2020-02-27/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-27/</guid>
+      <description>SwiftUIで複数行の文字列を入力する方法です。 UIKitのTextViewを使って実現しています</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで下からPickerを出す</title>
+      <link>https://swiswiswift.com/2020-02-26/</link>
+      <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-26/</guid>
+      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでUIImagePickerControllerを使う</title>
+      <link>https://swiswiswift.com/2020-02-25/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-25/</guid>
+      <description>SwiftUIでSwiftUIでUIImagePickerControllerを使う方法です。 UIKit と同</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでButton内の画像の色を変えない</title>
+      <link>https://swiswiswift.com/2020-02-24/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-24/</guid>
+      <description>SwiftUIでButton内の画像の色を変えない方法です。 デフォルトのままだと以下の画像のように色</description>
+    </item>
+    
+    <item>
+      <title>iOS13のModalPresentationStyleを全部試してみた</title>
+      <link>https://swiswiswift.com/2020-02-23/</link>
+      <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-23/</guid>
+      <description>iOS13のModalPresentationStyleを全部試してみました。 PopPage モーダルのことを弊社</description>
+    </item>
+    
+    <item>
+      <title>Swiftで動画の終了を検知する</title>
+      <link>https://swiswiswift.com/2020-02-22/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-22/</guid>
+      <description>Swiftで動画の終了を検知するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちら</description>
+    </item>
+    
+    <item>
+      <title>Swiftで動画を再生する</title>
+      <link>https://swiswiswift.com/2020-02-21/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-21/</guid>
+      <description>Swiftで動画を再生するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちらのサイ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する</title>
+      <link>https://swiswiswift.com/2020-02-20/</link>
+      <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-20/</guid>
+      <description>SwiftUIでサイドメニュー（ハンバーガーメニュー）を表示するサンプルです。 ドラッグで消す箇所など</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのListのSectionの色を変える</title>
+      <link>https://swiswiswift.com/2020-02-19/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-19/</guid>
+      <description>SwiftUIのListのSectionの色を変えるサンプルです。 Appearanceを使って背景色</description>
+    </item>
+    
+    <item>
+      <title>タップでセクション区切りのListViewにチェックを入れる</title>
+      <link>https://swiswiswift.com/2020-02-18/</link>
+      <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-18/</guid>
+      <description>タップでセクション区切りのListViewにチェックを入れるサンプルです。 タップすることで State が変化し</description>
+    </item>
+    
+    <item>
+      <title>タップでListViewにチェックを入れる</title>
+      <link>https://swiswiswift.com/2020-02-17/</link>
+      <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-17/</guid>
+      <description>タップで ListView にチェックを入れるサンプルです。 タップすることで State が変化し、✔︎を描画するようになります。</description>
+    </item>
+    
+    <item>
+      <title>SwiftでCSVを集計する</title>
+      <link>https://swiswiswift.com/2020-02-16/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-16/</guid>
+      <description>Swift で CSV を集計する方法です。 まず前処理として、CSV ファイルを utf8 に変換する必要があります。 Mac の場合は Numbers</description>
+    </item>
+    
+    <item>
+      <title>UIViewの背景をグリッドにしたり、ドットにしたりする</title>
+      <link>https://swiswiswift.com/2020-02-14/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-14/</guid>
+      <description>UIView の背景をグリッドにしたり、ドットにしたりする方法です。 今回は GridView という UIView のサブクラスを作り、ボタンを</description>
+    </item>
+    
+    <item>
+      <title>ReplayKitを使って画面を録音する</title>
+      <link>https://swiswiswift.com/2020-02-12/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-12/</guid>
+      <description>ReplayKit を使うと画面を録画することができます。 凄く簡単に使うことができる上に、マイクで実況？をしたりするこ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでUICollectionViewのようにViewを並べる</title>
+      <link>https://swiswiswift.com/2020-02-09/</link>
+      <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-09/</guid>
+      <description>SwiftUI で UICollectionView のように表示する方法です。 Q-Mobile/QGrid というライブラリを使うと簡単です。 QGrid を参考にしながら書いてみました</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでFirestoreの画像を表示する</title>
+      <link>https://swiswiswift.com/2020-02-08/</link>
+      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-08/</guid>
+      <description>SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができませ</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのToggleの変更を検知する</title>
+      <link>https://swiswiswift.com/2020-02-05/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-02-05/</guid>
+      <description>SwiftUIのToggleの変更を検知し、print 文を実行します。 参考: How can I trigger an action when a swiftUI toggle() is toggled?</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIで複数行のPickerを作成する</title>
+      <link>https://swiswiswift.com/2020-01-14/</link>
+      <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-01-14/</guid>
+      <description>UIPickerView のような複数行の Picker を作成する方法です。 UIPickerView と使い勝手がかなり異なり、戸惑いました。 参考: Multi-Component Picker (UIPickerView) in SwiftUI (adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIのPickerでLabelを表示しない</title>
+      <link>https://swiswiswift.com/2020-01-13/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-01-13/</guid>
+      <description>SwiftUIのPickerでLabelを表示しない方法です。 labelsHidden を設定することで可能です。 参考: How to</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでPicker を表示する</title>
+      <link>https://swiswiswift.com/2020-01-12/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-01-12/</guid>
+      <description>SwiftUI で Picker を表示するサンプルです。 複数行の場合はこちらです。 SwiftUIで複数行のPickerを作成す</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す</title>
+      <link>https://swiswiswift.com/2020-01-11/</link>
+      <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-01-11/</guid>
+      <description>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。 delegate を使ったのですが、Combine で書</description>
+    </item>
+    
+    <item>
+      <title>Swiftで数字が連番になった配列を作成する</title>
+      <link>https://swiswiswift.com/2020-01-10/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2020-01-10/</guid>
+      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;;</description>
+    </item>
+    
+    <item>
+      <title>MVPアーキテクチャを使ったサンプルアプリ</title>
+      <link>https://swiswiswift.com/2019-12-30/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-30/</guid>
+      <description>MVPアーキテクチャを使ったサンプルアプリです。 Unitテスト、UIテストも書きました。 以下のような</description>
+    </item>
+    
+    <item>
+      <title>StoryboardsをiOS13以上のプロジェクトから削除する</title>
+      <link>https://swiswiswift.com/2019-12-29/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-29/</guid>
+      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削</description>
+    </item>
+    
+    <item>
+      <title>HugoでGistが表示されない</title>
+      <link>https://swiswiswift.com/2019-12-28/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-28/</guid>
+      <description>Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &amp;lt;script src=&amp;quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 以下のように書き</description>
+    </item>
+    
+    <item>
+      <title>Dockerで Alpineベースのコンテナに入る</title>
+      <link>https://swiswiswift.com/2019-12-21/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-21/</guid>
+      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入る</description>
+    </item>
+    
+    <item>
+      <title>SwiftUI でアラートを表示する</title>
+      <link>https://swiswiswift.com/2019-12-20/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-20/</guid>
+      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>Swift5.1で追加されたFunctionBuilderを使ってStructを作る</title>
+      <link>https://swiswiswift.com/2019-12-19/</link>
+      <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-19/</guid>
+      <description>Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。 SwiftUI でも</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでリストのセルをタップするとアラートが表示される方法</title>
+      <link>https://swiswiswift.com/2019-12-18/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-18/</guid>
+      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでリストを編集する</title>
+      <link>https://swiswiswift.com/2019-12-17/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-12-17/</guid>
+      <description>SwiftUIでリストを編集する方法です。 UITableView よりも短いコードで書くことができました。 参考: How to enable editing on</description>
+    </item>
+    
+    <item>
+      <title>Dockerを使ってPostgreSQLを立て、テーブルを作成する。</title>
+      <link>https://swiswiswift.com/2019-11-22/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-22/</guid>
+      <description>postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーで</description>
+    </item>
+    
+    <item>
+      <title>TabViewを使って画面を切り替える（SwiftUI）</title>
+      <link>https://swiswiswift.com/2019-11-21/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-21/</guid>
+      <description>TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。 TabView - SwiftUI | Apple Developer Documentation</description>
+    </item>
+    
+    <item>
+      <title>ListViewからそれぞれ別のViewに遷移する（SwiftUI）</title>
+      <link>https://swiswiswift.com/2019-11-20/</link>
+      <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-20/</guid>
+      <description>設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。 もっと良い方</description>
+    </item>
+    
+    <item>
+      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
+      <link>https://swiswiswift.com/2019-11-19/</link>
+      <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-19/</guid>
+      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパース</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでStructが使いまわされる</title>
+      <link>https://swiswiswift.com/2019-11-14/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-14/</guid>
+      <description>onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでし</description>
+    </item>
+    
+    <item>
+      <title>SwiftUIでListを表示する</title>
+      <link>https://swiswiswift.com/2019-11-13/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-13/</guid>
+      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。 (adsbygoogle = window.adsbygoogle ||</description>
+    </item>
+    
+    <item>
+      <title>インフラエンジニアなりたてで知らなかった単語をまとめ</title>
+      <link>https://swiswiswift.com/2019-11-08/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-08/</guid>
+      <description>インフラの勉強をし始めて分からなくて調べた単語をまとめました。 コンソリデーティッドビリング（Cons</description>
+    </item>
+    
+    <item>
+      <title>PHP で本当に簡単なモックサーバーを作る</title>
+      <link>https://swiswiswift.com/2019-11-07/</link>
+      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-07/</guid>
+      <description>ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。 signup.php でユーザー登録を行い、</description>
+    </item>
+    
+    <item>
+      <title>cURL（curl）でアプリにプッシュ通知を送信する</title>
+      <link>https://swiswiswift.com/2019-11-06/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-06/</guid>
+      <description>curl コマンドで iOS端末にプッシュ通知を送信する方法です。 証明書と秘密鍵の両方を含めたpemファイルを</description>
+    </item>
+    
+    <item>
+      <title>p12ファイルから証明書と秘密鍵を取り出す</title>
+      <link>https://swiswiswift.com/2019-11-05/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-11-05/</guid>
+      <description>.p12 ファイルから証明書と秘密鍵を取り出す方法です。 AWS SNS を Terraform で書くときに必要でした。 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $</description>
+    </item>
+    
+    <item>
+      <title>gem でインストールした cocoapods をアップデートする</title>
+      <link>https://swiswiswift.com/2019-09-12/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-09-12/</guid>
+      <description>gem でインストールした cocoapods のバージョンをアップデートする方法です。 cocoapods のライバル？の carthage が気になっています。</description>
+    </item>
+    
+    <item>
+      <title>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました</title>
+      <link>https://swiswiswift.com/2019-09-11/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-09-11/</guid>
+      <description>まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で</description>
+    </item>
+    
+    <item>
+      <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
+      <link>https://swiswiswift.com/2019-07-30/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-07-30/</guid>
+      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できま</description>
+    </item>
+    
+    <item>
+      <title>ビズリーチキャンパスでアカウントがロックされた時の解除方法</title>
+      <link>https://swiswiswift.com/2019-07-29/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-07-29/</guid>
+      <description>パスワードをリセットする事で、アカウントのロックが解除されました。 運営への問い合わせをしなくても解除</description>
+    </item>
+    
+    <item>
+      <title>UIButton、ボタンを表示する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-03/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-03/</guid>
+      <description>UIButton を使ってボタンを表示するサンプルコードです。 角丸ボタンはよく使います。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement</description>
+    </item>
+    
+    <item>
+      <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-02/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-02/</guid>
+      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+    </item>
+    
+    <item>
+      <title>UISlider で値を取得する(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-06-01/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-06-01/</guid>
+      <description>UISlider で値を取得するサンプルコードです。 最小値と最大値を設定することで、その間の任意の値を取ることができ</description>
+    </item>
+    
+    <item>
+      <title>CallKit を使って着信画面を表示する</title>
+      <link>https://swiswiswift.com/2019-05-12/</link>
+      <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-05-12/</guid>
+      <description>CallKit を使うことで着信時のUIを使うことができます。 電話がかかってくるアプリを作る時に使いました。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>ログイン時にメッセージを表示する（CentOS7）</title>
+      <link>https://swiswiswift.com/2019-04-12/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-04-12/</guid>
+      <description>サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。 ログイン時に表示し</description>
+    </item>
+    
+    <item>
+      <title>iOSでUITest（E2Eテスト）を行う(Swift5.0)</title>
+      <link>https://swiswiswift.com/2019-04-11/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-04-11/</guid>
+      <description>そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>Java で文字列をシャッフルする</title>
+      <link>https://swiswiswift.com/2019-03-15/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-03-15/</guid>
+      <description>Java での文字列のシャッフル方法です。 結構面倒だったので、記事にしました。 .suffld みたいなのが欲しいです。 (adsbygoogle =</description>
+    </item>
+    
+    <item>
+      <title>RootViewController をアニメーション付きで切り替える(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-02-01/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-02-01/</guid>
+      <description>RootViewController をアニメーション付きで切り替えるサンプルコードです。 チュートリアルの後とかでの使用を想定しています</description>
+    </item>
+    
+    <item>
+      <title>id_rsa’ are too open.</title>
+      <link>https://swiswiswift.com/2019-01-28/</link>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-28/</guid>
+      <description>以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しまし</description>
+    </item>
+    
+    <item>
+      <title>ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-27/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-27/</guid>
+      <description>ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。 Swi</description>
+    </item>
+    
+    <item>
+      <title>SwiftでUITestを導入(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-26/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-26/</guid>
+      <description>プロジェクトにUITestを追加します。 プロジェクト作成時に作らなかった場合は以下の画像の手順で追加</description>
+    </item>
+    
+    <item>
+      <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-22/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-22/</guid>
+      <description>UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITa</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-21/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-21/</guid>
+      <description>NavigationContorollerのサンプルコードです。 NavigationContorol</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
+      <link>https://swiswiswift.com/2019-01-20/</link>
+      <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-20/</guid>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+    </item>
+    
+    <item>
+      <title>tar (child): gzip: Cannot exec: No such file or directory</title>
+      <link>https://swiswiswift.com/2019-01-17/</link>
+      <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-17/</guid>
+      <description>$ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now 依存パッケージの gzip を入れてあげる</description>
+    </item>
+    
+    <item>
+      <title>sudo 時に PATH を引き継ぐ</title>
+      <link>https://swiswiswift.com/2019-01-16/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-16/</guid>
+      <description>which java と sudo which java でパスが違ったのでその解決 参考: sudo「コマンドが見つかりません」PATHが初期化され</description>
+    </item>
+    
+    <item>
+      <title>CentOS7にRailsをインストールする</title>
+      <link>https://swiswiswift.com/2019-01-14/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-14/</guid>
+      <description>CentOS7にRailsをインストールした時のメモになります。 最終的なNginxの nginx.conf ファイルはこち</description>
+    </item>
+    
+    <item>
+      <title>ImagePickerControllerで画像を選択する(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-11/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-11/</guid>
+      <description># Swift 4.2 Swift3の記事はこちら UIImagePickerControllerで画像の選択 iPhon</description>
+    </item>
+    
+    <item>
+      <title>ListViewを使ってリスト表示する(Kotlin)</title>
+      <link>https://swiswiswift.com/2019-01-08/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-08/</guid>
+      <description>ListViewを使ってリストの表示を行います。 Kotlin 、Android は設定ファイルが多くて難しいです。</description>
+    </item>
+    
+    <item>
+      <title>Function(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-02/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-02/</guid>
+      <description>Swiftで関数を作る方法です。 最近はネット記事を見ないでも見なくても書けるようになってきました。 (adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>Array(Swift4.2)</title>
+      <link>https://swiswiswift.com/2019-01-01/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2019-01-01/</guid>
+      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>Print(Swift4.2)</title>
+      <link>https://swiswiswift.com/2018-12-31/</link>
+      <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-31/</guid>
+      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。 (adsbygoogle = window.adsbygoogle ||</description>
+    </item>
+    
+    <item>
+      <title>UITableViewの中身をUISearchBarで検索する(Swift4)</title>
+      <link>https://swiswiswift.com/2018-12-30/</link>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-30/</guid>
+      <description>#Swift4.2 UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある</description>
+    </item>
+    
+    <item>
+      <title>アプリ使用中に位置情報を取得する</title>
+      <link>https://swiswiswift.com/2018-12-29/</link>
+      <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-29/</guid>
+      <description>#Swift 4.2 アプリ使用中に緯度と経度を取得するサンプルコードです。 端末の緯度と経度が変わるとラベル文字列が更</description>
+    </item>
+    
+    <item>
+      <title>Lifesumアプリのインタラクションが素敵だったので再現してみた</title>
+      <link>https://swiswiswift.com/2018-12-28/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-28/</guid>
+      <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 イン</description>
+    </item>
+    
+    <item>
+      <title>押すとクニュっとするボタンを実装する</title>
+      <link>https://swiswiswift.com/2018-12-27/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-27/</guid>
+      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(Ubuntu14.04)</title>
+      <link>https://swiswiswift.com/2018-12-26/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-26/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこ</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
+      <link>https://swiswiswift.com/2018-12-25/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-25/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d</description>
+    </item>
+    
+    <item>
+      <title>食洗機の分岐水栓取り付け工事を自分で行う。</title>
+      <link>https://swiswiswift.com/2018-12-24/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-24/</guid>
+      <description>例のPayPyaの20%キャッシュバックキャンペーンに釣られてビックカメラで食洗機を買いました。 パナ</description>
+    </item>
+    
+    <item>
+      <title>Alamofireを使ってAPIからJSONを取得する(Swift4.2)</title>
+      <link>https://swiswiswift.com/2018-12-01/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-12-01/</guid>
+      <description>古い記事(Swift3)は こちら Alamofireを使ってAPIからJSONを取得する #Xcode 10.1 #Swift 4.2 swi</description>
+    </item>
+    
+    <item>
+      <title>Android Studio でアイコンを設定する</title>
+      <link>https://swiswiswift.com/2018-11-29/</link>
+      <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-29/</guid>
+      <description>– File -&amp;gt; Image Assets で Configure Image Asset を開く – Pathの…ボタンを押し、アイコンにしたい画像を選択する。 – Resize でサイズの微</description>
+    </item>
+    
+    <item>
+      <title>BottomNavigationViewで切り替え時に色を変える</title>
+      <link>https://swiswiswift.com/2018-11-20/</link>
+      <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-20/</guid>
+      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>SSH で入ることのできるDockerイメージ(CentOS6)</title>
+      <link>https://swiswiswift.com/2018-11-19/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-19/</guid>
+      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run</description>
+    </item>
+    
+    <item>
+      <title>パスワードの入力欄の中身を確認したい</title>
+      <link>https://swiswiswift.com/2018-11-14/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-14/</guid>
+      <description>ログイン画面のパスワード入力欄で黒丸●●●●●となっている中身を確認する方法です。 要素と検証を開いて</description>
+    </item>
+    
+    <item>
+      <title>Fragmentsを入れ子にしたBottomNavigationを実装する</title>
+      <link>https://swiswiswift.com/2018-11-13/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-13/</guid>
+      <description>BottomNavigationはiOSのTabBarControllerによく似たAPIです。 Bo</description>
+    </item>
+    
+    <item>
+      <title>Xcode10でプロジェクト名を変更する</title>
+      <link>https://swiswiswift.com/2018-11-12/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-11-12/</guid>
+      <description>こちらの記事を参考にさせていただきました。 ありがとうございます！ 参考記事の方が丁寧に書いてありますの</description>
+    </item>
+    
+    <item>
+      <title>Build input file cannot be found: Libraries/WebSocket/libfishhook.a’</title>
+      <link>https://swiswiswift.com/2018-09-27/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-09-27/</guid>
+      <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNative</description>
+    </item>
+    
+    <item>
+      <title>KotlinでListViewを内包したTabを作成する</title>
+      <link>https://swiswiswift.com/2018-09-25/</link>
+      <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-09-25/</guid>
+      <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 す</description>
+    </item>
+    
+    <item>
+      <title>グループスタイルのTableViewを作成する</title>
+      <link>https://swiswiswift.com/2018-09-20/</link>
+      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-09-20/</guid>
+      <description>グループスタイルのテーブルビューを表示するサンプルコードです 設定画面などはこんな感じですね。 (adsbygoogle = window.adsbygoogle ||</description>
+    </item>
+    
+    <item>
+      <title>SafeAreaを取得する</title>
+      <link>https://swiswiswift.com/2018-09-19/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-09-19/</guid>
+      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うよう</description>
+    </item>
+    
+    <item>
+      <title>iOSでバーコードを読み取る</title>
+      <link>https://swiswiswift.com/2018-09-17/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-09-17/</guid>
+      <description>Swiftでバーコードを読み取るサンプルコードです。 Swift 4.1 // 参考にさせて頂いたサイトです Swift 4でQRコー</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeで画像をボタンにする(TouchableOpacity)</title>
+      <link>https://swiswiswift.com/2018-08-19/</link>
+      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-19/</guid>
+      <description>ReactNativeで画像などのViewをボタンにするTouchableOpacityの実装サンプ</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでテキストを表示</title>
+      <link>https://swiswiswift.com/2018-08-18/</link>
+      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-18/</guid>
+      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでたまにしか使わないコマンドのメモ</title>
+      <link>https://swiswiswift.com/2018-08-17/</link>
+      <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-17/</guid>
+      <description>ReactNativeでたまにしか使わないけど大事なコメントのメモです。 react-native-c</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでインディケーターを表示する</title>
+      <link>https://swiswiswift.com/2018-08-16/</link>
+      <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-16/</guid>
+      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;;</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeで画像を表示する</title>
+      <link>https://swiswiswift.com/2018-08-15/</link>
+      <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-15/</guid>
+      <description>ReactNativeで画像を表示するサンプルです。 iOSで画像をインターネットから取得する場合はA</description>
+    </item>
+    
+    <item>
+      <title>FlexBoxでViewの大きさを指定する</title>
+      <link>https://swiswiswift.com/2018-08-14/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-14/</guid>
+      <description>FlexBoxでViewの大きさを指定するサンプルコードです。 react-native: 0.56.0 紫、黄土色、水色のViewが 1 : 2</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでFlatListを表示する</title>
+      <link>https://swiswiswift.com/2018-08-13/</link>
+      <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-13/</guid>
+      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>ReactNativeでボタンを表示する</title>
+      <link>https://swiswiswift.com/2018-08-12/</link>
+      <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-08-12/</guid>
+      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0 (adsbygoogle =</description>
+    </item>
+    
+    <item>
+      <title>CollectionViewにSearchBarをつけて検索する</title>
+      <link>https://swiswiswift.com/2018-07-18/</link>
+      <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-07-18/</guid>
+      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace</description>
+    </item>
+    
+    <item>
+      <title>最小構成のhtml、css、javascriptのテンプレート</title>
+      <link>https://swiswiswift.com/2018-07-17/</link>
+      <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-07-17/</guid>
+      <description>html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+    </item>
+    
+    <item>
+      <title>流れるように動く背景を実装する</title>
+      <link>https://swiswiswift.com/2018-06-28/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-06-28/</guid>
+      <description>私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きま</description>
+    </item>
+    
+    <item>
+      <title>PageViewControllerとPageControl</title>
+      <link>https://swiswiswift.com/2018-06-21/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-06-21/</guid>
+      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプル</description>
+    </item>
+    
+    <item>
+      <title>CustomViewをコードで実装する</title>
+      <link>https://swiswiswift.com/2018-06-19/</link>
+      <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-06-19/</guid>
+      <description>コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装する</description>
+    </item>
+    
+    <item>
+      <title>UITabBarControllerにUINavigationControllerを入れ子で実装する</title>
+      <link>https://swiswiswift.com/2018-06-03/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-06-03/</guid>
+      <description>UITabBarControllerにUINavigationControllerを入れるコードです</description>
+    </item>
+    
+    <item>
+      <title>UITabBarControllerを実装する</title>
+      <link>https://swiswiswift.com/2018-06-02/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-06-02/</guid>
+      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBar</description>
+    </item>
+    
+    <item>
+      <title>let’s encryptでさくらサーバーをhttpsにする</title>
+      <link>https://swiswiswift.com/2018-05-25/</link>
+      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-25/</guid>
+      <description>以下のサイトを参考にして証明書の設定をして以下の.htaccessをrootにおけば完成です。 ちょっ</description>
+    </item>
+    
+    <item>
+      <title>Asset CatalogでColor Setを使って色を管理する</title>
+      <link>https://swiswiswift.com/2018-05-24/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-24/</guid>
+      <description>Xcode9(iOS 11)から、色をAssetで管理することができるようになりました。 UIColorのExtensio</description>
+    </item>
+    
+    <item>
+      <title>Appleのエンジニアさんにコードレベルの質問を送ってみた</title>
+      <link>https://swiswiswift.com/2018-05-21/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-21/</guid>
+      <description>「AppleDeveloperの登録料が高すぎる」と友達からよく言われるんですが、高いだけあって良い</description>
+    </item>
+    
+    <item>
+      <title>UIViewの背景をグラデーションさせる</title>
+      <link>https://swiswiswift.com/2018-05-06/</link>
+      <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-06/</guid>
+      <description>UIViewの背景をグラデーションさせるサンプルコードです。 参考にさせていただいたページ 【Swift</description>
+    </item>
+    
+    <item>
+      <title>カスタムボタンクラスを実装する</title>
+      <link>https://swiswiswift.com/2018-05-02/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-05-02/</guid>
+      <description>UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。 見た目を別ファ</description>
+    </item>
+    
+    <item>
+      <title>TableViewを編集してCellを削除する</title>
+      <link>https://swiswiswift.com/2018-04-24/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-04-24/</guid>
+      <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボ</description>
+    </item>
+    
+    <item>
+      <title>TableViewを編集してCellを削除する(横スライド)</title>
+      <link>https://swiswiswift.com/2018-04-23/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-04-23/</guid>
+      <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを</description>
+    </item>
+    
+    <item>
+      <title>数字を三桁ごとにカンマ区切りにする(日本円の表示)</title>
+      <link>https://swiswiswift.com/2018-04-23/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-04-23/</guid>
+      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな</description>
+    </item>
+    
+    <item>
+      <title>現在の日付と曜日、現在時間を取得する</title>
+      <link>https://swiswiswift.com/2018-04-20/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-04-20/</guid>
+      <description>Swift4.1で現在の日付と曜日、現在時間を取得するサンプルコードです。 以下の形式の文字列で取得し</description>
+    </item>
+    
+    <item>
+      <title>CustumTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ</title>
+      <link>https://swiswiswift.com/2018-04-05/</link>
+      <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-04-05/</guid>
+      <description>CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使うこ</description>
+    </item>
+    
+    <item>
+      <title>Arduinoでボタンを使う(プルアップ抵抗無し)</title>
+      <link>https://swiswiswift.com/2018-03-25/</link>
+      <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-25/</guid>
+      <description>Arduinoでボタンを使うときのサンプルコードです。 あんまり知られていないんですが、プルアップを使</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud FunctionでHelloWorld</title>
+      <link>https://swiswiswift.com/2018-03-24/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-24/</guid>
+      <description>Google様のCloud Functionを触ってみたので、そのメモです。 HelloWorldとJs</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerにTextFieldを追加する</title>
+      <link>https://swiswiswift.com/2018-03-17/</link>
+      <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-17/</guid>
+      <description>UIAlertControllerにTextFieldを追加したサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;;</description>
+    </item>
+    
+    <item>
+      <title>NavigationControllerを実装する</title>
+      <link>https://swiswiswift.com/2018-03-15/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-15/</guid>
+      <description>NavigationContorollerのサンプルコードです。 NavigationContorol</description>
+    </item>
+    
+    <item>
+      <title>ESP32でRTCモジュールを使う</title>
+      <link>https://swiswiswift.com/2018-03-14/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-14/</guid>
+      <description>ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#in</description>
+    </item>
+    
+    <item>
+      <title>文字列やURLからQRコードを生成する</title>
+      <link>https://swiswiswift.com/2018-03-07/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-07/</guid>
+      <description>文字列やURLからQRコードを生成するサンプルコードです。 This is a sample code that generates a QR code from a character string or URL. これらの記</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerでアラートを表示する</title>
+      <link>https://swiswiswift.com/2018-03-06/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-06/</guid>
+      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert をUIAlertContro</description>
+    </item>
+    
+    <item>
+      <title>UIAlertControllerで下からニュッと出す(UIActionSheet)</title>
+      <link>https://swiswiswift.com/2018-03-05/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-05/</guid>
+      <description>下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。 遥か昔、下から</description>
+    </item>
+    
+    <item>
+      <title>列挙型 enum</title>
+      <link>https://swiswiswift.com/2018-03-04/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-04/</guid>
+      <description>列挙型、enumの書き方のサンプルコードです。 ここではpersonというクラスを作り、カビゴンさんの</description>
+    </item>
+    
+    <item>
+      <title>iPhoneアプリのプログラミングの勉強法</title>
+      <link>https://swiswiswift.com/2018-03-03/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-03-03/</guid>
+      <description>「iPhoneアプリを作るには何から勉強したらいい？」と友達にちょくちょく聞かれるのでオススメの勉強</description>
+    </item>
+    
+    <item>
+      <title>UserDefaultsを使ってパラメーターを保存する</title>
+      <link>https://swiswiswift.com/2018-01-17/</link>
+      <pubDate>Wed, 17 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-01-17/</guid>
+      <description>UserDefaultsはアプリを落としても保持しておきたいデータを保存するときに使います。 使い方は</description>
+    </item>
+    
+    <item>
+      <title>UIPickerViewを使って値を選択する</title>
+      <link>https://swiswiswift.com/2018-01-14/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2018-01-14/</guid>
+      <description>はいどーも！ UIPickerViewを使って値を取得するサンプルコードです。 PIPickerView</description>
+    </item>
+    
+    <item>
+      <title>一定時間で繰り返しを行う</title>
+      <link>https://swiswiswift.com/2017-12-13/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-12-13/</guid>
+      <description>Timeを使って3秒ごとに繰り返しを行います。 時計のような機能を持つアプリを作る時に使いました。 (adsbygoogle =</description>
+    </item>
+    
+    <item>
+      <title>カスタムレイアウトを持つコレクションビューをつくる</title>
+      <link>https://swiswiswift.com/2017-11-27/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-11-27/</guid>
+      <description>今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べまし</description>
+    </item>
+    
+    <item>
+      <title>SwiftでUDP通信を行い、文字列を送る</title>
+      <link>https://swiswiswift.com/2017-11-26/</link>
+      <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-11-26/</guid>
+      <description>SwiftでUDP通信するメモです。 SwiftSocket をcocoapodsで入れて、こんな感じで書きました。 woom</description>
+    </item>
+    
+    <item>
+      <title>Swift3からSwift4への移行時に出る@objc inference warningsを消す</title>
+      <link>https://swiswiswift.com/2017-11-25/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-11-25/</guid>
+      <description>Xcode8からXcode9へ乗り換えてSwift4へ変換すると以下のエラーが出ます。それの消し方で</description>
+    </item>
+    
+    <item>
+      <title>UIScrollViewで画像をピンチで拡大したり縮小する</title>
+      <link>https://swiswiswift.com/2017-11-13/</link>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-11-13/</guid>
+      <description>UIScrollViewの中にある画像を拡大したり縮小するサンプルです。 ピンチで画像を大きくしたり、</description>
+    </item>
+    
+    <item>
+      <title>UINavigationControllerの戻るボタンの戻るを消す</title>
+      <link>https://swiswiswift.com/2017-10-14/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-14/</guid>
+      <description>UINavigationControllerの戻るボタンの文字を消します。 「＜戻る」を「＜」にします</description>
+    </item>
+    
+    <item>
+      <title>○秒後に実行させる、毎秒実行する</title>
+      <link>https://swiswiswift.com/2017-10-13/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-13/</guid>
+      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。 (adsbygoogle = window.adsbygoogle</description>
+    </item>
+    
+    <item>
+      <title>UITableViewにヘッダーを設定する</title>
+      <link>https://swiswiswift.com/2017-10-08/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-08/</guid>
+      <description>UITableViewにヘッダーを設定するサンプルです。 フッターも同様に設定することができます。 (adsbygoogle =</description>
+    </item>
+    
+    <item>
+      <title>UICollectionViewにCustomセルを追加する</title>
+      <link>https://swiswiswift.com/2017-10-03/</link>
+      <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-03/</guid>
+      <description>UICollectionViewにCustumCollectionセルを追加してみました。 クラス名を</description>
+    </item>
+    
+    <item>
+      <title>UICollectionView</title>
+      <link>https://swiswiswift.com/2017-10-02/</link>
+      <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-02/</guid>
+      <description>UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせて</description>
+    </item>
+    
+    <item>
+      <title>ESP32でSDカードのテキストファイルを読み書きする。</title>
+      <link>https://swiswiswift.com/2017-10-01/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-10-01/</guid>
+      <description>ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシン</description>
+    </item>
+    
+    <item>
+      <title>ymf825boardのサンプルコードのピンを変更</title>
+      <link>https://swiswiswift.com/2017-09-05/</link>
+      <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-09-05/</guid>
+      <description>YMF825のサンプルコード (yamaha-webmusic/ymf825board)のピンを変更す</description>
+    </item>
+    
+    <item>
+      <title>輸出コンプライアンスのウィザードをスキップする</title>
+      <link>https://swiswiswift.com/2017-08-12/</link>
+      <pubDate>Sat, 12 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-08-12/</guid>
+      <description>アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。 毎回聞かれるとスキ</description>
+    </item>
+    
+    <item>
+      <title>curlでpostでJson送るときにレスポンスヘッダーも確認したい</title>
+      <link>https://swiswiswift.com/2017-07-26/</link>
+      <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-26/</guid>
+      <description>curlでpostでJson送るときにレスポンスヘッダーも確認したい時に使いました。 最後に --include をつける</description>
+    </item>
+    
+    <item>
+      <title>curlでpostでJson送る</title>
+      <link>https://swiswiswift.com/2017-07-25/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-25/</guid>
+      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、a</description>
+    </item>
+    
+    <item>
+      <title>Alamofireを使ってAPIからJSONを取得する</title>
+      <link>https://swiswiswift.com/2017-07-09/</link>
+      <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-09/</guid>
+      <description>新しい記事(Swift4)はこちらAlamofireを使ってAPIからJSONを取得する(Swift</description>
+    </item>
+    
+    <item>
+      <title>delegateで別のViewからメソッドを呼び出す</title>
+      <link>https://swiswiswift.com/2017-07-08/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-07-08/</guid>
+      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今</description>
+    </item>
+    
+    <item>
+      <title>現在時刻の取得(kotlin)</title>
+      <link>https://swiswiswift.com/2017-06-22/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-06-22/</guid>
+      <description>Kotlin で現在時刻の取得を行います。 アラーム機能を持ったアプリを作っています。 このあたりは Swift と異なりますね</description>
+    </item>
+    
+    <item>
+      <title>Swiftでクラス名と関数名と行番号を取得、表示する</title>
+      <link>https://swiswiswift.com/2017-06-15/</link>
+      <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-06-15/</guid>
+      <description>「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。 クラス名と行番号、取得表示することが</description>
+    </item>
+    
+    <item>
+      <title>UIImagePickerControllerで画像の選択</title>
+      <link>https://swiswiswift.com/2017-06-14/</link>
+      <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-06-14/</guid>
+      <description>iPhoneのフォトライブラリから画像を取得するサンプルプログラムです。 フォトライブラリから画像を選</description>
+    </item>
+    
+    <item>
+      <title>rootのログインを禁止にする</title>
+      <link>https://swiswiswift.com/2017-06-08/</link>
+      <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-06-08/</guid>
+      <description>VPSを借りて一番最初に行うrootのログインの禁止のメモです。 rootでサーバーにログインしてパス</description>
+    </item>
+    
+    <item>
+      <title>texworksのURL</title>
+      <link>https://swiswiswift.com/2017-06-07/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-06-07/</guid>
+      <description>Windowsのパソコンを自作し、texworksを入れたのですがショートカットを間違えて消してしま</description>
+    </item>
+    
+    <item>
+      <title>Swiftで音楽を再生する</title>
+      <link>https://swiswiswift.com/2017-06-05/</link>
+      <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-06-05/</guid>
+      <description>Swiftで音楽を簡単に再生するサンプルコードです。 リピート再生も簡単にできました。 サンプルコードに</description>
+    </item>
+    
+    <item>
+      <title>Igorでグラフの背景を白にする</title>
+      <link>https://swiswiswift.com/2017-05-24/</link>
+      <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-24/</guid>
+      <description>グラフ中で右クリック -&amp;gt; Colors -&amp;gt; both background -&amp;gt; 白色を選択 でできました。 データの解析にすごい便利ですが、先輩のマクロ</description>
+    </item>
+    
+    <item>
+      <title>Webテスト用のカンペ</title>
+      <link>https://swiswiswift.com/2017-05-23/</link>
+      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-23/</guid>
+      <description>JavaScriptのWebテスト用のカンペです。 ブラウザがあればできるところが好きです。 ただ、慣れ</description>
+    </item>
+    
+    <item>
+      <title>Androidアプリのアクションバーの影を消す</title>
+      <link>https://swiswiswift.com/2017-05-22/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-22/</guid>
+      <description>Androidアプリのアクションバーの影を消します。 アプリはどんどん新しいことが増えていくので覚える</description>
+    </item>
+    
+    <item>
+      <title>Androidアプリのステータスバーの変更</title>
+      <link>https://swiswiswift.com/2017-05-21/</link>
+      <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-21/</guid>
+      <description>Androidアプリのステータスバーの変更方法です。 色を直指定するのは良くないです、Color.xm</description>
+    </item>
+    
+    <item>
+      <title>FizzBuzz(C)</title>
+      <link>https://swiswiswift.com/2017-05-20/</link>
+      <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-20/</guid>
+      <description>FizzBuzzをCで解きました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+    </item>
+    
+    <item>
+      <title>FizzBuzz(Ruby)</title>
+      <link>https://swiswiswift.com/2017-05-19/</link>
+      <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-19/</guid>
+      <description>FizzBuzzをRubyで解いてみました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。</description>
+    </item>
+    
+    <item>
+      <title>Webテスト用のカンペ(Ruby)</title>
+      <link>https://swiswiswift.com/2017-05-18/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-18/</guid>
+      <description>Webテスト用のカンペです。 就活してるとWebテストで競技プログラミングがよく出てくるので、まとめて</description>
+    </item>
+    
+    <item>
+      <title>Array(Ruby)</title>
+      <link>https://swiswiswift.com/2017-05-17/</link>
+      <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-17/</guid>
+      <description>Rubyの配列についてです。 最近は競技プログラミングを Ruby でやっています。 C++ への移行タイミングをいつに</description>
+    </item>
+    
+    <item>
+      <title>UIStatusBarを白くする</title>
+      <link>https://swiswiswift.com/2017-05-16/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-16/</guid>
+      <description>UIStatusBarを白くする方法その1 UIStatusBarを白くする方法その1です。特定のVi</description>
+    </item>
+    
+    <item>
+      <title>UITableViewとUISearchBar</title>
+      <link>https://swiswiswift.com/2017-05-15/</link>
+      <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-15/</guid>
+      <description>UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫</description>
+    </item>
+    
+    <item>
+      <title>UserNotification(LocalNotification)</title>
+      <link>https://swiswiswift.com/2017-05-14/</link>
+      <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-14/</guid>
+      <description>UserNotificationはユーザーに対して通知を発行する時に使用します。 UserNotifi</description>
+    </item>
+    
+    <item>
+      <title>音声認識(SFSpeechRecognizer)</title>
+      <link>https://swiswiswift.com/2017-05-13/</link>
+      <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-13/</guid>
+      <description>iOS10からSpeech Frameworkが登場しました。 ここではSFSpeechRecogniz</description>
+    </item>
+    
+    <item>
+      <title>UITextField</title>
+      <link>https://swiswiswift.com/2017-05-12/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-12/</guid>
+      <description>UITextFieldは文字の入力に使われます。 UITextFieldのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIControl ↑ UITextField</description>
+    </item>
+    
+    <item>
+      <title>cafファイルの作成</title>
+      <link>https://swiswiswift.com/2017-05-11/</link>
+      <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-11/</guid>
+      <description>.cafファイルはiOSに用いられる音声ファイル形式です。以下はwavファイルを同名で出力するコマン</description>
+    </item>
+    
+    <item>
+      <title>UINavigationBar</title>
+      <link>https://swiswiswift.com/2017-05-10/</link>
+      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-10/</guid>
+      <description>iOSアプリの画面上部によく使われているUINavigationBarについてです。 UINaviga</description>
+    </item>
+    
+    <item>
+      <title>UILabel</title>
+      <link>https://swiswiswift.com/2017-05-09/</link>
+      <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-09/</guid>
+      <description>UILabelクラスは文字表示を管理するクラスです。画面に文字を表示させたい時に使用します。 UILa</description>
+    </item>
+    
+    <item>
+      <title>現在時刻の取得</title>
+      <link>https://swiswiswift.com/2017-05-08/</link>
+      <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-08/</guid>
+      <description>現在時間を取得します。 AppleDeveloperリファレンスNSCalender サンプルプログラム</description>
+    </item>
+    
+    <item>
+      <title>UITableView</title>
+      <link>https://swiswiswift.com/2017-05-07/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-07/</guid>
+      <description>UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時な</description>
+    </item>
+    
+    <item>
+      <title>UIButton</title>
+      <link>https://swiswiswift.com/2017-05-05/</link>
+      <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-05/</guid>
+      <description>UIButtonクラスはボタンを設置するためのクラスです。 ボタンタップでアクションを起こすことができ</description>
+    </item>
+    
+    <item>
+      <title>UIBarButtonItem</title>
+      <link>https://swiswiswift.com/2017-05-04/</link>
+      <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-04/</guid>
+      <description>UINavigationBarの要素追加、カスタマイズに用いられるUIBarButtonItemにつ</description>
+    </item>
+    
+    <item>
+      <title>Dictionary</title>
+      <link>https://swiswiswift.com/2017-05-02/</link>
+      <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-02/</guid>
+      <description>Swiftの辞書配列です。 辞書配列の作成と呼び出しについて記載します。 人によって辞書配列だったり、ハ</description>
+    </item>
+    
+    <item>
+      <title>Array</title>
+      <link>https://swiswiswift.com/2017-05-01/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-05-01/</guid>
+      <description>配列の書き方 Swiftの配列です。配列の作成と呼び出しについて記載します。 配列の追加、挿入、削除 配列</description>
+    </item>
+    
+    <item>
+      <title>サイトリニューアルしました</title>
+      <link>https://swiswiswift.com/2017-04-01/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://swiswiswift.com/2017-04-01/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,7353 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta name="generator" content="Hugo 0.62.2" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <title>すいすいSwift</title>
+    <meta name="description"  content="iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。" />
+    <meta property="og:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="index.html" />
+    <meta property="og:image" content="swift.png" />
+    <meta property="og:site_name" content="すいすいSwift" />
+    <meta property="og:description" content=" iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。 " />
+    <meta property="og:image:secure_url" content="swift.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
+    <meta name="twitter:description" content=" iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。 " />
+    <meta name="twitter:image" content="swift.png" />
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' href='https://swiswiswift.com/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://swiswiswift.com/css/custom.css' type='text/css' media='all' />
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-82467612-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+</head>
+
+    <body class="two-column">
+        <a href="#content">Skip to content</a>
+<div class="wrapper">
+    <header role="banner" class="banner widgets columns-1">
+        <a href="https://swiswiswift.com/" rel="home">
+            <h1 class="site">すいすいSwift</h1>
+            <p></p>
+        </a>
+        <nav role="navigation" aria-label="Primary Navigation">
+
+            <ul class="menu">
+                <li class="menu-item "><a class="menu__link" href="https://swiswiswift.com/about/">ABOUT</a></li>
+            </ul>
+            <select onChange="location.href=value;">
+                <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+            </select>
+        </nav>
+    </header>
+
+    <br>
+    <div style="width: 100%; max-height: 100px; text-align: center;">
+       
+</div>
+
+    <div class="breadcrumbs">
+        
+    </div>
+        <div id="content" class="content">
+
+<main aria-role="main">
+  <header class="homepage-header">
+    <h1>すいすいSwift</h1>
+    
+  </header>
+  <div class="homepage-content">
+    
+    
+  </div>
+  <div>
+    
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-03-01/" rel="bookmark">SwiftUIでListの要素を削除した入り増やしたりする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-03-01T00:00:00">2020-03-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでListの要素を削除した入り増やしたりする方法です。 Closure で渡すのはあまりよくない気がし
+			<a href="https://swiswiswift.com/2020-03-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-29/" rel="bookmark">SwiftUIでキーボードをボタンで隠す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-29T00:00:00">2020-02-29</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでキーボードをボタンで隠す方法です。 UIApplicationを拡張して実現しています
+			<a href="https://swiswiswift.com/2020-02-29/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-28/" rel="bookmark">SwiftUIでKeyboardの高さや出現を検知する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-28T00:00:00">2020-02-28</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでKeyboardの高さや出現を検知する方法です。 Combineを使って実現しています
+			<a href="https://swiswiswift.com/2020-02-28/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-27/" rel="bookmark">SwiftUIで複数行の文字列を入力する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-27T00:00:00">2020-02-27</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIで複数行の文字列を入力する方法です。 UIKitのTextViewを使って実現しています
+			<a href="https://swiswiswift.com/2020-02-27/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-26/" rel="bookmark">SwiftUIで下からPickerを出す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-26T00:00:00">2020-02-26</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle
+			<a href="https://swiswiswift.com/2020-02-26/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-25/" rel="bookmark">SwiftUIでUIImagePickerControllerを使う</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-25T00:00:00">2020-02-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでSwiftUIでUIImagePickerControllerを使う方法です。 UIKit と同
+			<a href="https://swiswiswift.com/2020-02-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-24/" rel="bookmark">SwiftUIでButton内の画像の色を変えない</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-24T00:00:00">2020-02-24</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでButton内の画像の色を変えない方法です。 デフォルトのままだと以下の画像のように色
+			<a href="https://swiswiswift.com/2020-02-24/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-23/" rel="bookmark">iOS13のModalPresentationStyleを全部試してみた</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-23T00:00:00">2020-02-23</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			iOS13のModalPresentationStyleを全部試してみました。 PopPage モーダルのことを弊社
+			<a href="https://swiswiswift.com/2020-02-23/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-22/" rel="bookmark">Swiftで動画の終了を検知する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-22T00:00:00">2020-02-22</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftで動画の終了を検知するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちら
+			<a href="https://swiswiswift.com/2020-02-22/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-21/" rel="bookmark">Swiftで動画を再生する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-21T00:00:00">2020-02-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftで動画を再生するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちらのサイ
+			<a href="https://swiswiswift.com/2020-02-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-20/" rel="bookmark">SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-20T00:00:00">2020-02-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでサイドメニュー（ハンバーガーメニュー）を表示するサンプルです。 ドラッグで消す箇所など
+			<a href="https://swiswiswift.com/2020-02-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-19/" rel="bookmark">SwiftUIのListのSectionの色を変える</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-19T00:00:00">2020-02-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIのListのSectionの色を変えるサンプルです。 Appearanceを使って背景色
+			<a href="https://swiswiswift.com/2020-02-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-18/" rel="bookmark">タップでセクション区切りのListViewにチェックを入れる</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-18T00:00:00">2020-02-18</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			タップでセクション区切りのListViewにチェックを入れるサンプルです。 タップすることで State が変化し
+			<a href="https://swiswiswift.com/2020-02-18/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-17/" rel="bookmark">タップでListViewにチェックを入れる</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-17T00:00:00">2020-02-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			タップで ListView にチェックを入れるサンプルです。 タップすることで State が変化し、✔︎を描画するようになります。
+			<a href="https://swiswiswift.com/2020-02-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-16/" rel="bookmark">SwiftでCSVを集計する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-16T00:00:00">2020-02-16</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swift で CSV を集計する方法です。 まず前処理として、CSV ファイルを utf8 に変換する必要があります。 Mac の場合は Numbers
+			<a href="https://swiswiswift.com/2020-02-16/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-14/" rel="bookmark">UIViewの背景をグリッドにしたり、ドットにしたりする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-14T00:00:00">2020-02-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIView の背景をグリッドにしたり、ドットにしたりする方法です。 今回は GridView という UIView のサブクラスを作り、ボタンを
+			<a href="https://swiswiswift.com/2020-02-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-12/" rel="bookmark">ReplayKitを使って画面を録音する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-12T00:00:00">2020-02-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReplayKit を使うと画面を録画することができます。 凄く簡単に使うことができる上に、マイクで実況？をしたりするこ
+			<a href="https://swiswiswift.com/2020-02-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-09/" rel="bookmark">SwiftUIでUICollectionViewのようにViewを並べる</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-09T00:00:00">2020-02-09</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI で UICollectionView のように表示する方法です。 Q-Mobile/QGrid というライブラリを使うと簡単です。 QGrid を参考にしながら書いてみました
+			<a href="https://swiswiswift.com/2020-02-09/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-08/" rel="bookmark">SwiftUIでFirestoreの画像を表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-08T00:00:00">2020-02-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができませ
+			<a href="https://swiswiswift.com/2020-02-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+			<a href="https://swiswiswift.com/categories/firebase" rel="tag">Firebase</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+			<a href="https://swiswiswift.com/tags/firebase" rel="tag">Firebase</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-02-05/" rel="bookmark">SwiftUIのToggleの変更を検知する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-02-05T00:00:00">2020-02-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIのToggleの変更を検知し、print 文を実行します。 参考: How can I trigger an action when a swiftUI toggle() is toggled?
+			<a href="https://swiswiswift.com/2020-02-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-01-14/" rel="bookmark">SwiftUIで複数行のPickerを作成する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-01-14T00:00:00">2020-01-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIPickerView のような複数行の Picker を作成する方法です。 UIPickerView と使い勝手がかなり異なり、戸惑いました。 参考: Multi-Component Picker (UIPickerView) in SwiftUI (adsbygoogle
+			<a href="https://swiswiswift.com/2020-01-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-01-13/" rel="bookmark">SwiftUIのPickerでLabelを表示しない</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-01-13T00:00:00">2020-01-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIのPickerでLabelを表示しない方法です。 labelsHidden を設定することで可能です。 参考: How to
+			<a href="https://swiswiswift.com/2020-01-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-01-12/" rel="bookmark">SwiftUIでPicker を表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-01-12T00:00:00">2020-01-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI で Picker を表示するサンプルです。 複数行の場合はこちらです。 SwiftUIで複数行のPickerを作成す
+			<a href="https://swiswiswift.com/2020-01-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-01-11/" rel="bookmark">SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-01-11T00:00:00">2020-01-11</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。 delegate を使ったのですが、Combine で書
+			<a href="https://swiswiswift.com/2020-01-11/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2020-01-10/" rel="bookmark">Swiftで数字が連番になった配列を作成する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2020-01-10T00:00:00">2020-01-10</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget";
+			<a href="https://swiswiswift.com/2020-01-10/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-30/" rel="bookmark">MVPアーキテクチャを使ったサンプルアプリ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-30T00:00:00">2019-12-30</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			MVPアーキテクチャを使ったサンプルアプリです。 Unitテスト、UIテストも書きました。 以下のような
+			<a href="https://swiswiswift.com/2019-12-30/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-29/" rel="bookmark">StoryboardsをiOS13以上のプロジェクトから削除する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-29T00:00:00">2019-12-29</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swift &amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&gt; Application Session Role -&gt; Item0 -&gt; Storyboard Name を削
+			<a href="https://swiswiswift.com/2019-12-29/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-28/" rel="bookmark">HugoでGistが表示されない</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-28T00:00:00">2019-12-28</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &lt;script src=&quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&quot;&gt;&lt;/script&gt; 以下のように書き
+			<a href="https://swiswiswift.com/2019-12-28/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/hugo" rel="tag">Hugo</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/hugo" rel="tag">Hugo</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-21/" rel="bookmark">Dockerで Alpineベースのコンテナに入る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-21T00:00:00">2019-12-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入る
+			<a href="https://swiswiswift.com/2019-12-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-20/" rel="bookmark">SwiftUI でアラートを表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-20T00:00:00">2019-12-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。 (adsbygoogle = window.adsbygoogle || []).push({});
+			<a href="https://swiswiswift.com/2019-12-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-19/" rel="bookmark">Swift5.1で追加されたFunctionBuilderを使ってStructを作る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-19T00:00:00">2019-12-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。 SwiftUI でも
+			<a href="https://swiswiswift.com/2019-12-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-18/" rel="bookmark">SwiftUIでリストのセルをタップするとアラートが表示される方法</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-18T00:00:00">2019-12-18</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id
+			<a href="https://swiswiswift.com/2019-12-18/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-12-17/" rel="bookmark">SwiftUIでリストを編集する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-12-17T00:00:00">2019-12-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUIでリストを編集する方法です。 UITableView よりも短いコードで書くことができました。 参考: How to enable editing on
+			<a href="https://swiswiswift.com/2019-12-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-22/" rel="bookmark">Dockerを使ってPostgreSQLを立て、テーブルを作成する。</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-22T00:00:00">2019-11-22</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーで
+			<a href="https://swiswiswift.com/2019-11-22/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-21/" rel="bookmark">TabViewを使って画面を切り替える（SwiftUI）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-21T00:00:00">2019-11-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。 TabView - SwiftUI | Apple Developer Documentation
+			<a href="https://swiswiswift.com/2019-11-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-20/" rel="bookmark">ListViewからそれぞれ別のViewに遷移する（SwiftUI）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-20T00:00:00">2019-11-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。 もっと良い方
+			<a href="https://swiswiswift.com/2019-11-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/tags/swiftui" rel="tag">SwiftUI</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-19/" rel="bookmark">Alamofireで受け取ったJsonをCodableを使ってパースする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-19T00:00:00">2019-11-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパース
+			<a href="https://swiswiswift.com/2019-11-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-14/" rel="bookmark">SwiftUIでStructが使いまわされる</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-14T00:00:00">2019-11-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでし
+			<a href="https://swiswiswift.com/2019-11-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-13/" rel="bookmark">SwiftUIでListを表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-13T00:00:00">2019-11-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。 (adsbygoogle = window.adsbygoogle ||
+			<a href="https://swiswiswift.com/2019-11-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-08/" rel="bookmark">インフラエンジニアなりたてで知らなかった単語をまとめ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-08T00:00:00">2019-11-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			インフラの勉強をし始めて分からなくて調べた単語をまとめました。 コンソリデーティッドビリング（Cons
+			<a href="https://swiswiswift.com/2019-11-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/aws" rel="tag">AWS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/aws" rel="tag">AWS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-07/" rel="bookmark">PHP で本当に簡単なモックサーバーを作る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-07T00:00:00">2019-11-07</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。 signup.php でユーザー登録を行い、
+			<a href="https://swiswiswift.com/2019-11-07/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/php" rel="tag">PHP</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/php" rel="tag">PHP</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-06/" rel="bookmark">cURL（curl）でアプリにプッシュ通知を送信する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-06T00:00:00">2019-11-06</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			curl コマンドで iOS端末にプッシュ通知を送信する方法です。 証明書と秘密鍵の両方を含めたpemファイルを
+			<a href="https://swiswiswift.com/2019-11-06/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-11-05/" rel="bookmark">p12ファイルから証明書と秘密鍵を取り出す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-11-05T00:00:00">2019-11-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			.p12 ファイルから証明書と秘密鍵を取り出す方法です。 AWS SNS を Terraform で書くときに必要でした。 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $
+			<a href="https://swiswiswift.com/2019-11-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-09-12/" rel="bookmark">gem でインストールした cocoapods をアップデートする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-09-12T00:00:00">2019-09-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			gem でインストールした cocoapods のバージョンをアップデートする方法です。 cocoapods のライバル？の carthage が気になっています。
+			<a href="https://swiswiswift.com/2019-09-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-09-11/" rel="bookmark">iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-09-11T00:00:00">2019-09-11</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で
+			<a href="https://swiswiswift.com/2019-09-11/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9" rel="tag">カンファレンス</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-07-30/" rel="bookmark">TableViewのセルの高さを変更する（Swift5.0.1）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-07-30T00:00:00">2019-07-30</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できま
+			<a href="https://swiswiswift.com/2019-07-30/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/tags/swift5" rel="tag">Swift5</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-07-29/" rel="bookmark">ビズリーチキャンパスでアカウントがロックされた時の解除方法</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-07-29T00:00:00">2019-07-29</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			パスワードをリセットする事で、アカウントのロックが解除されました。 運営への問い合わせをしなくても解除
+			<a href="https://swiswiswift.com/2019-07-29/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/%E5%B0%B1%E6%B4%BB" rel="tag">就活</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/%E5%B0%B1%E6%B4%BB" rel="tag">就活</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-06-03/" rel="bookmark">UIButton、ボタンを表示する(Swift5.0)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-06-03T00:00:00">2019-06-03</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIButton を使ってボタンを表示するサンプルコードです。 角丸ボタンはよく使います。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP"; amzn_assoc_placement
+			<a href="https://swiswiswift.com/2019-06-03/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-06-02/" rel="bookmark">一定間隔の値をUISlider で取得する(Swift5.0)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-06-02T00:00:00">2019-06-02</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP";
+			<a href="https://swiswiswift.com/2019-06-02/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-06-01/" rel="bookmark">UISlider で値を取得する(Swift5.0)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-06-01T00:00:00">2019-06-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UISlider で値を取得するサンプルコードです。 最小値と最大値を設定することで、その間の任意の値を取ることができ
+			<a href="https://swiswiswift.com/2019-06-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-05-12/" rel="bookmark">CallKit を使って着信画面を表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-05-12T00:00:00">2019-05-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			CallKit を使うことで着信時のUIを使うことができます。 電話がかかってくるアプリを作る時に使いました。 (adsbygoogle = window.adsbygoogle
+			<a href="https://swiswiswift.com/2019-05-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-04-12/" rel="bookmark">ログイン時にメッセージを表示する（CentOS7）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-04-12T00:00:00">2019-04-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。 ログイン時に表示し
+			<a href="https://swiswiswift.com/2019-04-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/centos" rel="tag">CentOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/centos" rel="tag">CentOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-04-11/" rel="bookmark">iOSでUITest（E2Eテスト）を行う(Swift5.0)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-04-11T00:00:00">2019-04-11</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入 (adsbygoogle = window.adsbygoogle || []).push({});
+			<a href="https://swiswiswift.com/2019-04-11/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-03-15/" rel="bookmark">Java で文字列をシャッフルする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-03-15T00:00:00">2019-03-15</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Java での文字列のシャッフル方法です。 結構面倒だったので、記事にしました。 .suffld みたいなのが欲しいです。 (adsbygoogle =
+			<a href="https://swiswiswift.com/2019-03-15/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/java" rel="tag">Java</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/java" rel="tag">Java</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-02-01/" rel="bookmark">RootViewController をアニメーション付きで切り替える(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-02-01T00:00:00">2019-02-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			RootViewController をアニメーション付きで切り替えるサンプルコードです。 チュートリアルの後とかでの使用を想定しています
+			<a href="https://swiswiswift.com/2019-02-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-28/" rel="bookmark">id_rsa’ are too open.</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-28T00:00:00">2019-01-28</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しまし
+			<a href="https://swiswiswift.com/2019-01-28/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-27/" rel="bookmark">ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-27T00:00:00">2019-01-27</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。 Swi
+			<a href="https://swiswiswift.com/2019-01-27/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-26/" rel="bookmark">SwiftでUITestを導入(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-26T00:00:00">2019-01-26</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			プロジェクトにUITestを追加します。 プロジェクト作成時に作らなかった場合は以下の画像の手順で追加
+			<a href="https://swiswiswift.com/2019-01-26/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-22/" rel="bookmark">UITableViewでテーブルにアイテムを表示（Swift4.2）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-22T00:00:00">2019-01-22</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITa
+			<a href="https://swiswiswift.com/2019-01-22/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-21/" rel="bookmark">NavigationControllerで画面遷移を行う（Swift4.2）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-21T00:00:00">2019-01-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			NavigationContorollerのサンプルコードです。 NavigationContorol
+			<a href="https://swiswiswift.com/2019-01-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-20/" rel="bookmark">NavigationControllerのRootを切り替える（Swift4.2）</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-20T00:00:00">2019-01-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="auto"; amzn_assoc_height ="auto"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF";
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+			<a href="https://swiswiswift.com/categories/swift" rel="tag">Swift</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-17/" rel="bookmark">tar (child): gzip: Cannot exec: No such file or directory</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-17T00:00:00">2019-01-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			$ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now 依存パッケージの gzip を入れてあげる
+			<a href="https://swiswiswift.com/2019-01-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-16/" rel="bookmark">sudo 時に PATH を引き継ぐ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-16T00:00:00">2019-01-16</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			which java と sudo which java でパスが違ったのでその解決 参考: sudo「コマンドが見つかりません」PATHが初期化され
+			<a href="https://swiswiswift.com/2019-01-16/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-14/" rel="bookmark">CentOS7にRailsをインストールする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-14T00:00:00">2019-01-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			CentOS7にRailsをインストールした時のメモになります。 最終的なNginxの nginx.conf ファイルはこち
+			<a href="https://swiswiswift.com/2019-01-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+			<a href="https://swiswiswift.com/categories/ruby" rel="tag">Ruby</a>
+			
+			<a href="https://swiswiswift.com/categories/rails" rel="tag">Rails</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/centos" rel="tag">CentOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-11/" rel="bookmark">ImagePickerControllerで画像を選択する(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-11T00:00:00">2019-01-11</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			# Swift 4.2 Swift3の記事はこちら UIImagePickerControllerで画像の選択 iPhon
+			<a href="https://swiswiswift.com/2019-01-11/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-08/" rel="bookmark">ListViewを使ってリスト表示する(Kotlin)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-08T00:00:00">2019-01-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ListViewを使ってリストの表示を行います。 Kotlin 、Android は設定ファイルが多くて難しいです。
+			<a href="https://swiswiswift.com/2019-01-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-02/" rel="bookmark">Function(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-02T00:00:00">2019-01-02</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftで関数を作る方法です。 最近はネット記事を見ないでも見なくても書けるようになってきました。 (adsbygoogle
+			<a href="https://swiswiswift.com/2019-01-02/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2019-01-01/" rel="bookmark">Array(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2019-01-01T00:00:00">2019-01-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array (adsbygoogle = window.adsbygoogle
+			<a href="https://swiswiswift.com/2019-01-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-31/" rel="bookmark">Print(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-31T00:00:00">2018-12-31</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。 (adsbygoogle = window.adsbygoogle ||
+			<a href="https://swiswiswift.com/2018-12-31/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-30/" rel="bookmark">UITableViewの中身をUISearchBarで検索する(Swift4)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-30T00:00:00">2018-12-30</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			#Swift4.2 UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある
+			<a href="https://swiswiswift.com/2018-12-30/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-29/" rel="bookmark">アプリ使用中に位置情報を取得する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-29T00:00:00">2018-12-29</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			#Swift 4.2 アプリ使用中に緯度と経度を取得するサンプルコードです。 端末の緯度と経度が変わるとラベル文字列が更
+			<a href="https://swiswiswift.com/2018-12-29/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-28/" rel="bookmark">Lifesumアプリのインタラクションが素敵だったので再現してみた</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-28T00:00:00">2018-12-28</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 イン
+			<a href="https://swiswiswift.com/2018-12-28/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-27/" rel="bookmark">押すとクニュっとするボタンを実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-27T00:00:00">2018-12-27</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕
+			<a href="https://swiswiswift.com/2018-12-27/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-26/" rel="bookmark">SSH で入ることのできるDockerイメージ(Ubuntu14.04)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-26T00:00:00">2018-12-26</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこ
+			<a href="https://swiswiswift.com/2018-12-26/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-25/" rel="bookmark">SSH で入ることのできるDockerイメージ(CentOS7)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-25T00:00:00">2018-12-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d
+			<a href="https://swiswiswift.com/2018-12-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-24/" rel="bookmark">食洗機の分岐水栓取り付け工事を自分で行う。</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-24T00:00:00">2018-12-24</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			例のPayPyaの20%キャッシュバックキャンペーンに釣られてビックカメラで食洗機を買いました。 パナ
+			<a href="https://swiswiswift.com/2018-12-24/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/%E3%81%9D%E3%81%AE%E4%BB%96" rel="tag">その他</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/%E3%81%9D%E3%81%AE%E4%BB%96" rel="tag">その他</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-12-01/" rel="bookmark">Alamofireを使ってAPIからJSONを取得する(Swift4.2)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-12-01T00:00:00">2018-12-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			古い記事(Swift3)は こちら Alamofireを使ってAPIからJSONを取得する #Xcode 10.1 #Swift 4.2 swi
+			<a href="https://swiswiswift.com/2018-12-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-11-29/" rel="bookmark">Android Studio でアイコンを設定する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-11-29T00:00:00">2018-11-29</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			– File -&gt; Image Assets で Configure Image Asset を開く – Pathの…ボタンを押し、アイコンにしたい画像を選択する。 – Resize でサイズの微
+			<a href="https://swiswiswift.com/2018-11-29/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-11-20/" rel="bookmark">BottomNavigationViewで切り替え時に色を変える</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-11-20T00:00:00">2018-11-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。 (adsbygoogle = window.adsbygoogle || []).push({});
+			<a href="https://swiswiswift.com/2018-11-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-11-19/" rel="bookmark">SSH で入ることのできるDockerイメージ(CentOS6)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-11-19T00:00:00">2018-11-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run
+			<a href="https://swiswiswift.com/2018-11-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/docker" rel="tag">Docker</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-11-14/" rel="bookmark">パスワードの入力欄の中身を確認したい</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-11-14T00:00:00">2018-11-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ログイン画面のパスワード入力欄で黒丸●●●●●となっている中身を確認する方法です。 要素と検証を開いて
+			<a href="https://swiswiswift.com/2018-11-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/other" rel="tag">Other</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/other" rel="tag">Other</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-11-13/" rel="bookmark">Fragmentsを入れ子にしたBottomNavigationを実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-11-13T00:00:00">2018-11-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			BottomNavigationはiOSのTabBarControllerによく似たAPIです。 Bo
+			<a href="https://swiswiswift.com/2018-11-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-11-12/" rel="bookmark">Xcode10でプロジェクト名を変更する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-11-12T00:00:00">2018-11-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			こちらの記事を参考にさせていただきました。 ありがとうございます！ 参考記事の方が丁寧に書いてありますの
+			<a href="https://swiswiswift.com/2018-11-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-09-27/" rel="bookmark">Build input file cannot be found: Libraries/WebSocket/libfishhook.a’</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-09-27T00:00:00">2018-09-27</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNative
+			<a href="https://swiswiswift.com/2018-09-27/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-09-25/" rel="bookmark">KotlinでListViewを内包したTabを作成する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-09-25T00:00:00">2018-09-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 す
+			<a href="https://swiswiswift.com/2018-09-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-09-20/" rel="bookmark">グループスタイルのTableViewを作成する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-09-20T00:00:00">2018-09-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			グループスタイルのテーブルビューを表示するサンプルコードです 設定画面などはこんな感じですね。 (adsbygoogle = window.adsbygoogle ||
+			<a href="https://swiswiswift.com/2018-09-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-09-19/" rel="bookmark">SafeAreaを取得する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-09-19T00:00:00">2018-09-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うよう
+			<a href="https://swiswiswift.com/2018-09-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-09-17/" rel="bookmark">iOSでバーコードを読み取る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-09-17T00:00:00">2018-09-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftでバーコードを読み取るサンプルコードです。 Swift 4.1 // 参考にさせて頂いたサイトです Swift 4でQRコー
+			<a href="https://swiswiswift.com/2018-09-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-19/" rel="bookmark">ReactNativeで画像をボタンにする(TouchableOpacity)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-19T00:00:00">2018-08-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeで画像などのViewをボタンにするTouchableOpacityの実装サンプ
+			<a href="https://swiswiswift.com/2018-08-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-18/" rel="bookmark">ReactNativeでテキストを表示</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-18T00:00:00">2018-08-18</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="auto"; amzn_assoc_height
+			<a href="https://swiswiswift.com/2018-08-18/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-17/" rel="bookmark">ReactNativeでたまにしか使わないコマンドのメモ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-17T00:00:00">2018-08-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeでたまにしか使わないけど大事なコメントのメモです。 react-native-c
+			<a href="https://swiswiswift.com/2018-08-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-16/" rel="bookmark">ReactNativeでインディケーターを表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-16T00:00:00">2018-08-16</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP"; amzn_assoc_placement ="";
+			<a href="https://swiswiswift.com/2018-08-16/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-15/" rel="bookmark">ReactNativeで画像を表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-15T00:00:00">2018-08-15</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeで画像を表示するサンプルです。 iOSで画像をインターネットから取得する場合はA
+			<a href="https://swiswiswift.com/2018-08-15/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-14/" rel="bookmark">FlexBoxでViewの大きさを指定する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-14T00:00:00">2018-08-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			FlexBoxでViewの大きさを指定するサンプルコードです。 react-native: 0.56.0 紫、黄土色、水色のViewが 1 : 2
+			<a href="https://swiswiswift.com/2018-08-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-13/" rel="bookmark">ReactNativeでFlatListを表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-13T00:00:00">2018-08-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。 (adsbygoogle = window.adsbygoogle || []).push({});
+			<a href="https://swiswiswift.com/2018-08-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-08-12/" rel="bookmark">ReactNativeでボタンを表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-08-12T00:00:00">2018-08-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0 (adsbygoogle =
+			<a href="https://swiswiswift.com/2018-08-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/reactnative" rel="tag">ReactNative</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-07-18/" rel="bookmark">CollectionViewにSearchBarをつけて検索する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-07-18T00:00:00">2018-07-18</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace
+			<a href="https://swiswiswift.com/2018-07-18/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-07-17/" rel="bookmark">最小構成のhtml、css、javascriptのテンプレート</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-07-17T00:00:00">2018-07-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22";
+			<a href="https://swiswiswift.com/2018-07-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/html5" rel="tag">HTML5</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/html5" rel="tag">HTML5</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-06-28/" rel="bookmark">流れるように動く背景を実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-06-28T00:00:00">2018-06-28</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きま
+			<a href="https://swiswiswift.com/2018-06-28/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-06-21/" rel="bookmark">PageViewControllerとPageControl</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-06-21T00:00:00">2018-06-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプル
+			<a href="https://swiswiswift.com/2018-06-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-06-19/" rel="bookmark">CustomViewをコードで実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-06-19T00:00:00">2018-06-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装する
+			<a href="https://swiswiswift.com/2018-06-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-06-03/" rel="bookmark">UITabBarControllerにUINavigationControllerを入れ子で実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-06-03T00:00:00">2018-06-03</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UITabBarControllerにUINavigationControllerを入れるコードです
+			<a href="https://swiswiswift.com/2018-06-03/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-06-02/" rel="bookmark">UITabBarControllerを実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-06-02T00:00:00">2018-06-02</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBar
+			<a href="https://swiswiswift.com/2018-06-02/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-05-25/" rel="bookmark">let’s encryptでさくらサーバーをhttpsにする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-05-25T00:00:00">2018-05-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			以下のサイトを参考にして証明書の設定をして以下の.htaccessをrootにおけば完成です。 ちょっ
+			<a href="https://swiswiswift.com/2018-05-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/other" rel="tag">Other</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/other" rel="tag">Other</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-05-24/" rel="bookmark">Asset CatalogでColor Setを使って色を管理する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-05-24T00:00:00">2018-05-24</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Xcode9(iOS 11)から、色をAssetで管理することができるようになりました。 UIColorのExtensio
+			<a href="https://swiswiswift.com/2018-05-24/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-05-21/" rel="bookmark">Appleのエンジニアさんにコードレベルの質問を送ってみた</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-05-21T00:00:00">2018-05-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			「AppleDeveloperの登録料が高すぎる」と友達からよく言われるんですが、高いだけあって良い
+			<a href="https://swiswiswift.com/2018-05-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-05-06/" rel="bookmark">UIViewの背景をグラデーションさせる</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-05-06T00:00:00">2018-05-06</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIViewの背景をグラデーションさせるサンプルコードです。 参考にさせていただいたページ 【Swift
+			<a href="https://swiswiswift.com/2018-05-06/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-05-02/" rel="bookmark">カスタムボタンクラスを実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-05-02T00:00:00">2018-05-02</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。 見た目を別ファ
+			<a href="https://swiswiswift.com/2018-05-02/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-04-24/" rel="bookmark">TableViewを編集してCellを削除する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-04-24T00:00:00">2018-04-24</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボ
+			<a href="https://swiswiswift.com/2018-04-24/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-04-23/" rel="bookmark">TableViewを編集してCellを削除する(横スライド)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-04-23T00:00:00">2018-04-23</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを
+			<a href="https://swiswiswift.com/2018-04-23/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-04-23/" rel="bookmark">数字を三桁ごとにカンマ区切りにする(日本円の表示)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-04-23T00:00:00">2018-04-23</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな
+			<a href="https://swiswiswift.com/2018-04-23/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-04-20/" rel="bookmark">現在の日付と曜日、現在時間を取得する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-04-20T00:00:00">2018-04-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swift4.1で現在の日付と曜日、現在時間を取得するサンプルコードです。 以下の形式の文字列で取得し
+			<a href="https://swiswiswift.com/2018-04-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-04-05/" rel="bookmark">CustumTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-04-05T00:00:00">2018-04-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使うこ
+			<a href="https://swiswiswift.com/2018-04-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-25/" rel="bookmark">Arduinoでボタンを使う(プルアップ抵抗無し)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-25T00:00:00">2018-03-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Arduinoでボタンを使うときのサンプルコードです。 あんまり知られていないんですが、プルアップを使
+			<a href="https://swiswiswift.com/2018-03-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/arduino" rel="tag">Arduino</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/arduino" rel="tag">Arduino</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-24/" rel="bookmark">Google Cloud FunctionでHelloWorld</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-24T00:00:00">2018-03-24</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Google様のCloud Functionを触ってみたので、そのメモです。 HelloWorldとJs
+			<a href="https://swiswiswift.com/2018-03-24/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/gcp" rel="tag">GCP</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/gcp" rel="tag">GCP</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-17/" rel="bookmark">UIAlertControllerにTextFieldを追加する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-17T00:00:00">2018-03-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIAlertControllerにTextFieldを追加したサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon";
+			<a href="https://swiswiswift.com/2018-03-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-15/" rel="bookmark">NavigationControllerを実装する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-15T00:00:00">2018-03-15</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			NavigationContorollerのサンプルコードです。 NavigationContorol
+			<a href="https://swiswiswift.com/2018-03-15/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-14/" rel="bookmark">ESP32でRTCモジュールを使う</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-14T00:00:00">2018-03-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#in
+			<a href="https://swiswiswift.com/2018-03-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/esp32" rel="tag">ESP32</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/esp32" rel="tag">ESP32</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-07/" rel="bookmark">文字列やURLからQRコードを生成する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-07T00:00:00">2018-03-07</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			文字列やURLからQRコードを生成するサンプルコードです。 This is a sample code that generates a QR code from a character string or URL. これらの記
+			<a href="https://swiswiswift.com/2018-03-07/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-06/" rel="bookmark">UIAlertControllerでアラートを表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-06T00:00:00">2018-03-06</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert をUIAlertContro
+			<a href="https://swiswiswift.com/2018-03-06/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-05/" rel="bookmark">UIAlertControllerで下からニュッと出す(UIActionSheet)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-05T00:00:00">2018-03-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。 遥か昔、下から
+			<a href="https://swiswiswift.com/2018-03-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-04/" rel="bookmark">列挙型 enum</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-04T00:00:00">2018-03-04</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			列挙型、enumの書き方のサンプルコードです。 ここではpersonというクラスを作り、カビゴンさんの
+			<a href="https://swiswiswift.com/2018-03-04/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-03-03/" rel="bookmark">iPhoneアプリのプログラミングの勉強法</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-03-03T00:00:00">2018-03-03</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			「iPhoneアプリを作るには何から勉強したらいい？」と友達にちょくちょく聞かれるのでオススメの勉強
+			<a href="https://swiswiswift.com/2018-03-03/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-01-17/" rel="bookmark">UserDefaultsを使ってパラメーターを保存する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-01-17T00:00:00">2018-01-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UserDefaultsはアプリを落としても保持しておきたいデータを保存するときに使います。 使い方は
+			<a href="https://swiswiswift.com/2018-01-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2018-01-14/" rel="bookmark">UIPickerViewを使って値を選択する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2018-01-14T00:00:00">2018-01-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			はいどーも！ UIPickerViewを使って値を取得するサンプルコードです。 PIPickerView
+			<a href="https://swiswiswift.com/2018-01-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-12-13/" rel="bookmark">一定時間で繰り返しを行う</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-12-13T00:00:00">2017-12-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Timeを使って3秒ごとに繰り返しを行います。 時計のような機能を持つアプリを作る時に使いました。 (adsbygoogle =
+			<a href="https://swiswiswift.com/2017-12-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-11-27/" rel="bookmark">カスタムレイアウトを持つコレクションビューをつくる</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-11-27T00:00:00">2017-11-27</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べまし
+			<a href="https://swiswiswift.com/2017-11-27/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-11-26/" rel="bookmark">SwiftでUDP通信を行い、文字列を送る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-11-26T00:00:00">2017-11-26</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			SwiftでUDP通信するメモです。 SwiftSocket をcocoapodsで入れて、こんな感じで書きました。 woom
+			<a href="https://swiswiswift.com/2017-11-26/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-11-25/" rel="bookmark">Swift3からSwift4への移行時に出る@objc inference warningsを消す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-11-25T00:00:00">2017-11-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Xcode8からXcode9へ乗り換えてSwift4へ変換すると以下のエラーが出ます。それの消し方で
+			<a href="https://swiswiswift.com/2017-11-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-11-13/" rel="bookmark">UIScrollViewで画像をピンチで拡大したり縮小する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-11-13T00:00:00">2017-11-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIScrollViewの中にある画像を拡大したり縮小するサンプルです。 ピンチで画像を大きくしたり、
+			<a href="https://swiswiswift.com/2017-11-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-10-14/" rel="bookmark">UINavigationControllerの戻るボタンの戻るを消す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-10-14T00:00:00">2017-10-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UINavigationControllerの戻るボタンの文字を消します。 「＜戻る」を「＜」にします
+			<a href="https://swiswiswift.com/2017-10-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-10-13/" rel="bookmark">○秒後に実行させる、毎秒実行する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-10-13T00:00:00">2017-10-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。 (adsbygoogle = window.adsbygoogle
+			<a href="https://swiswiswift.com/2017-10-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-10-08/" rel="bookmark">UITableViewにヘッダーを設定する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-10-08T00:00:00">2017-10-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UITableViewにヘッダーを設定するサンプルです。 フッターも同様に設定することができます。 (adsbygoogle =
+			<a href="https://swiswiswift.com/2017-10-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-10-03/" rel="bookmark">UICollectionViewにCustomセルを追加する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-10-03T00:00:00">2017-10-03</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UICollectionViewにCustumCollectionセルを追加してみました。 クラス名を
+			<a href="https://swiswiswift.com/2017-10-03/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-10-02/" rel="bookmark">UICollectionView</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-10-02T00:00:00">2017-10-02</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせて
+			<a href="https://swiswiswift.com/2017-10-02/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-10-01/" rel="bookmark">ESP32でSDカードのテキストファイルを読み書きする。</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-10-01T00:00:00">2017-10-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシン
+			<a href="https://swiswiswift.com/2017-10-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/esp32" rel="tag">ESP32</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/esp32" rel="tag">ESP32</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-09-05/" rel="bookmark">ymf825boardのサンプルコードのピンを変更</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-09-05T00:00:00">2017-09-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			YMF825のサンプルコード (yamaha-webmusic/ymf825board)のピンを変更す
+			<a href="https://swiswiswift.com/2017-09-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C" rel="tag">電子工作</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/%E9%9B%BB%E5%AD%90%E5%B7%A5%E4%BD%9C" rel="tag">電子工作</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-08-12/" rel="bookmark">輸出コンプライアンスのウィザードをスキップする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-08-12T00:00:00">2017-08-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			アプリをTestFlightなどに提出すると、暗号化が含まれていないか聞かれます。 毎回聞かれるとスキ
+			<a href="https://swiswiswift.com/2017-08-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-07-26/" rel="bookmark">curlでpostでJson送るときにレスポンスヘッダーも確認したい</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-07-26T00:00:00">2017-07-26</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			curlでpostでJson送るときにレスポンスヘッダーも確認したい時に使いました。 最後に --include をつける
+			<a href="https://swiswiswift.com/2017-07-26/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-07-25/" rel="bookmark">curlでpostでJson送る</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-07-25T00:00:00">2017-07-25</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、a
+			<a href="https://swiswiswift.com/2017-07-25/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-07-09/" rel="bookmark">Alamofireを使ってAPIからJSONを取得する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-07-09T00:00:00">2017-07-09</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			新しい記事(Swift4)はこちらAlamofireを使ってAPIからJSONを取得する(Swift
+			<a href="https://swiswiswift.com/2017-07-09/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-07-08/" rel="bookmark">delegateで別のViewからメソッドを呼び出す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-07-08T00:00:00">2017-07-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今
+			<a href="https://swiswiswift.com/2017-07-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-06-22/" rel="bookmark">現在時刻の取得(kotlin)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-06-22T00:00:00">2017-06-22</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Kotlin で現在時刻の取得を行います。 アラーム機能を持ったアプリを作っています。 このあたりは Swift と異なりますね
+			<a href="https://swiswiswift.com/2017-06-22/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-06-15/" rel="bookmark">Swiftでクラス名と関数名と行番号を取得、表示する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-06-15T00:00:00">2017-06-15</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。 クラス名と行番号、取得表示することが
+			<a href="https://swiswiswift.com/2017-06-15/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-06-14/" rel="bookmark">UIImagePickerControllerで画像の選択</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-06-14T00:00:00">2017-06-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			iPhoneのフォトライブラリから画像を取得するサンプルプログラムです。 フォトライブラリから画像を選
+			<a href="https://swiswiswift.com/2017-06-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-06-08/" rel="bookmark">rootのログインを禁止にする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-06-08T00:00:00">2017-06-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			VPSを借りて一番最初に行うrootのログインの禁止のメモです。 rootでサーバーにログインしてパス
+			<a href="https://swiswiswift.com/2017-06-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/linux" rel="tag">Linux</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-06-07/" rel="bookmark">texworksのURL</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-06-07T00:00:00">2017-06-07</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Windowsのパソコンを自作し、texworksを入れたのですがショートカットを間違えて消してしま
+			<a href="https://swiswiswift.com/2017-06-07/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/tex" rel="tag">Tex</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/tex" rel="tag">Tex</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-06-05/" rel="bookmark">Swiftで音楽を再生する</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-06-05T00:00:00">2017-06-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftで音楽を簡単に再生するサンプルコードです。 リピート再生も簡単にできました。 サンプルコードに
+			<a href="https://swiswiswift.com/2017-06-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-24/" rel="bookmark">Igorでグラフの背景を白にする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-24T00:00:00">2017-05-24</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			グラフ中で右クリック -&gt; Colors -&gt; both background -&gt; 白色を選択 でできました。 データの解析にすごい便利ですが、先輩のマクロ
+			<a href="https://swiswiswift.com/2017-05-24/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/igor" rel="tag">Igor</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/igor" rel="tag">Igor</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-23/" rel="bookmark">Webテスト用のカンペ</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-23T00:00:00">2017-05-23</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			JavaScriptのWebテスト用のカンペです。 ブラウザがあればできるところが好きです。 ただ、慣れ
+			<a href="https://swiswiswift.com/2017-05-23/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/javascript" rel="tag">JavaScript</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/javascript" rel="tag">JavaScript</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-22/" rel="bookmark">Androidアプリのアクションバーの影を消す</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-22T00:00:00">2017-05-22</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Androidアプリのアクションバーの影を消します。 アプリはどんどん新しいことが増えていくので覚える
+			<a href="https://swiswiswift.com/2017-05-22/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-21/" rel="bookmark">Androidアプリのステータスバーの変更</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-21T00:00:00">2017-05-21</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Androidアプリのステータスバーの変更方法です。 色を直指定するのは良くないです、Color.xm
+			<a href="https://swiswiswift.com/2017-05-21/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/android" rel="tag">Android</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/android" rel="tag">Android</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-20/" rel="bookmark">FizzBuzz(C)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-20T00:00:00">2017-05-20</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			FizzBuzzをCで解きました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。 (adsbygoogle = window.adsbygoogle || []).push({});
+			<a href="https://swiswiswift.com/2017-05-20/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/c" rel="tag">C</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/c" rel="tag">C</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-19/" rel="bookmark">FizzBuzz(Ruby)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-19T00:00:00">2017-05-19</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			FizzBuzzをRubyで解いてみました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。
+			<a href="https://swiswiswift.com/2017-05-19/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ruby" rel="tag">Ruby</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ruby" rel="tag">Ruby</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-18/" rel="bookmark">Webテスト用のカンペ(Ruby)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-18T00:00:00">2017-05-18</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Webテスト用のカンペです。 就活してるとWebテストで競技プログラミングがよく出てくるので、まとめて
+			<a href="https://swiswiswift.com/2017-05-18/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ruby" rel="tag">Ruby</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ruby" rel="tag">Ruby</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-17/" rel="bookmark">Array(Ruby)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-17T00:00:00">2017-05-17</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Rubyの配列についてです。 最近は競技プログラミングを Ruby でやっています。 C++ への移行タイミングをいつに
+			<a href="https://swiswiswift.com/2017-05-17/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ruby" rel="tag">Ruby</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-16/" rel="bookmark">UIStatusBarを白くする</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-16T00:00:00">2017-05-16</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIStatusBarを白くする方法その1 UIStatusBarを白くする方法その1です。特定のVi
+			<a href="https://swiswiswift.com/2017-05-16/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-15/" rel="bookmark">UITableViewとUISearchBar</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-15T00:00:00">2017-05-15</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫
+			<a href="https://swiswiswift.com/2017-05-15/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-14/" rel="bookmark">UserNotification(LocalNotification)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-14T00:00:00">2017-05-14</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UserNotificationはユーザーに対して通知を発行する時に使用します。 UserNotifi
+			<a href="https://swiswiswift.com/2017-05-14/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-13/" rel="bookmark">音声認識(SFSpeechRecognizer)</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-13T00:00:00">2017-05-13</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			iOS10からSpeech Frameworkが登場しました。 ここではSFSpeechRecogniz
+			<a href="https://swiswiswift.com/2017-05-13/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-12/" rel="bookmark">UITextField</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-12T00:00:00">2017-05-12</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UITextFieldは文字の入力に使われます。 UITextFieldのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIControl ↑ UITextField
+			<a href="https://swiswiswift.com/2017-05-12/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-11/" rel="bookmark">cafファイルの作成</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-11T00:00:00">2017-05-11</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			.cafファイルはiOSに用いられる音声ファイル形式です。以下はwavファイルを同名で出力するコマン
+			<a href="https://swiswiswift.com/2017-05-11/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-10/" rel="bookmark">UINavigationBar</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-10T00:00:00">2017-05-10</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			iOSアプリの画面上部によく使われているUINavigationBarについてです。 UINaviga
+			<a href="https://swiswiswift.com/2017-05-10/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-09/" rel="bookmark">UILabel</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-09T00:00:00">2017-05-09</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UILabelクラスは文字表示を管理するクラスです。画面に文字を表示させたい時に使用します。 UILa
+			<a href="https://swiswiswift.com/2017-05-09/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-08/" rel="bookmark">現在時刻の取得</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-08T00:00:00">2017-05-08</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			現在時間を取得します。 AppleDeveloperリファレンスNSCalender サンプルプログラム
+			<a href="https://swiswiswift.com/2017-05-08/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-07/" rel="bookmark">UITableView</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-07T00:00:00">2017-05-07</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時な
+			<a href="https://swiswiswift.com/2017-05-07/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-05/" rel="bookmark">UIButton</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-05T00:00:00">2017-05-05</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UIButtonクラスはボタンを設置するためのクラスです。 ボタンタップでアクションを起こすことができ
+			<a href="https://swiswiswift.com/2017-05-05/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-04/" rel="bookmark">UIBarButtonItem</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-04T00:00:00">2017-05-04</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			UINavigationBarの要素追加、カスタマイズに用いられるUIBarButtonItemにつ
+			<a href="https://swiswiswift.com/2017-05-04/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-02/" rel="bookmark">Dictionary</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-02T00:00:00">2017-05-02</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			Swiftの辞書配列です。 辞書配列の作成と呼び出しについて記載します。 人によって辞書配列だったり、ハ
+			<a href="https://swiswiswift.com/2017-05-02/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-05-01/" rel="bookmark">Array</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-05-01T00:00:00">2017-05-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			配列の書き方 Swiftの配列です。配列の作成と呼び出しについて記載します。 配列の追加、挿入、削除 配列
+			<a href="https://swiswiswift.com/2017-05-01/" class="more-link">Read more </a>
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/ios" rel="tag">iOS</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+        <article class="list__item post clearfix">
+	<div class="list__content clearfix">
+		<header class="post-header">
+				<h2><a href="https://swiswiswift.com/2017-04-01/" rel="bookmark">サイトリニューアルしました</a></h2>
+				<div class="post-details">
+				<a rel="bookmark">
+					<time datetime="2017-04-01T00:00:00">2017-04-01</time>
+				</a>
+				</div>
+		</header>
+
+		<div class="post-excerpt"><p>
+			
+		</p></div>
+	</div>
+
+	<footer class="post-footer">
+			
+		<span class="post-categories">
+			
+			<a href="https://swiswiswift.com/categories/other" rel="tag">Other</a>
+			
+		</span>
+		
+
+		
+		<span class="post-tags">
+			
+			<a href="https://swiswiswift.com/tags/other" rel="tag">Other</a>
+			
+		</span>
+		
+	</footer>
+
+</article>
+
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+
+
+
+<table cellspacing="15" style="width:100%; border: none;">
+    <tr>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+    </tr>
+</table>
+
+</main>
+
+
+        <div class="sidebar1 widgets columns-1">
+
+    <aside>
+    
+</aside>
+    <aside class="widget widget_categories">
+        <h2>カテゴリ</h2>
+        <ul class="widget__list"><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/android">Android (8)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/arduino">Arduino (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/aws">AWS (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/c">C (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/centos">CentOS (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/docker">Docker (4)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/esp32">ESP32 (2)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/firebase">Firebase (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/gcp">GCP (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/html5">HTML5 (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/hugo">Hugo (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/igor">Igor (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/ios">iOS (90)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/java">Java (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/javascript">JavaScript (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/linux">Linux (7)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/other">Other (3)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/php">PHP (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/rails">Rails (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/reactnative">ReactNative (9)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/ruby">Ruby (4)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/swift">Swift (39)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/swiftui">SwiftUI (12)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/tex">Tex (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/%e3%81%9d%e3%81%ae%e4%bb%96">その他 (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/%e5%b0%b1%e6%b4%bb">就活 (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://swiswiswift.com/categories/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c">電子工作 (1)</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_tag_cloud">
+        <h2>タグ</h2>
+        <div class="tagcloud"><a class="tag-cloud-link" href="https://swiswiswift.com/tags/android" title="android" style="font-size: 12pt;">Android</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/arduino" title="arduino" style="font-size: 12pt;">Arduino</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/aws" title="aws" style="font-size: 12pt;">AWS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/c" title="c" style="font-size: 12pt;">C</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/centos" title="centos" style="font-size: 12pt;">CentOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/docker" title="docker" style="font-size: 12pt;">Docker</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/esp32" title="esp32" style="font-size: 12pt;">ESP32</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/firebase" title="firebase" style="font-size: 12pt;">Firebase</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/gcp" title="gcp" style="font-size: 12pt;">GCP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/html5" title="html5" style="font-size: 12pt;">HTML5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/hugo" title="hugo" style="font-size: 12pt;">Hugo</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/igor" title="igor" style="font-size: 12pt;">Igor</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ios" title="ios" style="font-size: 12pt;">iOS</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/java" title="java" style="font-size: 12pt;">Java</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/javascript" title="javascript" style="font-size: 12pt;">JavaScript</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/linux" title="linux" style="font-size: 12pt;">Linux</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/other" title="other" style="font-size: 12pt;">Other</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/php" title="php" style="font-size: 12pt;">PHP</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/reactnative" title="reactnative" style="font-size: 12pt;">ReactNative</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/ruby" title="ruby" style="font-size: 12pt;">Ruby</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift" title="swift" style="font-size: 12pt;">Swift</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swift5" title="swift5" style="font-size: 12pt;">Swift5</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/swiftui" title="swiftui" style="font-size: 12pt;">SwiftUI</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/tex" title="tex" style="font-size: 12pt;">Tex</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%81%9d%e3%81%ae%e4%bb%96" title="その他" style="font-size: 12pt;">その他</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e3%82%ab%e3%83%b3%e3%83%95%e3%82%a1%e3%83%ac%e3%83%b3%e3%82%b9" title="カンファレンス" style="font-size: 12pt;">カンファレンス</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e5%b0%b1%e6%b4%bb" title="就活" style="font-size: 12pt;">就活</a>&emsp;<a class="tag-cloud-link" href="https://swiswiswift.com/tags/%e9%9b%bb%e5%ad%90%e5%b7%a5%e4%bd%9c" title="電子工作" style="font-size: 12pt;">電子工作</a>&emsp;
+        </div>
+    </aside>
+
+    <aside class="widget widget_recent_entries">
+        <h2>最近の投稿</h2>
+        <ul>
+            <li>
+                <a href="https://swiswiswift.com/2020-03-01/">SwiftUIでListの要素を削除した入り増やしたりする</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-29/">SwiftUIでキーボードをボタンで隠す</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-28/">SwiftUIでKeyboardの高さや出現を検知する</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-27/">SwiftUIで複数行の文字列を入力する</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-26/">SwiftUIで下からPickerを出す</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-25/">SwiftUIでUIImagePickerControllerを使う</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-24/">SwiftUIでButton内の画像の色を変えない</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-23/">iOS13のModalPresentationStyleを全部試してみた</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-22/">Swiftで動画の終了を検知する</a>
+            </li>
+            <li>
+                <a href="https://swiswiswift.com/2020-02-21/">Swiftで動画を再生する</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_archive">
+        <h2>アーカイブ</h2>
+        <ul><li><a href="https://swiswiswift.com/archives/2017/04">2017/04 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/05">2017/05 (21)</a></li><li><a href="https://swiswiswift.com/archives/2017/06">2017/06 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/07">2017/07 (4)</a></li><li><a href="https://swiswiswift.com/archives/2017/08">2017/08 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/09">2017/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2017/10">2017/10 (6)</a></li><li><a href="https://swiswiswift.com/archives/2017/11">2017/11 (3)</a></li><li><a href="https://swiswiswift.com/archives/2017/12">2017/12 (1)</a></li><li><a href="https://swiswiswift.com/archives/2017/13">2017/13 (1)</a></li><li><a href="https://swiswiswift.com/archives/2018/01">2018/01 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/03">2018/03 (10)</a></li><li><a href="https://swiswiswift.com/archives/2018/04">2018/04 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/05">2018/05 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/06">2018/06 (5)</a></li><li><a href="https://swiswiswift.com/archives/2018/07">2018/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2018/08">2018/08 (9)</a></li><li><a href="https://swiswiswift.com/archives/2018/09">2018/09 (4)</a></li><li><a href="https://swiswiswift.com/archives/2018/11">2018/11 (6)</a></li><li><a href="https://swiswiswift.com/archives/2018/12">2018/12 (6)</a></li><li><a href="https://swiswiswift.com/archives/2019/01">2019/01 (15)</a></li><li><a href="https://swiswiswift.com/archives/2019/02">2019/02 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/03">2019/03 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/04">2019/04 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/05">2019/05 (1)</a></li><li><a href="https://swiswiswift.com/archives/2019/06">2019/06 (3)</a></li><li><a href="https://swiswiswift.com/archives/2019/07">2019/07 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/09">2019/09 (2)</a></li><li><a href="https://swiswiswift.com/archives/2019/11">2019/11 (10)</a></li><li><a href="https://swiswiswift.com/archives/2019/12">2019/12 (8)</a></li><li><a href="https://swiswiswift.com/archives/2020/01">2020/01 (5)</a></li><li><a href="https://swiswiswift.com/archives/2020/02">2020/02 (19)</a></li><li><a href="https://swiswiswift.com/archives/2020/03">2020/03 (1)</a></li>
+        </ul>
+    </aside>
+
+</div>
+        </div>
+        </div>
+<footer role="contentinfo" class="document-footer contentinfo widgets columns-1">
+
+    <aside class="widget widget_text">
+        <div class="textwidget">
+            <p>© すいすいSwift / Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/tosi29/inkblotty" target="_blank">Inkblotty</a></p>
+        </div>
+    </aside>
+</footer>
+</div>
+
+    </body>
+</html>
