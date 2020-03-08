@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでListの要素を削除した入り増やしたりする"
+title =  "Delete and add contents of List with SwiftUI"
 url = "2020-03-01"
 date = "2020-03-01"
-description = "SwiftUIでListの要素を削除した入り増やしたりする"
+description = "Delete and add contents of List with SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでListの要素を削除した入り増やしたりする方法です。
-Closure で渡すのはあまりよくない気がします。
-もっと良い方法がありましたら教えてください。
+It is a way to add and delete contents in List in SwiftUI.
+It seems bad to pass a delete function in closure.
+Please let me know if there is a better way.
 
 ![AddDeleteList](1.gif)
 

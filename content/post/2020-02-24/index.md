@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでButton内の画像の色を変えない"
+title =  "Do not change the color of the Image in the Button with SwiftUI"
 url = "2020-02-24"
 date = "2020-02-24"
-description = "SwiftUIでButton内の画像の色を変えない"
+description = "Do not change the color of the Image in the Button with SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,12 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでButton内の画像の色を変えない方法です。
-デフォルトのままだと以下の画像のように色が青く変わってしまいます。
+It is a way to do not change the color of the Image in the Button with SwiftUI.
+If you keep the default, the color will change to blue as in the following image.
 
 ![ButtonColor](1.png)
 
-`renderingMode(.original)` と設定することで、元の画像の色が表示されました。
+By setting `renderingMode(.original)` the color of the original image was displayed.
 
 ![ButtonColor](2.png)
 

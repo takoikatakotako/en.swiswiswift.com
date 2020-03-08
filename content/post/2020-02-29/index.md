@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでキーボードをボタンで隠す"
+title =  "Hide keyboard with buttons in SwiftUI"
 url = "2020-02-29"
 date = "2020-02-29"
-description = "SwiftUIでキーボードをボタンで隠す"
+description = "Hide keyboard with buttons in SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでキーボードをボタンで隠す方法です。
-UIApplicationを拡張して実現しています。
+It is a way to hide the keyboard with a button in SwiftUI.
+It is realized by extending UIApplication.
 
 ![HideKeyboard](1.gif)
 

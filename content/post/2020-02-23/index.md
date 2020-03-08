@@ -1,8 +1,8 @@
 +++
-title =  "iOS13のModalPresentationStyleを全部試してみた"
+title =  "I tried all the ModalPresentationStyle of iOS 13"
 url = "2020-02-23"
 date = "2020-02-23"
-description = "iOS13のModalPresentationStyleを全部試してみた"
+description = "I tried all the ModalPresentationStyle of iOS 13"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-iOS13のModalPresentationStyleを全部試してみました。
-PopPage モーダルのことを弊社弊部所では「おしゃれモーダル」と呼んでいます。
+I tried all the ModalPresentationStyle of iOS 13.
+Our department calls the PopPage modal a "fashionable modal".
 
 ![ModalPresentationStyle](1.gif)
 

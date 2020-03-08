@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでKeyboardの高さや出現を検知する"
+title =  "Detect keyboard height and appearance with SwiftUI"
 url = "2020-02-28"
 date = "2020-02-28"
-description = "SwiftUIでKeyboardの高さや出現を検知する"
+description = "Detect keyboard height and appearance with SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでKeyboardの高さや出現を検知する方法です。
-Combineを使って実現しています。
+It is a way to detect keyboard height and appearance with SwiftUI.
+It is implemented using Combine Frame Work.
 
 ![MultilineTextView](1.gif)
 

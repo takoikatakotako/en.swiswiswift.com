@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIで下からPickerを出す"
+title =  "Show picker from bottom with SwiftUI"
 url = "2020-02-26"
 date = "2020-02-26"
-description = "SwiftUIで下からPickerを出す"
+description = "Show picker from bottom with SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIで下から Picker を出す方法です。
-下からモーダルのように表示させています。
+It is a way to show picker from bottom with SwiftUI.
+Picker shows from bottom like a modal.
 
 ![PickerFromBottom](1.gif)
 

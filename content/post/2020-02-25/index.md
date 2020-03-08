@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでUIImagePickerControllerを使う"
+title =  "Using UIImagePickerController with SwiftUI"
 url = "2020-02-25"
 date = "2020-02-25"
-description = "SwiftUIでUIImagePickerControllerを使う"
+description = "Using UIImagePickerController with SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでSwiftUIでUIImagePickerControllerを使う方法です。
-UIKit と同じように任意の画像を取得することができました。
+It is a way to Using UIImagePickerController with SwiftUI.
+I can choose any image.
 
 ![ImagePicker](1.gif)
 

@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIで複数行の文字列を入力する"
+title =  "Input a multi-line string with SwiftUI"
 url = "2020-02-27"
 date = "2020-02-27"
-description = "SwiftUIで複数行の文字列を入力する"
+description = "Input a multi-line string with SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIで複数行の文字列を入力する方法です。
-UIKitのTextViewを使って実現しています。
-早く公式でTextView 相当のものが出て欲しいです。
+It is a way to input a multi-line string with SwiftUI.
+It is implemented using TextView of UIKit.
+I want Apple to release something like UITextView.
 
 ![MultilineTextView](1.gif)
 
