@@ -1,8 +1,8 @@
 +++
-title = "Alamofireを使ってAPIからJSONを取得する(Swift4.2)"
+title = "Obtaining JSON from the API using Alamofire(Swift4.2)"
 url = "2018-12-01"
 date = "2018-12-01"
-description = "Alamofireを使ってAPIからJSONを取得する(Swift4.2)"
+description = "Obtaining JSON from the API using Alamofire(Swift4.2)"
 tags = [
   "iOS",
 ]
@@ -15,14 +15,14 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-古い記事(Swift3)は こちら Alamofireを使ってAPIからJSONを取得する
+Old article (Swift3) is here Getting JSON from the API using Alamofire
 
 #Xcode 10.1  
 #Swift 4.2  
 
-swiftの有名な通信ライブラリであるAlamofireとこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、　お天気APIから情報を取得するサンプルです。  
-今回のサンプルでは非同期でJSONを取得し、アラートを表示します。  
-ATS の設定も必要なのでお忘れなく。  
+This is a sample to get information from the weather API using Alamofire, a famous swift communication library, and SwiftyJSON, a famous swift JSON library.  
+In this sample, the JSON is acquired asynchronously and an alert is displayed.  
+Don't forget to set up the ATS as well.  
 
 ![alt](1.gif)
 

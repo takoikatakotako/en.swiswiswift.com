@@ -16,7 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 #Swift4.2  
-print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。
+The print statement can be used to output information such as the contents of an array or a string to the console.
 
 <!-- Google Ads -->
 {{< google-ads >}}

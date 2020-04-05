@@ -1,8 +1,8 @@
 +++
-title = "SSH で入ることのできるDockerイメージ(Ubuntu14.04)"
+title = "Docker image that can be SSHed in(Ubuntu14.04)"
 url = "2018-12-26"
 date = "2018-12-26"
-description = "SSH で入ることのできるDockerイメージ(Ubuntu14.04)"
+description = "Docker image that can be SSHed in(Ubuntu14.04)"
 tags = [
   "iOS",
 ]
@@ -15,13 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
 
-Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。
+Click here for CentOS7
+Click here for CentOS6
 
-CentOS7はこちら
-CentOS6はこちら
-
-参考
+Reference
 [Docker 初心者 — ssh で接続できるサーバーを立てる](https://qiita.com/YumaInaura/items/adb20c8083fce2da86e1)
 
 ```

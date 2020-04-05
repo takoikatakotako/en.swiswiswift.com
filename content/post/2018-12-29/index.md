@@ -1,8 +1,8 @@
 +++
-title = "アプリ使用中に位置情報を取得する"
+title = "Obtaining location information while using the app"
 url = "2018-12-29"
 date = "2018-12-29"
-description = "アプリ使用中に位置情報を取得する"
+description = "Obtaining location information while using the app"
 tags = [
   "iOS",
 ]
@@ -17,26 +17,27 @@ aliases = ["migrate-from-jekyl"]
 
 #Swift 4.2
 
-アプリ使用中に緯度と経度を取得するサンプルコードです。  
-端末の緯度と経度が変わるとラベル文字列が更新されます。
+This is a sample code to get the latitude and longitude while using the app.  
+The label string is updated when the latitude and longitude of the terminal change.
 
-参考  
+Reference:  
 [[iOS] 位置情報の取得 (Swift3編)](https://dev.classmethod.jp/smartphone/ios-corelocation-swift3/)  
 [【CoreLocation】位置情報を取得する](https://qiita.com/chino_tweet/items/db3a536234a43a3c31d9)  
 
-LocationManagerを使用する場合は、「位置情報を利用する目的」をInfo.plistに記載する必要があります。  
 
-起動中のみ位置情報を取得する場合
+If you use LocationManager, you must include the "purpose for which location information is used" in your Info.plist.  
 
-`NSLocationWhenInUseUsageDescription`  
-`このアプリは、マップで道案内するため、位置情報を取得します`
+If you want to get location information only during startup
 
-常に位置情報を取得する場合
+`NSCattionWhenInUseUsageDescription`  
+`This app gets location information to guide you on the map`.
 
-`NSLocationAlwaysUsageDescription`  
-`åこのアプリは、移動距離取得のため、常に位置情報を取得します`
+If you always want to get location information
 
-位置情報が変更されるとラベルに文字が表示されます。
+`NSCationAlwaysUsageDescription`.  
+`This app always gets the location information to get the travel distance`.
+
+When the location information is changed, a character will appear on the label.
 
 ![alt](1.png)
 

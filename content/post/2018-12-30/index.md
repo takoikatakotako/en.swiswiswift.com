@@ -1,8 +1,8 @@
 +++
-title = "UITableViewの中身をUISearchBarで検索する(Swift4)"
+title = "Search the contents of UITableView with UISearchBar(Swift4)"
 url = "2018-12-30"
 date = "2018-12-30"
-description = "UITableViewの中身をUISearchBarで検索する(Swift4)"
+description = "Search the contents of UITableView with UISearchBar(Swift4)"
 tags = [
   "iOS",
 ]
@@ -18,8 +18,8 @@ aliases = ["migrate-from-jekyl"]
 
 #Swift4.2
 
-UITableViewとUISearchBarを組み合わせたサンプルです。
-ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。
+This is a sample of the combination of UITableView and UISearchBar.
+Pressing the magnifying glass on the navigation bar will bring up the SearchBar, and typing a character there will bring up the search results.
 
 Swift3　での記事はこちら
 

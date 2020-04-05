@@ -1,8 +1,8 @@
 +++
-title = "Lifesumアプリのインタラクションが素敵だったので再現してみた"
+title = "The interaction of the Lifesum app was nice, so I tried to recreate it."
 url = "2018-12-28"
 date = "2018-12-28"
-description = "Lifesumアプリのインタラクションが素敵だったので再現してみた"
+description = "The interaction of the Lifesum app was nice, so I tried to recreate it."
 tags = [
   "iOS",
 ]
@@ -16,8 +16,9 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 #Swift4.2  
-Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。  
-インタラクションの凄さと登録導線離脱率の相関が気になりますね。  
+
+I tried to recreate the interaction of the registration guide of the app Lifesum because it was very nice.  
+I'm curious about the correlation between the awesomeness of the interaction and the registration dropout rate.  
 
 ![alt](1.gif)
 

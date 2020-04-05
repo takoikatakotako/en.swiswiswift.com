@@ -1,8 +1,8 @@
 +++
-title = "SSH で入ることのできるDockerイメージ(CentOS7)"
+title = "Docker image that can be SSHed in(CentOS7)"
 url = "2018-12-25"
 date = "2018-12-25"
-description = "SSH で入ることのできるDockerイメージ(CentOS7)"
+description = "Docker image that can be SSHed in(CentOS7)"
 tags = [
   "Docker",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。
+For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
 
 ```
 docker build -t ssh_centos7:latest . --no-cache
