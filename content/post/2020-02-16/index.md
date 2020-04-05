@@ -1,8 +1,8 @@
 +++
-title =  "SwiftでCSVを集計する"
+title =  "Aggregating CSV with Swift"
 url = "2020-02-16"
 date = "2020-02-16"
-description = "SwiftでCSVを集計する"
+description = "Aggregating CSV with Swift"
 tags = [
     "Swift"
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swift で CSV を集計する方法です。
-まず前処理として、CSV ファイルを utf8 に変換する必要があります。
-Mac の場合は Numbers で開き、CSV で保存すると上手く行きました。
+How to aggregate CSV in Swift.
+First, we need to convert the CSV file to utf8 as a preprocessor.
+On a Mac, I opened it with Numbers and saved it as a CSV file.
 
 ```
 $ swift main.swift

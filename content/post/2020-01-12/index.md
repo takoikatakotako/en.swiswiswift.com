@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでPicker を表示する"
+title =  "Displaying a Picker in SwiftUI"
 url = "2020-01-12"
 date = "2020-01-12"
-description = "SwiftUIでPicker を表示する"
+description = "Displaying a Picker in SwiftUI"
 tags = [
     "Swift", "SwiftUI"
 ]
@@ -15,12 +15,13 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI で Picker を表示するサンプルです。
-複数行の場合はこちらです。 [SwiftUIで複数行のPickerを作成する](/2020-01-14/)
+This is a sample to display the picker in SwiftUI.
+In case of multiple lines, click here.
+ [Creating a multi-line picker in SwiftUI](/2020-01-14/)
 
 ![Picker Sample](1.gif)
 
-参考: [Is there a way to call a function when a SwiftUI Picker selection changes?](https://stackoverflow.com/questions/58676483/is-there-a-way-to-call-a-function-when-a-swiftui-picker-selection-changes)  
+Reference: [Is there a way to call a function when a SwiftUI Picker selection changes?](https://stackoverflow.com/questions/58676483/is-there-a-way-to-call-a-function-when-a-swiftui-picker-selection-changes)  
 
 
 <!-- Google Ads -->

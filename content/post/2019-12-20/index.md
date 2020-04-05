@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUI でアラートを表示する"
+title =  "Displaying an alert in SwiftUI"
 url = "2019-12-20"
 date = "2019-12-20"
-description = "SwiftUI でアラートを表示する"
+description = "Displaying an alert in SwiftUI"
 tags = [
     "SwiftUI"
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI でアラートを表示する方法です。
-UIAlertController とはかなり書き方が異なります。
-`Property Wrapper` の `@State` がまだ慣れません。
+How to display an alert in SwiftUI.
+It is written quite differently from UIAlertController.
+The `@State` of the `Property Wrapper` is still unfamiliar.
 
 
 ![ShowAlert](1.gif)

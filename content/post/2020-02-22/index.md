@@ -22,7 +22,7 @@ The video is from this site.
 
 I referred to this site.
 
-[動画の再生](https://docs.fabo.io/swift/avfoundation/006_avfoundation.html)
+[Play video](https://docs.fabo.io/swift/avfoundation/006_avfoundation.html)
 [How to detect when AVPlayer video ends playing?](https://stackoverflow.com/questions/29386531/how-to-detect-when-avplayer-video-ends-playing)
 
 ![PlayMovie](1.gif)

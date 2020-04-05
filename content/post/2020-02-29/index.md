@@ -20,7 +20,7 @@ It is realized by extending UIApplication.
 
 ![HideKeyboard](1.gif)
 
-[SwiftUIでキーボードを下げる（非表示にする）方法](https://qiita.com/Riscait/items/8e76182d8b4c2def0953)
+[How to lower (hide) the keyboard in SwiftUI](https://qiita.com/Riscait/items/8e76182d8b4c2def0953)
 
 <!-- Google Ads -->
 {{< google-ads >}}

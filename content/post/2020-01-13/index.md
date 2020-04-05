@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIのPickerでLabelを表示しない"
+title =  "Don't show the Label in the SwiftUI Picker"
 url = "2020-01-13"
 date = "2020-01-13"
-description = "SwiftUIのPickerでLabelを表示しない"
+description = "Don't show the Label in the SwiftUI Picker"
 tags = [
     "Swift", "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIのPickerでLabelを表示しない方法です。
-`labelsHidden` を設定することで可能です。
+How not to display the Label in the SwiftUI Picker.
+It is possible to do so by setting `labelsHidden`.
 
 ![Picker Sample](1.png)
 

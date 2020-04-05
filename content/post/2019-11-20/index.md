@@ -1,8 +1,8 @@
 +++
-title =  "ListViewからそれぞれ別のViewに遷移する（SwiftUI）"
+title =  "Transition from one ListView to another (SwiftUI)"
 url = "2019-11-20"
 date = "2019-11-20"
-description = "ListViewからそれぞれ別のViewに遷移する（SwiftUI）"
+description = "Transition from one ListView to another (SwiftUI)"
 tags = [
     "iOS", "Swift", "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。  
-もっと良い方法がある気がします。。。
+It was a bit of a hassle to transition from one ListView to another like the configuration screen.  
+I feel like there's a better way to do it.
 
 ![ListView to AnyView](1.gif)
 

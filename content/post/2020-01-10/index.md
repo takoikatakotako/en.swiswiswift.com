@@ -1,8 +1,8 @@
 +++
-title =  "Swiftで数字が連番になった配列を作成する"
+title =  "Create a sequential numbered array in Swift"
 url = "2020-01-10"
 date = "2020-01-10"
-description = "Swiftで数字が連番になった配列を作成する"
+description = "Create a sequential numbered array in Swift"
 tags = [
     "Swift", "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swiftで数字が連番になった配列を作成する方法です。
-なかなか書き方を覚えられません。
+Here's how to create a sequential numbered array in Swift.
+It's hard to remember how to write.
 
 <!-- Google Ads -->
 {{< google-ads >}}

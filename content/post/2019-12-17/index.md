@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでリストを編集する"
+title =  "Editing a List in SwiftUI"
 url = "2019-12-17"
 date = "2019-12-17"
-description = "SwiftUIでリストを編集する"
+description = "Editing a List in SwiftUI"
 tags = [
     "SwiftUI"
 ]
@@ -15,12 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでリストを編集する方法です。
-UITableView よりも短いコードで書くことができました。
+Here's how to edit a list in SwiftUI.
+I was able to write shorter code than UITableView.
 
 ![ListCellEdit](1.gif)
 
-参考: [How to enable editing on a list using EditButton](https://www.hackingwithswift.com/quick-start/swiftui/how-to-enable-editing-on-a-list-using-editbutton)
+Reference: [How to enable editing on a list using EditButton](https://www.hackingwithswift.com/quick-start/swiftui/how-to-enable-editing-on-a-list-using-editbutton)
 
 <!-- Google Ads -->
 {{< google-ads >}}

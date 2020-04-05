@@ -1,8 +1,8 @@
 +++
-title =  "ReplayKitを使って画面を録音する"
+title =  "Using ReplayKit to record a screen"
 url = "2020-02-12"
 date = "2020-02-12"
-description = "ReplayKitを使って画面を録音する"
+description = "Using ReplayKit to record a screen"
 tags = [
     "Swift"
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReplayKit を使うと画面を録画することができます。
-凄く簡単に使うことができる上に、マイクで実況？をしたりすることができます。
-今回は動画として保存しましたが、WebRTC と組み合わせたりと、いろいろなことに使うことができます。
+You can use ReplayKit to record your screen.
+It's very easy to use, and it's also very easy to use it on the mic. and so on.
+This time, I saved it as a video, but it can be used for many things, such as combining it with WebRTC.
 
 ![ReplayKit](1.png)
 

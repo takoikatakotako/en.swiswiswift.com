@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIで複数行のPickerを作成する"
+title =  "Creating a multi-line picker in SwiftUI"
 url = "2020-01-14"
 date = "2020-01-14"
-description = "SwiftUIで複数行のPickerを作成する"
+description = "Creating a multi-line picker in SwiftUI"
 tags = [
     "Swift", "SwiftUI"
 ]
@@ -15,12 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIPickerView のような複数行の Picker を作成する方法です。
-UIPickerView と使い勝手がかなり異なり、戸惑いました。
+This is a way to create a multi-line picker like UIPickerView.
+The usability is quite different from UIPickerView and I was puzzled.
 
 ![Multi-Component Picker Sample](1.gif)
 
-参考: [Multi-Component Picker (UIPickerView) in SwiftUI](https://stackoverflow.com/questions/56567539/multi-component-picker-uipickerview-in-swiftui)
+Reference: [Multi-Component Picker (UIPickerView) in SwiftUI](https://stackoverflow.com/questions/56567539/multi-component-picker-uipickerview-in-swiftui)
 
 <!-- Google Ads -->
 {{< google-ads >}}

@@ -1,8 +1,8 @@
 +++
-title =  "Swift5.1で追加されたFunctionBuilderを使ってStructを作る"
+title =  "Constructing a Struct using the FunctionBuilder added in Swift5.1"
 url = "2019-12-19"
 date = "2019-12-19"
-description = "Swift5.1で追加されたFunctionBuilderを使ってStructを作る"
+description = "Constructing a Struct using the FunctionBuilder added in Swift5.1"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。
-SwiftUI でも活躍していますね。
+This is how to create a Struct using the FunctionBuilder added in Swift 5.1.
+It's also active in SwiftUI.
 
 <!-- Google Ads -->
 {{< google-ads >}}

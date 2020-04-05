@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでWebViewを表示する"
+title =  "Displaying a WebView in SwiftUI"
 url = "2020-03-27"
 date = "2020-03-27"
-description = "SwiftUIでWebViewを表示する"
+description = "Displaying a WebView in SwiftUI"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでWebViewを表示する方法です。
-UIViewRepresentable を使わなくても良い WebView が早く出て欲しいです。
+How to display a WebView in SwiftUI.
+I hope they come out with a WebView that doesn't have to use UIViewRepresentable as soon as possible.
 
 ![WebView](1.gif)
 

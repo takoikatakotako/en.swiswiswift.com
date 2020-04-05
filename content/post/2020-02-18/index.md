@@ -1,8 +1,8 @@
 +++
-title =  "タップでセクション区切りのListViewにチェックを入れる"
+title =  "Tap to check the section-delimited ListView"
 url = "2020-02-18"
 date = "2020-02-18"
-description = "タップでセクション区切りのListViewにチェックを入れる"
+description = "Tap to check the section-delimited ListView"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-タップでセクション区切りのListViewにチェックを入れるサンプルです。
-タップすることで State が変化し、✔︎を描画するようになります。
+Here's a sample of tapping a check mark into a section-delimited ListView.
+Tap on it to change the state and draw ✔︎.
 
 ![CheckList](1.gif)
 

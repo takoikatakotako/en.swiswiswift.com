@@ -1,8 +1,8 @@
 +++
-title =  "StoryboardsをiOS13以上のプロジェクトから削除する"
+title =  "Remove Storyboards from projects running iOS13 and above"
 url = "2019-12-29"
 date = "2019-12-29"
-description = "StoryboardsをiOS13以上のプロジェクトから削除する"
+description = "Remove Storyboards from projects running iOS13 and above"
 tags = [
     "Swift", "iOS"
 ]
@@ -15,16 +15,16 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-`Swift` & `Storyboard` でファイルを作成します。
-`Main.storyboard` を削除します。
+Create a file with `Swift` & `Storyboard`.
+Removes `Main.storyboard`.
 
 ![Delete Storyboard](1.png)
 
-`Main storyboard file base name` の項を削除する。
+Delete the term `Main storyboard file base name`.
 
 ![Delete Main In Info.plist](2.png)
 
-`Application Scene Manifest` -> `Application Session Role` -> `Item0` -> `Storyboard Name` を削除する。
+`Application Scene Manifest` -> `Application Session Role` -> `Item0` -> Remove the `Storyboard Name`.
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -35,7 +35,7 @@ aliases = ["migrate-from-jekyl"]
 
 ![Delete Storyboard Name](3.png)
 
-`SceneDelegate.swift` で表示する ViewController を設定します。
+Set the ViewController to be displayed with `SceneDelegate.swift`.
 
 ```
 func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {

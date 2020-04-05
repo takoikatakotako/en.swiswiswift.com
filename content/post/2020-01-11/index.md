@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す"
+title =  "Calling the transition source method from the view of the screen transition destination in SwiftUI"
 url = "2020-01-11"
 date = "2020-01-11"
-description = "SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す"
+description = "Calling the transition source method from the view of the screen transition destination in SwiftUI"
 tags = [
     "Swift", "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。
-delegate を使ったのですが、Combine で書いた方がよいかもしれません。
+This is a sample that calls the transition source method from the view of the screen transition destination in SwiftUI.
+I used delegate, but it might be better to write in Combine.
 
 ![Delegate Sample](1.gif)
 

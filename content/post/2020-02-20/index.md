@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する"
+title =  "Display the side menu (hamburger menu) in SwiftUI with SwiftUI."
 url = "2020-02-20"
 date = "2020-02-20"
-description = "SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する"
+description = "Display the side menu (hamburger menu) in SwiftUI with SwiftUI."
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUIでサイドメニュー（ハンバーガーメニュー）を表示するサンプルです。
-ドラッグで消す箇所などいくつか妥協しました。もっと良いサイドメニューをかけたら再度記事を投稿します。
+Sample to display the side menu (hamburger menu) in SwiftUI.
+I made a few compromises, such as where I could drag it out. I'll post it again when I put on a better side menu.
 
 [How To Create A Side Menu (Hamburger Menu) In SwiftUI](https://blckbirds.com/post/side-menu-hamburger-menu-in-swiftui/)
 

@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでUICollectionViewのようにViewを並べる"
+title =  "Aligning Views like UICollectionView in SwiftUI"
 url = "2020-02-09"
 date = "2020-02-09"
-description = "SwiftUIでUICollectionViewのようにViewを並べる"
+description = "Aligning Views like UICollectionView in SwiftUI"
 tags = [
     "Swift", "SwiftUI"
 ]
@@ -15,13 +15,13 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI で UICollectionView のように表示する方法です。
-[Q-Mobile/QGrid](https://github.com/Q-Mobile/QGrid) というライブラリを使うと簡単です。
-QGrid を参考にしながら書いてみました。
+How to make it look like a UICollectionView in SwiftUI.
+It's easy to use a library called [Q-Mobile/QGrid](https://github.com/Q-Mobile/QGrid) .
+I wrote this with reference to QGrid.
 
 ![Grid View](1.gif)
 
-参考: [Q-Mobile/QGrid](https://github.com/Q-Mobile/QGrid)
+Reference: [Q-Mobile/QGrid](https://github.com/Q-Mobile/QGrid)
 
 <!-- Google Ads -->
 {{< google-ads >}}

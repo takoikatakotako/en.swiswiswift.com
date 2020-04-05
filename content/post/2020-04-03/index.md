@@ -1,8 +1,8 @@
 +++
-title =  "SwiftでPDFを作成する"
+title =  "Creating PDFs with Swift"
 url = "2020-04-03"
 date = "2020-04-03"
-description = "SwiftでPDFを作成する"
+description = "Creating PDFs with Swift"
 tags = [
     "Swift"
 ]

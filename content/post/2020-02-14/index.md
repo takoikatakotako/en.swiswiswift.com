@@ -1,8 +1,8 @@
 +++
-title =  "UIViewの背景をグリッドにしたり、ドットにしたりする"
+title =  "Make the background of UIView a grid or a dot."
 url = "2020-02-14"
 date = "2020-02-14"
-description = "UIViewの背景をグリッドにしたり、ドットにしたりする"
+description = "Make the background of UIView a grid or a dot."
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIView の背景をグリッドにしたり、ドットにしたりする方法です。
-今回は GridView という UIView のサブクラスを作り、ボタンを押すことでドットが切り替わるようにしました。
+Here's how to make the UIView background a grid or a dot.
+This time, I created a subclass of UIView called GridView so that the dots can be switched by pressing a button.
 
 ![GirdView](1.gif)
 

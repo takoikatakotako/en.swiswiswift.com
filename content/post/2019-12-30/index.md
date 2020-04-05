@@ -1,8 +1,8 @@
 +++
-title =  "MVPアーキテクチャを使ったサンプルアプリ"
+title =  "Sample apps using MVP architecture"
 url = "2019-12-30"
 date = "2019-12-30"
-description = "MVPアーキテクチャを使ったサンプルアプリ"
+description = "Sample apps using MVP architecture"
 tags = [
     "Swift"
 ]
@@ -15,14 +15,14 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-MVPアーキテクチャを使ったサンプルアプリです。
-Unitテスト、UIテストも書きました。
+This is a sample application using MVP architecture.
+I've also written unit tests and UI tests.
 
-以下のような数字を足し合わせるアプリです。
+It's an app that adds up numbers like the following
 
 ![MVP](1.gif)
 
-リポジトリはこちら↓
+The repository is here ↓
 
 [MVP-Sample](https://github.com/takoikatakotako/MVP-Sample)
 

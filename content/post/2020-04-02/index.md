@@ -1,8 +1,8 @@
 +++
-title =  "UIActivityViewControllerでText, JSON, PDFを共有する"
+title =  "Sharing Text, JSON and PDF with UIActivityViewController"
 url = "2020-04-02"
 date = "2020-04-02"
-description = "UIActivityViewControllerでText, JSON, PDFを共有する"
+description = "Sharing Text, JSON and PDF with UIActivityViewController"
 tags = [
     "Swift"
 ]
@@ -14,9 +14,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-UIActivityViewControllerでText, JSON, PDFを共有する方法です。
-簡単にファイルが共有できて実装が簡単なので重宝しています。
-画像、PDFなどは Data を渡しても認識しますが、JSON などは Data を渡しても認識しないので、ファイルパスを指定しています。
+How to share Text, JSON and PDF in UIActivityViewController.
+It's very useful because it's easy to share files and it's easy to implement.
+Images, PDFs, etc. are recognized by passing Data, but JSON, etc. are not recognized by passing Data, so the file path is specified.
 
 ![UIActivityViewController](1.png)
 

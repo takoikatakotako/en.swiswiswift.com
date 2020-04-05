@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでFirestoreの画像を表示する"
+title =  "Displaying a Firestore image in SwiftUI"
 url = "2020-02-08"
 date = "2020-02-08"
-description = "SwiftUIでFirestoreの画像を表示する"
+description = "Displaying a Firestore image in SwiftUI"
 tags = [
     "Swift", "SwiftUI", "Firebase"
 ]
@@ -15,12 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI で Firestore の画像を表示する方法です。
-UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができません。
-[SDWebImage/SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI)を使って以下のように書いてみました。
-もっと良い書き方がある気がします、これだとトークンも含めてキャッシュされちゃうような。。。
+How to display a Firestore image in SwiftUI.
+UIImage can be easily displayed using SDWebImage, but SwiftUI can't do that.
+I used [SDWebImage/SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI) to write the following
+I feel like there's a better way to write this, so that it's cached, including the tokens.
 
-参考:
+Reference:
 [iOS でファイルをダウンロードする](https://firebase.google.com/docs/storage/ios/download-files?hl=ja)
 [SDWebImage/SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI)
 

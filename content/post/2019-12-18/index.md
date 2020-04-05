@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでリストのセルをタップするとアラートが表示される方法"
+title =  "How to get an alert when you tap a cell in a list in SwiftUI"
 url = "2019-12-18"
 date = "2019-12-18"
-description = "SwiftUIでリストのセルをタップするとアラートが表示される方法"
+description = "How to get an alert when you tap a cell in a list in SwiftUI"
 tags = [
     "SwiftUI"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI でリストのセルをタップするとアラートが表示される方法です。
-まだまだ SwiftUI に慣れません。
+How to get an alert when you tap a cell in a list in SwiftUI.
+I still haven't gotten used to SwiftUI yet.
 
 ![ListCellEdit](1.gif)
 

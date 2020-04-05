@@ -1,8 +1,8 @@
 +++
-title =  "Dockerで Alpineベースのコンテナに入る"
+title =  "Getting into an Alpine based container with Docker"
 url = "2019-12-21"
 date = "2019-12-21"
-description = "Dockerで Alpineベースのコンテナに入る"
+description = "Getting into an Alpine based container with Docker"
 tags = [
     "Docker"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Docker コンテナの中に入ってシェルを使いたい時ありますよね。
-普通は以下のようなコマンドでコンテナの中に入るのですが、Alpine ベースの時は bash の代わりに ash を使って入ります。
+There are times when you want to go inside a Docker container and use a shell.
+Normally, you would use the following command to enter the container, but on the Alpine base, you would use ash instead of bash to enter the container.
 
 ```
 $ docker run --rm -t -i centos:centos7 /bin/bash

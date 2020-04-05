@@ -1,8 +1,8 @@
 +++
-title =  "HugoでGistが表示されない"
+title =  "Gist doesn't show up in Hugo"
 url = "2019-12-28"
 date = "2019-12-28"
-description = "HugoでGistが表示されない"
+description = "Gist doesn't show up in Hugo"
 tags = [
     "Hugo"
 ]
@@ -15,17 +15,17 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。
+When I updated the version of Hugo, I no longer see the following Gist page.
 
 ```
 <script src="https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js"></script>
 ```
 
-以下のように書き換えることで動作しました。
+It worked by rewriting it as follows.
 
 ![Replace](1.png)
 
-参考: [Shortcodes](https://gohugo.io/content-management/shortcodes/)
+Reference: [Shortcodes](https://gohugo.io/content-management/shortcodes/)
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -33,6 +33,6 @@ Hugo のバージョンを更新したところ、以下のような Gist のペ
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-置換は Atom の正規表現置換機能を使い一括置換を行いました。
+I used Atom's regular expression substitution function to do the substitution in bulk.
 
 ![Replace](2.png)

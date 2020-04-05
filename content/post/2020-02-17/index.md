@@ -1,8 +1,8 @@
 +++
-title =  "タップでListViewにチェックを入れる"
+title =  "Tap to check the ListView"
 url = "2020-02-17"
 date = "2020-02-17"
-description = "タップでListViewにチェックを入れる"
+description = "Tap to check the ListView"
 tags = [
     "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-タップで ListView にチェックを入れるサンプルです。
-タップすることで State が変化し、✔︎を描画するようになります。
+Here's a sample of tapping to check the ListView.
+Tap on it to change the state and draw ✔︎.
 
 ![CheckList](1.gif)
 

@@ -15,14 +15,14 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swiftで動画を再生するサンプルです。
-動画はこちらのサイトからお借りしました。
+This is a sample to play a video with Swift.
+The video was borrowed from this site.
 
 [Hybrid Creative Movies SAKURA](https://www.home-movie.biz/free_movie.html)
 
-こちらのサイトを参考にさせて頂きました。
+I used this site as a reference.
 
-[動画の再生](https://docs.fabo.io/swift/avfoundation/006_avfoundation.html)
+[PlayMovie](https://docs.fabo.io/swift/avfoundation/006_avfoundation.html)
 
 ![PlayMovie](1.gif)
 
