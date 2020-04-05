@@ -27,7 +27,7 @@
       
       <guid>https://en.swiswiswift.com/2018-06-21/</guid>
       <description>This is an implementation sample of PageViewController, which is often used for tutorial screens and e-book readers.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@ I like to implement it without using xib or storyborad, but what&#39;s best?</de
       <guid>https://en.swiswiswift.com/2018-06-03/</guid>
       <description>This is the code to add UINavigationController to UITabBarController. Implemented by including UINavigationBarController in UITabBarController.
 The implementation of UITabBarController is here. Implementing NavigationController
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ The implementation of UITabBarController is here. Implementing NavigationControl
       <guid>https://en.swiswiswift.com/2018-06-02/</guid>
       <description>This is a sample implementation of UITabBarController, which is used to switch views.
 The icon for UITabBarController is a 30×30 transparent png.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
   </channel>

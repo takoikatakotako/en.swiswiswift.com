@@ -18,7 +18,7 @@
       
       <guid>https://en.swiswiswift.com/2020-04-03/</guid>
       <description>How to create a PDF with Swift. I was able to create a PDF easily with PDFKit, which is nice.
-   (adsbygoogle = window.</description>
+Reference: Creating a PDF in Swift with PDFKit</description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://en.swiswiswift.com/2020-04-02/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;</description>
+      <description> </description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ How to lower (hide) the keyboard in SwiftUI</description>
       
       <guid>https://en.swiswiswift.com/2020-02-28/</guid>
       <description>It is a way to detect keyboard height and appearance with SwiftUI. It is implemented using Combine Frame Work.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -95,7 +95,7 @@ Importing an image into SwiftUI using UIImagePickerController</description>
       <guid>https://en.swiswiswift.com/2020-02-25/</guid>
       <description>It is a way to Using UIImagePickerController with SwiftUI. I can choose any image.
 Importing an image into SwiftUI using UIImagePickerController
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -114,7 +114,7 @@ Importing an image into SwiftUI using UIImagePickerController
       
       <guid>https://en.swiswiswift.com/2020-02-23/</guid>
       <description>I tried all the ModalPresentationStyle of iOS 13. Our department calls the PopPage modal a &amp;ldquo;fashionable modal&amp;rdquo;.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -164,7 +164,7 @@ I used this site as a reference.</description>
       
       <guid>https://en.swiswiswift.com/2020-02-18/</guid>
       <description>Here&#39;s a sample of tapping a check mark into a section-delimited ListView. Tap on it to change the state and draw ✔︎.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -174,7 +174,7 @@ I used this site as a reference.</description>
       
       <guid>https://en.swiswiswift.com/2020-02-17/</guid>
       <description>Here&#39;s a sample of tapping to check the ListView. Tap on it to change the state and draw ✔︎.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -230,7 +230,7 @@ I used this site as a reference.</description>
       <guid>https://en.swiswiswift.com/2020-02-05/</guid>
       <description>Detects changes to the SwiftUI toggle and executes a print statement.
 Reference: How can I trigger an action when a swiftUI toggle() is toggled?
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -278,7 +278,7 @@ Reference: Is there a way to call a function when a SwiftUI Picker selection cha
       
       <guid>https://en.swiswiswift.com/2020-01-10/</guid>
       <description>Here&#39;s how to create a sequential numbered array in Swift. It&#39;s hard to remember how to write.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -288,7 +288,7 @@ Reference: Is there a way to call a function when a SwiftUI Picker selection cha
       
       <guid>https://en.swiswiswift.com/2020-01-10/</guid>
       <description>Here&#39;s how to create a sequential numbered array in Swift. It&#39;s hard to remember how to write.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -317,7 +317,7 @@ It&#39;s an app that adds up numbers like the following</description>
       
       <guid>https://en.swiswiswift.com/2019-12-19/</guid>
       <description>This is how to create a Struct using the FunctionBuilder added in Swift 5.1. It&#39;s also active in SwiftUI.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -367,7 +367,7 @@ I&#39;m going to learn more about it!</description>
       
       <guid>https://en.swiswiswift.com/2019-11-13/</guid>
       <description>Here&#39;s how to display a list in SwiftUI. Since this is the screen after the screen transition, there is a NavigationBar.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -406,7 +406,7 @@ I was able to achieve this by using .rowHeight for batch return and heightForRow
       <guid>https://en.swiswiswift.com/2019-01-21/</guid>
       <description>This is the sample code for the NavigationContoroller.
 The NavigationContoroller moves sideways to make screen transitions.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -415,7 +415,7 @@ The NavigationContoroller moves sideways to make screen transitions.
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://en.swiswiswift.com/2019-01-20/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;</description>
+      <description> </description>
     </item>
     
   </channel>

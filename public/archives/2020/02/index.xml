@@ -28,7 +28,7 @@ How to lower (hide) the keyboard in SwiftUI</description>
       
       <guid>https://en.swiswiswift.com/2020-02-28/</guid>
       <description>It is a way to detect keyboard height and appearance with SwiftUI. It is implemented using Combine Frame Work.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@ Importing an image into SwiftUI using UIImagePickerController</description>
       <guid>https://en.swiswiswift.com/2020-02-25/</guid>
       <description>It is a way to Using UIImagePickerController with SwiftUI. I can choose any image.
 Importing an image into SwiftUI using UIImagePickerController
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -77,7 +77,7 @@ Importing an image into SwiftUI using UIImagePickerController
       
       <guid>https://en.swiswiswift.com/2020-02-23/</guid>
       <description>I tried all the ModalPresentationStyle of iOS 13. Our department calls the PopPage modal a &amp;ldquo;fashionable modal&amp;rdquo;.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -127,7 +127,7 @@ I used this site as a reference.</description>
       
       <guid>https://en.swiswiswift.com/2020-02-18/</guid>
       <description>Here&#39;s a sample of tapping a check mark into a section-delimited ListView. Tap on it to change the state and draw ✔︎.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -137,7 +137,7 @@ I used this site as a reference.</description>
       
       <guid>https://en.swiswiswift.com/2020-02-17/</guid>
       <description>Here&#39;s a sample of tapping to check the ListView. Tap on it to change the state and draw ✔︎.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -193,7 +193,7 @@ I used this site as a reference.</description>
       <guid>https://en.swiswiswift.com/2020-02-05/</guid>
       <description>Detects changes to the SwiftUI toggle and executes a print statement.
 Reference: How can I trigger an action when a swiftUI toggle() is toggled?
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
   </channel>

@@ -27,7 +27,7 @@
       
       <guid>https://en.swiswiswift.com/2018-11-20/</guid>
       <description>This can be achieved by creating a bottom_navigation_color.xml file under the res/color directory and writing the colors for each state in it.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
       
       <guid>https://en.swiswiswift.com/2018-11-19/</guid>
       <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
-$ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost    (adsbygoogle = window.</description>
+$ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost  </description>
     </item>
     
     <item>

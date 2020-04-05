@@ -3,18 +3,18 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
-    <title>Edit TableView and delete a Cell (side-slide). - SwiSwiSwift</title>
+    <title>Separate numbers into commas for each three digits (in Japanese yen) - SwiSwiSwift</title>
     <meta name="description"  content="iPhoneアプリ開発をしていて詰まったこと、忘備録を整理して公開しようと思い作ってみました。" />
     <meta property="og:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="index.html" />
     <meta property="og:image" content="swift.png" />
     <meta property="og:site_name" content="すいすいSwift" />
-    <meta property="og:description" content=" Edit TableView and delete a Cell (side-slide). | SwiSwiSwift " />
+    <meta property="og:description" content=" Separate numbers into commas for each three digits (in Japanese yen) | SwiSwiSwift " />
     <meta property="og:image:secure_url" content="swift.png" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Swiftの泳ぎ方と他の言語の忘備録" />
-    <meta name="twitter:description" content=" Edit TableView and delete a Cell (side-slide). | SwiSwiSwift " />
+    <meta name="twitter:description" content=" Separate numbers into commas for each three digits (in Japanese yen) | SwiSwiSwift " />
     <meta name="twitter:image" content="swift.png" />
 
     <style type="text/css">
@@ -41,7 +41,7 @@ if (!doNotTrack) {
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-82467612-2', 'auto');
+	ga('create', 'UA-82467612-4', 'auto');
 	
 	ga('send', 'pageview');
 }
@@ -81,7 +81,7 @@ if (!doNotTrack) {
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>Edit TableView and delete a Cell (side-slide).</h1>
+            <h1>Separate numbers into commas for each three digits (in Japanese yen)</h1>
             <div class="post-details">
                 <a rel="bookmark">
                     <time datetime="2018-04-23T423:120:06">2018-04-23</time>
@@ -96,7 +96,7 @@ if (!doNotTrack) {
         <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fen.swiswiswift.com%2f2018-04-23%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Edit TableView and delete a Cell (side-slide)." data-url="https://en.swiswiswift.com/2018-04-23/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Separate numbers into commas for each three digits (in Japanese yen)" data-url="https://en.swiswiswift.com/2018-04-23/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
@@ -107,31 +107,21 @@ if (!doNotTrack) {
 
         <div class="post-content">
             <!-- raw HTML omitted -->
-<p>This is a sample code to delete a Cell by editing TableView.<br>
-By adding the following functions, you can add the ability to delete a cell by sliding it horizontally.</p>
-<pre><code>func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
-</code></pre><p><img src="1.gif" alt="alt"></p>
+<p>I tried to find out how to divide the Japanese Yen by 3 digits, as in the Japanese Yen display.<br>
+It's like <code>123,456,789 yen</code> or something like that.</p>
+<p>Reference:<br>
+<a href="https://qiita.com/ktanaka117/items/57c43c897fb7040e0980">[Swift]数字を三桁ごとにカンマ区切りにする</a></p>
 <!-- raw HTML omitted -->
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5587141252700968"
-     data-ad-slot="1697863134"
-     data-ad-format="auto"
-     data-adtest="on"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 
 
 <!-- raw HTML omitted -->
 
-<script type="text/javascript">amzn_assoc_ad_type ="responsive_search_widget"; amzn_assoc_tracking_id ="swiswiswift-22"; amzn_assoc_marketplace ="amazon"; amzn_assoc_region ="JP"; amzn_assoc_placement =""; amzn_assoc_search_type = "search_widget";amzn_assoc_width ="auto"; amzn_assoc_height ="auto"; amzn_assoc_default_search_category =""; amzn_assoc_default_search_key ="";amzn_assoc_theme ="light"; amzn_assoc_bg_color ="FFFFFF"; </script><script src="//z-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&Marketplace=JP"></script>
 
 
-<script type="application/javascript" src="https://gist.github.com/takoikatakotako/8b7bb753b5230c2cf44b719c4e072cbe.js"></script>
+
+<script type="application/javascript" src="https://gist.github.com/takoikatakotako/a261ef58268086e280af08e62966a943.js"></script>
 
 
         </div>
@@ -169,7 +159,7 @@ By adding the following functions, you can add the ability to delete a cell by s
 	<h4></h4>
 	<ol style="margin-left: 30px; list-style-type: decimal;">
 		
-		<li><strong><a href="https://en.swiswiswift.com/2018-04-23/">Separate numbers into commas for each three digits (in Japanese yen)</a></strong></li>
+		<li><strong><a href="https://en.swiswiswift.com/2018-04-23/">Edit TableView and delete a Cell (side-slide).</a></strong></li>
 		
 		<li><strong><a href="https://en.swiswiswift.com/2018-04-20/">Get the current date and day of the week and the current time</a></strong></li>
 		
@@ -193,12 +183,12 @@ By adding the following functions, you can add the ability to delete a cell by s
         <div class="nav-links">
             <div class="nav-previous">
                 
-                <a class="previous" href="https://en.swiswiswift.com/2018-04-23/"> Separate numbers into commas for each three digits (in Japanese yen)</a>
+                <a class="previous" href="https://en.swiswiswift.com/2018-04-20/"> Get the current date and day of the week and the current time</a>
                 
             </div>
             <div class="nav-next">
                 
-                <a class="next" href="https://en.swiswiswift.com/2018-04-24/"> Edit TableView to delete a Cell</a>
+                <a class="next" href="https://en.swiswiswift.com/2018-04-23/"> Edit TableView and delete a Cell (side-slide).</a>
                 
             </div>
         </div>

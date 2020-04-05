@@ -67,7 +67,7 @@ I&#39;m going to learn more about it!</description>
       
       <guid>https://en.swiswiswift.com/2019-11-13/</guid>
       <description>Here&#39;s how to display a list in SwiftUI. Since this is the screen after the screen transition, there is a NavigationBar.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -96,7 +96,7 @@ Create a PEM file that includes both the certificate and the private key.</descr
       
       <guid>https://en.swiswiswift.com/2019-09-12/</guid>
       <description>How to update the version of cocoapods installed with gem. A rival for cocoapods? I&#39;m concerned about the carthage of
-gem update cocoapods pod --version    (adsbygoogle = window.</description>
+gem update cocoapods pod --version </description>
     </item>
     
     <item>
@@ -125,7 +125,7 @@ I was able to achieve this by using .rowHeight for batch return and heightForRow
       
       <guid>https://en.swiswiswift.com/2019-06-03/</guid>
       <description>This is a sample code to display a button using UIButton. I use the rounded corner buttons a lot.
-    (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -153,7 +153,7 @@ I was able to achieve this by using .rowHeight for batch return and heightForRow
       
       <guid>https://en.swiswiswift.com/2019-05-12/</guid>
       <description>You can use CallKit to use the UI on incoming calls. I used it to create an app that would call me.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -173,7 +173,7 @@ I was able to achieve this by using .rowHeight for batch return and heightForRow
       <guid>https://en.swiswiswift.com/2019-02-01/</guid>
       <description>This is a sample code to switch RootViewController with animation.
 It&#39;s supposed to be used after the tutorial and so on.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -213,7 +213,7 @@ If you didn&#39;t create it when you created the project, you can add it by foll
       <guid>https://en.swiswiswift.com/2019-01-21/</guid>
       <description>This is the sample code for the NavigationContoroller.
 The NavigationContoroller moves sideways to make screen transitions.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -222,7 +222,7 @@ The NavigationContoroller moves sideways to make screen transitions.
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://en.swiswiswift.com/2019-01-20/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;</description>
+      <description> </description>
     </item>
     
     <item>
@@ -244,7 +244,7 @@ It is a sample program to get an image from the photo library of the iPhone.</de
       
       <guid>https://en.swiswiswift.com/2019-01-02/</guid>
       <description>This is how to create a function in Swift. Lately, I&#39;ve been able to write without even looking at online articles.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -264,7 +264,7 @@ It is a sample program to get an image from the photo library of the iPhone.</de
       <guid>https://en.swiswiswift.com/2018-12-31/</guid>
       <description>#Swift4.2
 The print statement can be used to output information such as the contents of an array or a string to the console.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -342,7 +342,7 @@ This is a sample to get information from the weather API using Alamofire, a famo
       
       <guid>https://en.swiswiswift.com/2018-09-20/</guid>
       <description>Sample code to display the group style table view. The settings screen looks like this.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -371,7 +371,7 @@ SafeArea can be obtained by referring to the safeAreaInsets property in the view
       
       <guid>https://en.swiswiswift.com/2018-07-18/</guid>
       <description>This is a sample of a search with a search bar and a collection view in the collection view.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -390,7 +390,7 @@ SafeArea can be obtained by referring to the safeAreaInsets property in the view
       
       <guid>https://en.swiswiswift.com/2018-06-21/</guid>
       <description>This is an implementation sample of PageViewController, which is often used for tutorial screens and e-book readers.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -411,7 +411,7 @@ I like to implement it without using xib or storyborad, but what&#39;s best?</de
       <guid>https://en.swiswiswift.com/2018-06-03/</guid>
       <description>This is the code to add UINavigationController to UITabBarController. Implemented by including UINavigationBarController in UITabBarController.
 The implementation of UITabBarController is here. Implementing NavigationController
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -422,7 +422,7 @@ The implementation of UITabBarController is here. Implementing NavigationControl
       <guid>https://en.swiswiswift.com/2018-06-02/</guid>
       <description>This is a sample implementation of UITabBarController, which is used to switch views.
 The icon for UITabBarController is a 30×30 transparent png.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -518,7 +518,7 @@ By adding the following functions, you can add the ability to delete a cell by s
       
       <guid>https://en.swiswiswift.com/2018-03-17/</guid>
       <description>This is a sample of adding a TextField to UIAlertController.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -529,7 +529,7 @@ By adding the following functions, you can add the ability to delete a cell by s
       <guid>https://en.swiswiswift.com/2018-03-15/</guid>
       <description>This is the sample code for the NavigationContoroller.
 The NavigationContoroller moves sideways to make screen transitions.
-   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
+ </description>
     </item>
     
     <item>
@@ -611,7 +611,7 @@ This time, I created an app that allows you to choose between food, drink and fo
       <guid>https://en.swiswiswift.com/2017-12-13/</guid>
       <description>Repeat every three seconds using Time.
 I used it to create an app that functions like a clock.
-   (adsbygoogle = window.adsbygoogle || []).</description>
+ </description>
     </item>
     
     <item>
@@ -672,7 +672,7 @@ let backButton = UIBarButtonItem(title: &amp;quot;&amp;quot;, style: .plain, tar
       <guid>https://en.swiswiswift.com/2017-10-13/</guid>
       <description>Here&#39;s a sample that runs every second, after a few seconds in Swift.
 It is output to the console every second.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -683,7 +683,7 @@ It is output to the console every second.
       <guid>https://en.swiswiswift.com/2017-10-08/</guid>
       <description>This is a sample of setting a header in UITableView.
 The footer can be set up in the same way.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -770,7 +770,7 @@ In order to select images from the photo library, you have to specify that the p
       
       <guid>https://en.swiswiswift.com/2017-05-17/</guid>
       <description>It&#39;s about Ruby arrays. Recently, I&#39;ve been doing some competition programming in Ruby. I&#39;m worried about when to migrate to C++.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>

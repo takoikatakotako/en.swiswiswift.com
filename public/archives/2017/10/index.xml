@@ -30,7 +30,7 @@ let backButton = UIBarButtonItem(title: &amp;quot;&amp;quot;, style: .plain, tar
       <guid>https://en.swiswiswift.com/2017-10-13/</guid>
       <description>Here&#39;s a sample that runs every second, after a few seconds in Swift.
 It is output to the console every second.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ It is output to the console every second.
       <guid>https://en.swiswiswift.com/2017-10-08/</guid>
       <description>This is a sample of setting a header in UITableView.
 The footer can be set up in the same way.
-   (adsbygoogle = window.</description>
+ </description>
     </item>
     
     <item>
