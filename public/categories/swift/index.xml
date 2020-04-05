@@ -1,365 +1,421 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Swift on すいすいSwift</title>
-    <link>https://swiswiswift.com/categories/swift/</link>
-    <description>Recent content in Swift on すいすいSwift</description>
+    <title>Swift on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/categories/swift/</link>
+    <description>Recent content in Swift on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/categories/swift/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SwiftUIでListの要素を削除した入り増やしたりする</title>
-      <link>https://swiswiswift.com/2020-03-01/</link>
+      <title>Creating PDFs with Swift</title>
+      <link>https://en.swiswiswift.com/2020-04-03/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://en.swiswiswift.com/2020-04-03/</guid>
+      <description>How to create a PDF with Swift. I was able to create a PDF easily with PDFKit, which is nice.
+   (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>Sharing Text, JSON and PDF with UIActivityViewController</title>
+      <link>https://en.swiswiswift.com/2020-04-02/</link>
+      <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://en.swiswiswift.com/2020-04-02/</guid>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;</description>
+    </item>
+    
+    <item>
+      <title>Displaying a WebView in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-03-27/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://en.swiswiswift.com/2020-03-27/</guid>
+      <description>How to display a WebView in SwiftUI. I hope they come out with a WebView that doesn&#39;t have to use UIViewRepresentable as soon as possible.</description>
+    </item>
+    
+    <item>
+      <title>Delete and add contents of List with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-03-01/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-03-01/</guid>
-      <description>SwiftUIでListの要素を削除した入り増やしたりする方法です。 Closure で渡すのはあまりよくない気がし</description>
+      <guid>https://en.swiswiswift.com/2020-03-01/</guid>
+      <description>It is a way to add and delete contents in List in SwiftUI. It seems bad to pass a delete function in closure. Please let me know if there is a better way.</description>
     </item>
     
     <item>
-      <title>SwiftUIでキーボードをボタンで隠す</title>
-      <link>https://swiswiswift.com/2020-02-29/</link>
+      <title>Hide keyboard with buttons in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-29/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-29/</guid>
-      <description>SwiftUIでキーボードをボタンで隠す方法です。 UIApplicationを拡張して実現しています</description>
+      <guid>https://en.swiswiswift.com/2020-02-29/</guid>
+      <description>It is a way to hide the keyboard with a button in SwiftUI. It is realized by extending UIApplication.
+How to lower (hide) the keyboard in SwiftUI</description>
     </item>
     
     <item>
-      <title>SwiftUIでKeyboardの高さや出現を検知する</title>
-      <link>https://swiswiswift.com/2020-02-28/</link>
+      <title>Detect keyboard height and appearance with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-28/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-28/</guid>
-      <description>SwiftUIでKeyboardの高さや出現を検知する方法です。 Combineを使って実現しています</description>
+      <guid>https://en.swiswiswift.com/2020-02-28/</guid>
+      <description>It is a way to detect keyboard height and appearance with SwiftUI. It is implemented using Combine Frame Work.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>SwiftUIで複数行の文字列を入力する</title>
-      <link>https://swiswiswift.com/2020-02-27/</link>
+      <title>Input a multi-line string with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-27/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-27/</guid>
-      <description>SwiftUIで複数行の文字列を入力する方法です。 UIKitのTextViewを使って実現しています</description>
+      <guid>https://en.swiswiswift.com/2020-02-27/</guid>
+      <description>It is a way to input a multi-line string with SwiftUI. It is implemented using TextView of UIKit. I want Apple to release something like UITextView.</description>
     </item>
     
     <item>
-      <title>SwiftUIで下からPickerを出す</title>
-      <link>https://swiswiswift.com/2020-02-26/</link>
+      <title>Show picker from bottom with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-26/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-26/</guid>
-      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2020-02-26/</guid>
+      <description>It is a way to show picker from bottom with SwiftUI. Picker shows from bottom like a modal.
+Importing an image into SwiftUI using UIImagePickerController</description>
     </item>
     
     <item>
-      <title>SwiftUIでUIImagePickerControllerを使う</title>
-      <link>https://swiswiswift.com/2020-02-25/</link>
+      <title>Using UIImagePickerController with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-25/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-25/</guid>
-      <description>SwiftUIでSwiftUIでUIImagePickerControllerを使う方法です。 UIKit と同</description>
+      <guid>https://en.swiswiswift.com/2020-02-25/</guid>
+      <description>It is a way to Using UIImagePickerController with SwiftUI. I can choose any image.
+Importing an image into SwiftUI using UIImagePickerController
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIでButton内の画像の色を変えない</title>
-      <link>https://swiswiswift.com/2020-02-24/</link>
+      <title>Do not change the color of the Image in the Button with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-24/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-24/</guid>
-      <description>SwiftUIでButton内の画像の色を変えない方法です。 デフォルトのままだと以下の画像のように色</description>
+      <guid>https://en.swiswiswift.com/2020-02-24/</guid>
+      <description>It is a way to do not change the color of the Image in the Button with SwiftUI. If you keep the default, the color will change to blue as in the following image.</description>
     </item>
     
     <item>
-      <title>iOS13のModalPresentationStyleを全部試してみた</title>
-      <link>https://swiswiswift.com/2020-02-23/</link>
+      <title>I tried all the ModalPresentationStyle of iOS 13</title>
+      <link>https://en.swiswiswift.com/2020-02-23/</link>
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-23/</guid>
-      <description>iOS13のModalPresentationStyleを全部試してみました。 PopPage モーダルのことを弊社</description>
+      <guid>https://en.swiswiswift.com/2020-02-23/</guid>
+      <description>I tried all the ModalPresentationStyle of iOS 13. Our department calls the PopPage modal a &amp;ldquo;fashionable modal&amp;rdquo;.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>Swiftで動画の終了を検知する</title>
-      <link>https://swiswiswift.com/2020-02-22/</link>
+      <title>Detect video end with Swift</title>
+      <link>https://en.swiswiswift.com/2020-02-22/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-22/</guid>
-      <description>Swiftで動画の終了を検知するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちら</description>
+      <guid>https://en.swiswiswift.com/2020-02-22/</guid>
+      <description>It is a way to detect video end with Swift. The video is from this site.
+Hybrid Creative Movies SAKURA
+I referred to this site.</description>
     </item>
     
     <item>
-      <title>Swiftで動画を再生する</title>
-      <link>https://swiswiswift.com/2020-02-21/</link>
+      <title>Play videos with Swift</title>
+      <link>https://en.swiswiswift.com/2020-02-21/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-21/</guid>
-      <description>Swiftで動画を再生するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちらのサイ</description>
+      <guid>https://en.swiswiswift.com/2020-02-21/</guid>
+      <description>This is a sample to play a video with Swift. The video was borrowed from this site.
+Hybrid Creative Movies SAKURA
+I used this site as a reference.</description>
     </item>
     
     <item>
-      <title>SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する</title>
-      <link>https://swiswiswift.com/2020-02-20/</link>
+      <title>Display the side menu (hamburger menu) in SwiftUI with SwiftUI.</title>
+      <link>https://en.swiswiswift.com/2020-02-20/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-20/</guid>
-      <description>SwiftUIでサイドメニュー（ハンバーガーメニュー）を表示するサンプルです。 ドラッグで消す箇所など</description>
+      <guid>https://en.swiswiswift.com/2020-02-20/</guid>
+      <description>Sample to display the side menu (hamburger menu) in SwiftUI. I made a few compromises, such as where I could drag it out. I&#39;ll post it again when I put on a better side menu.</description>
     </item>
     
     <item>
-      <title>SwiftUIのListのSectionの色を変える</title>
-      <link>https://swiswiswift.com/2020-02-19/</link>
+      <title>Change the color of Section of List in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-19/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-19/</guid>
-      <description>SwiftUIのListのSectionの色を変えるサンプルです。 Appearanceを使って背景色</description>
+      <guid>https://en.swiswiswift.com/2020-02-19/</guid>
+      <description>This is a sample to change the color of Section of List in SwiftUI. There are some articles that use Appearance to change the background color, but I was able to do it in the following way.</description>
     </item>
     
     <item>
-      <title>タップでセクション区切りのListViewにチェックを入れる</title>
-      <link>https://swiswiswift.com/2020-02-18/</link>
+      <title>Tap to check the section-delimited ListView</title>
+      <link>https://en.swiswiswift.com/2020-02-18/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-18/</guid>
-      <description>タップでセクション区切りのListViewにチェックを入れるサンプルです。 タップすることで State が変化し</description>
+      <guid>https://en.swiswiswift.com/2020-02-18/</guid>
+      <description>Here&#39;s a sample of tapping a check mark into a section-delimited ListView. Tap on it to change the state and draw ✔︎.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>タップでListViewにチェックを入れる</title>
-      <link>https://swiswiswift.com/2020-02-17/</link>
+      <title>Tap to check the ListView</title>
+      <link>https://en.swiswiswift.com/2020-02-17/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-17/</guid>
-      <description>タップで ListView にチェックを入れるサンプルです。 タップすることで State が変化し、✔︎を描画するようになります。</description>
+      <guid>https://en.swiswiswift.com/2020-02-17/</guid>
+      <description>Here&#39;s a sample of tapping to check the ListView. Tap on it to change the state and draw ✔︎.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>SwiftでCSVを集計する</title>
-      <link>https://swiswiswift.com/2020-02-16/</link>
+      <title>Aggregating CSV with Swift</title>
+      <link>https://en.swiswiswift.com/2020-02-16/</link>
       <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-16/</guid>
-      <description>Swift で CSV を集計する方法です。 まず前処理として、CSV ファイルを utf8 に変換する必要があります。 Mac の場合は Numbers</description>
+      <guid>https://en.swiswiswift.com/2020-02-16/</guid>
+      <description>How to aggregate CSV in Swift. First, we need to convert the CSV file to utf8 as a preprocessor. On a Mac, I opened it with Numbers and saved it as a CSV file.</description>
     </item>
     
     <item>
-      <title>UIViewの背景をグリッドにしたり、ドットにしたりする</title>
-      <link>https://swiswiswift.com/2020-02-14/</link>
+      <title>Make the background of UIView a grid or a dot.</title>
+      <link>https://en.swiswiswift.com/2020-02-14/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-14/</guid>
-      <description>UIView の背景をグリッドにしたり、ドットにしたりする方法です。 今回は GridView という UIView のサブクラスを作り、ボタンを</description>
+      <guid>https://en.swiswiswift.com/2020-02-14/</guid>
+      <description>Here&#39;s how to make the UIView background a grid or a dot. This time, I created a subclass of UIView called GridView so that the dots can be switched by pressing a button.</description>
     </item>
     
     <item>
-      <title>ReplayKitを使って画面を録音する</title>
-      <link>https://swiswiswift.com/2020-02-12/</link>
+      <title>Using ReplayKit to record a screen</title>
+      <link>https://en.swiswiswift.com/2020-02-12/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-12/</guid>
-      <description>ReplayKit を使うと画面を録画することができます。 凄く簡単に使うことができる上に、マイクで実況？をしたりするこ</description>
+      <guid>https://en.swiswiswift.com/2020-02-12/</guid>
+      <description>You can use ReplayKit to record your screen. It&#39;s very easy to use, and it&#39;s also very easy to use it on the mic. and so on.</description>
     </item>
     
     <item>
-      <title>SwiftUIでUICollectionViewのようにViewを並べる</title>
-      <link>https://swiswiswift.com/2020-02-09/</link>
+      <title>Aligning Views like UICollectionView in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-09/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-09/</guid>
-      <description>SwiftUI で UICollectionView のように表示する方法です。 Q-Mobile/QGrid というライブラリを使うと簡単です。 QGrid を参考にしながら書いてみました</description>
+      <guid>https://en.swiswiswift.com/2020-02-09/</guid>
+      <description>How to make it look like a UICollectionView in SwiftUI. It&#39;s easy to use a library called Q-Mobile/QGrid . I wrote this with reference to QGrid.</description>
     </item>
     
     <item>
-      <title>SwiftUIでFirestoreの画像を表示する</title>
-      <link>https://swiswiswift.com/2020-02-08/</link>
+      <title>Displaying a Firestore image in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-08/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-08/</guid>
-      <description>SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができませ</description>
+      <guid>https://en.swiswiswift.com/2020-02-08/</guid>
+      <description>How to display a Firestore image in SwiftUI. UIImage can be easily displayed using SDWebImage, but SwiftUI can&#39;t do that. I used SDWebImage/SDWebImageSwiftUI to write</description>
     </item>
     
     <item>
-      <title>SwiftUIのToggleの変更を検知する</title>
-      <link>https://swiswiswift.com/2020-02-05/</link>
+      <title>Detecting changes to the SwiftUI Toggle</title>
+      <link>https://en.swiswiswift.com/2020-02-05/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-05/</guid>
-      <description>SwiftUIのToggleの変更を検知し、print 文を実行します。 参考: How can I trigger an action when a swiftUI toggle() is toggled?</description>
+      <guid>https://en.swiswiswift.com/2020-02-05/</guid>
+      <description>Detects changes to the SwiftUI toggle and executes a print statement.
+Reference: How can I trigger an action when a swiftUI toggle() is toggled?
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIで複数行のPickerを作成する</title>
-      <link>https://swiswiswift.com/2020-01-14/</link>
+      <title>Creating a multi-line picker in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-01-14/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-14/</guid>
-      <description>UIPickerView のような複数行の Picker を作成する方法です。 UIPickerView と使い勝手がかなり異なり、戸惑いました。 参考: Multi-Component Picker (UIPickerView) in SwiftUI (adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2020-01-14/</guid>
+      <description>This is a way to create a multi-line picker like UIPickerView. The usability is quite different from UIPickerView and I was puzzled.
+Reference: Multi-Component Picker (UIPickerView) in SwiftUI</description>
     </item>
     
     <item>
-      <title>SwiftUIのPickerでLabelを表示しない</title>
-      <link>https://swiswiswift.com/2020-01-13/</link>
+      <title>Don&#39;t show the Label in the SwiftUI Picker</title>
+      <link>https://en.swiswiswift.com/2020-01-13/</link>
       <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-13/</guid>
-      <description>SwiftUIのPickerでLabelを表示しない方法です。 labelsHidden を設定することで可能です。 参考: How to</description>
+      <guid>https://en.swiswiswift.com/2020-01-13/</guid>
+      <description>How not to display the Label in the SwiftUI Picker. It is possible to do so by setting labelsHidden. 参考: How to hide</description>
     </item>
     
     <item>
-      <title>SwiftUIでPicker を表示する</title>
-      <link>https://swiswiswift.com/2020-01-12/</link>
+      <title>Displaying a Picker in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-01-12/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-12/</guid>
-      <description>SwiftUI で Picker を表示するサンプルです。 複数行の場合はこちらです。 SwiftUIで複数行のPickerを作成す</description>
+      <guid>https://en.swiswiswift.com/2020-01-12/</guid>
+      <description>This is a sample to display the picker in SwiftUI. In case of multiple lines, click here. Creating a multi-line picker in SwiftUI
+Reference: Is there a way to call a function when a SwiftUI Picker selection changes?</description>
     </item>
     
     <item>
-      <title>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す</title>
-      <link>https://swiswiswift.com/2020-01-11/</link>
+      <title>Calling the transition source method from the view of the screen transition destination in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-01-11/</link>
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-11/</guid>
-      <description>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。 delegate を使ったのですが、Combine で書</description>
+      <guid>https://en.swiswiswift.com/2020-01-11/</guid>
+      <description>This is a sample that calls the transition source method from the view of the screen transition destination in SwiftUI. I used delegate, but it might be better to write in Combine.</description>
     </item>
     
     <item>
-      <title>Swiftで数字が連番になった配列を作成する</title>
-      <link>https://swiswiswift.com/2020-01-10/</link>
+      <title>Create a sequential numbered array in Swift</title>
+      <link>https://en.swiswiswift.com/2020-01-10/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-10/</guid>
-      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;;</description>
+      <guid>https://en.swiswiswift.com/2020-01-10/</guid>
+      <description>Here&#39;s how to create a sequential numbered array in Swift. It&#39;s hard to remember how to write.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>Swiftで数字が連番になった配列を作成する</title>
-      <link>https://swiswiswift.com/2020-01-10/</link>
+      <title>Create a sequential numbered array in Swift</title>
+      <link>https://en.swiswiswift.com/2020-01-10/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-10/</guid>
-      <description>Swiftで数字が連番になった配列を作成する方法です。 なかなか書き方を覚えられません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;;</description>
+      <guid>https://en.swiswiswift.com/2020-01-10/</guid>
+      <description>Here&#39;s how to create a sequential numbered array in Swift. It&#39;s hard to remember how to write.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>MVPアーキテクチャを使ったサンプルアプリ</title>
-      <link>https://swiswiswift.com/2019-12-30/</link>
+      <title>Sample apps using MVP architecture</title>
+      <link>https://en.swiswiswift.com/2019-12-30/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-30/</guid>
-      <description>MVPアーキテクチャを使ったサンプルアプリです。 Unitテスト、UIテストも書きました。 以下のような</description>
+      <guid>https://en.swiswiswift.com/2019-12-30/</guid>
+      <description>This is a sample application using MVP architecture. I&#39;ve also written unit tests and UI tests.
+It&#39;s an app that adds up numbers like the following</description>
     </item>
     
     <item>
-      <title>StoryboardsをiOS13以上のプロジェクトから削除する</title>
-      <link>https://swiswiswift.com/2019-12-29/</link>
+      <title>Remove Storyboards from projects running iOS13 and above</title>
+      <link>https://en.swiswiswift.com/2019-12-29/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-29/</guid>
-      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削</description>
+      <guid>https://en.swiswiswift.com/2019-12-29/</guid>
+      <description>Create a file with Swift &amp;amp; Storyboard. Removes Main.storyboard. Delete the term Main storyboard file base name. Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt;</description>
     </item>
     
     <item>
-      <title>Swift5.1で追加されたFunctionBuilderを使ってStructを作る</title>
-      <link>https://swiswiswift.com/2019-12-19/</link>
+      <title>Constructing a Struct using the FunctionBuilder added in Swift5.1</title>
+      <link>https://en.swiswiswift.com/2019-12-19/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-19/</guid>
-      <description>Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。 SwiftUI でも</description>
+      <guid>https://en.swiswiswift.com/2019-12-19/</guid>
+      <description>This is how to create a Struct using the FunctionBuilder added in Swift 5.1. It&#39;s also active in SwiftUI.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>TabViewを使って画面を切り替える（SwiftUI）</title>
-      <link>https://swiswiswift.com/2019-11-21/</link>
+      <title>Using TabView to switch screens (SwiftUI)</title>
+      <link>https://en.swiswiswift.com/2019-11-21/</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-21/</guid>
-      <description>TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。 TabView - SwiftUI | Apple Developer Documentation</description>
+      <guid>https://en.swiswiswift.com/2019-11-21/</guid>
+      <description>Here&#39;s a sample of how to switch screens using TabView. It&#39;s pretty easy to write about, isn&#39;t it?
+TabView - SwiftUI | Apple Developer Documentation</description>
     </item>
     
     <item>
-      <title>ListViewからそれぞれ別のViewに遷移する（SwiftUI）</title>
-      <link>https://swiswiswift.com/2019-11-20/</link>
+      <title>Transition from one ListView to another (SwiftUI)</title>
+      <link>https://en.swiswiswift.com/2019-11-20/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-20/</guid>
-      <description>設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。 もっと良い方</description>
+      <guid>https://en.swiswiswift.com/2019-11-20/</guid>
+      <description>It was a bit of a hassle to transition from one ListView to another like the configuration screen.
+I feel like there&#39;s a better way to do it.</description>
     </item>
     
     <item>
-      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
-      <link>https://swiswiswift.com/2019-11-19/</link>
+      <title>Parsing the Json received in Alamofire using Codable</title>
+      <link>https://en.swiswiswift.com/2019-11-19/</link>
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-19/</guid>
-      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパース</description>
+      <guid>https://en.swiswiswift.com/2019-11-19/</guid>
+      <description>This is a way of tapping お天気Webサービス（Livedoor</description>
     </item>
     
     <item>
-      <title>SwiftUIでStructが使いまわされる</title>
-      <link>https://swiswiswift.com/2019-11-14/</link>
+      <title>SwiftUI gets used a lot with Struct</title>
+      <link>https://en.swiswiswift.com/2019-11-14/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-14/</guid>
-      <description>onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでし</description>
+      <guid>https://en.swiswiswift.com/2019-11-14/</guid>
+      <description>This was avoided by regenerating the id with onDisappear.
+If there is no change in @State, does that mean that you use the cache?
+I&#39;m going to learn more about it!</description>
     </item>
     
     <item>
-      <title>SwiftUIでListを表示する</title>
-      <link>https://swiswiswift.com/2019-11-13/</link>
+      <title>Displaying a List in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-11-13/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-13/</guid>
-      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <guid>https://en.swiswiswift.com/2019-11-13/</guid>
+      <description>Here&#39;s how to display a list in SwiftUI. Since this is the screen after the screen transition, there is a NavigationBar.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>TableViewのセルの高さを変更する（Swift5.0.1）</title>
-      <link>https://swiswiswift.com/2019-07-30/</link>
+      <title>Changing the height of a TableView cell (Swift5.0.1)</title>
+      <link>https://en.swiswiswift.com/2019-07-30/</link>
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-07-30/</guid>
-      <description>TableView のセルの高さを変更する方法です。 一括で帰るときは .rowHeight を使い、個別に変えたいときは heightForRowAt を使うと実現できま</description>
+      <guid>https://en.swiswiswift.com/2019-07-30/</guid>
+      <description>This is how to change the height of a cell in TableView.
+I was able to achieve this by using .rowHeight for batch return and heightForRowAt for individual changes.</description>
     </item>
     
     <item>
-      <title>一定間隔の値をUISlider で取得する(Swift5.0)</title>
-      <link>https://swiswiswift.com/2019-06-02/</link>
+      <title>Using UISlider to retrieve a value at regular intervals (Swift5.0)</title>
+      <link>https://en.swiswiswift.com/2019-06-02/</link>
       <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-06-02/</guid>
-      <description>0, 0.5, 1.0, 1.5 …. と一定間隔の値をUISlider で取得するサンプルコードです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;;</description>
+      <guid>https://en.swiswiswift.com/2019-06-02/</guid>
+      <description>0, 0.5, 1.0, 1.5 &amp;hellip;.. The following is a sample code to get the value at regular intervals of 0, 0, 5, 1, 0, 1, 1, 0, 1, 1, 5, and so on with UISlider.</description>
     </item>
     
     <item>
-      <title>UITableViewでテーブルにアイテムを表示（Swift4.2）</title>
-      <link>https://swiswiswift.com/2019-01-22/</link>
+      <title>Display items in a table with UITableView（Swift4.2）</title>
+      <link>https://en.swiswiswift.com/2019-01-22/</link>
       <pubDate>Tue, 22 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-22/</guid>
-      <description>UITableViewのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDeveloperリファレンスUITa</description>
+      <guid>https://en.swiswiswift.com/2019-01-22/</guid>
+      <description>UITableView&#39;s class hierarchy NSObject ↑ UIResponder ↑ UIView ↑ UIScrollView ↑ UITableView AppleDevelope</description>
     </item>
     
     <item>
-      <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
-      <link>https://swiswiswift.com/2019-01-21/</link>
+      <title>Screen transition in NavigationController（Swift4.2）</title>
+      <link>https://en.swiswiswift.com/2019-01-21/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-21/</guid>
-      <description>NavigationContorollerのサンプルコードです。 NavigationContorol</description>
+      <guid>https://en.swiswiswift.com/2019-01-21/</guid>
+      <description>This is the sample code for the NavigationContoroller.
+The NavigationContoroller moves sideways to make screen transitions.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
-      <link>https://swiswiswift.com/2019-01-20/</link>
+      <title>Switching the Root of NavigationController（Swift4.2）</title>
+      <link>https://en.swiswiswift.com/2019-01-20/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-20/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <guid>https://en.swiswiswift.com/2019-01-20/</guid>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;</description>
     </item>
     
   </channel>

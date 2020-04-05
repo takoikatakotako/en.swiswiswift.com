@@ -1,8 +1,8 @@
 +++
-title = "現在時刻の取得"
+title = "Obtaining the current time"
 url = "2017-05-08"
 date = "2017-05-08"
-description = "現在時刻の取得"
+description = "Obtaining the current time"
 tags = [
     "iOS",
 ]
@@ -15,13 +15,13 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-現在時間を取得します。
+Get the current time.
 
 [AppleDeveloperリファレンスNSCalender](https://developer.apple.com/documentation/foundation/nscalendar)
 
-サンプルプログラム
+sample program
 
-以下に示します
+It is shown below.
 
 <!-- Google Ads -->
 {{< google-ads >}}

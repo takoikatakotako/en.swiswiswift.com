@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/07 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/07/</link>
-    <description>Recent content in 2018/07 on すいすいSwift</description>
+    <title>2018/07 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/07/</link>
+    <description>Recent content in 2018/07 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Wed, 18 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/07/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/07/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CollectionViewにSearchBarをつけて検索する</title>
-      <link>https://swiswiswift.com/2018-07-18/</link>
+      <title>Search with SearchBar in CollectionView</title>
+      <link>https://en.swiswiswift.com/2018-07-18/</link>
       <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-07-18/</guid>
-      <description>コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace</description>
+      <guid>https://en.swiswiswift.com/2018-07-18/</guid>
+      <description>This is a sample of a search with a search bar and a collection view in the collection view.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>最小構成のhtml、css、javascriptのテンプレート</title>
-      <link>https://swiswiswift.com/2018-07-17/</link>
+      <title>Minimum configuration html, css, javascript templates</title>
+      <link>https://en.swiswiswift.com/2018-07-17/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-07-17/</guid>
-      <description>html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <guid>https://en.swiswiswift.com/2018-07-17/</guid>
+      <description>It&#39;s a minimal HTML, CSS, and javascript template.
+I look it up every time, so here are my notes.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
   </channel>

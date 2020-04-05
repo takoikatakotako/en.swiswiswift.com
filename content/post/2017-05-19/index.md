@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-FizzBuzzをRubyで解いてみました。
-いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。
-
+I tried to solve FizzBuzz with Ruby.
+It's interesting to see the differences between different languages when creating FizzBuzz.
 
 <!-- Google Ads -->
 {{< google-ads >}}

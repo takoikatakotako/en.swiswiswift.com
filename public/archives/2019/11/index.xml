@@ -1,104 +1,111 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019/11 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2019/11/</link>
-    <description>Recent content in 2019/11 on すいすいSwift</description>
+    <title>2019/11 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2019/11/</link>
+    <description>Recent content in 2019/11 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2019/11/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2019/11/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dockerを使ってPostgreSQLを立て、テーブルを作成する。</title>
-      <link>https://swiswiswift.com/2019-11-22/</link>
+      <title>Use Docker to set up PostgreSQL and create tables.</title>
+      <link>https://en.swiswiswift.com/2019-11-22/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-22/</guid>
-      <description>postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーで</description>
+      <guid>https://en.swiswiswift.com/2019-11-22/</guid>
+      <description>postgres-Docker Hub The following command allows you to set up postgres11 on the local 5432 port and log in as a user named kabigon. (password</description>
     </item>
     
     <item>
-      <title>TabViewを使って画面を切り替える（SwiftUI）</title>
-      <link>https://swiswiswift.com/2019-11-21/</link>
+      <title>Using TabView to switch screens (SwiftUI)</title>
+      <link>https://en.swiswiswift.com/2019-11-21/</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-21/</guid>
-      <description>TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。 TabView - SwiftUI | Apple Developer Documentation</description>
+      <guid>https://en.swiswiswift.com/2019-11-21/</guid>
+      <description>Here&#39;s a sample of how to switch screens using TabView. It&#39;s pretty easy to write about, isn&#39;t it?
+TabView - SwiftUI | Apple Developer Documentation</description>
     </item>
     
     <item>
-      <title>ListViewからそれぞれ別のViewに遷移する（SwiftUI）</title>
-      <link>https://swiswiswift.com/2019-11-20/</link>
+      <title>Transition from one ListView to another (SwiftUI)</title>
+      <link>https://en.swiswiswift.com/2019-11-20/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-20/</guid>
-      <description>設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。 もっと良い方</description>
+      <guid>https://en.swiswiswift.com/2019-11-20/</guid>
+      <description>It was a bit of a hassle to transition from one ListView to another like the configuration screen.
+I feel like there&#39;s a better way to do it.</description>
     </item>
     
     <item>
-      <title>Alamofireで受け取ったJsonをCodableを使ってパースする</title>
-      <link>https://swiswiswift.com/2019-11-19/</link>
+      <title>Parsing the Json received in Alamofire using Codable</title>
+      <link>https://en.swiswiswift.com/2019-11-19/</link>
       <pubDate>Tue, 19 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-19/</guid>
-      <description>お天気Webサービス（Livedoor Weather Web Service） の API を Alamofire から叩き、帰ってきた JSON を struct にパース</description>
+      <guid>https://en.swiswiswift.com/2019-11-19/</guid>
+      <description>This is a way of tapping お天気Webサービス（Livedoor</description>
     </item>
     
     <item>
-      <title>SwiftUIでStructが使いまわされる</title>
-      <link>https://swiswiswift.com/2019-11-14/</link>
+      <title>SwiftUI gets used a lot with Struct</title>
+      <link>https://en.swiswiswift.com/2019-11-14/</link>
       <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-14/</guid>
-      <description>onDisappear で id を再生成することで回避しました。 @State に変化が無い場合はキャッシュを使い回したりするということでし</description>
+      <guid>https://en.swiswiswift.com/2019-11-14/</guid>
+      <description>This was avoided by regenerating the id with onDisappear.
+If there is no change in @State, does that mean that you use the cache?
+I&#39;m going to learn more about it!</description>
     </item>
     
     <item>
-      <title>SwiftUIでListを表示する</title>
-      <link>https://swiswiswift.com/2019-11-13/</link>
+      <title>Displaying a List in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-11-13/</link>
       <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-13/</guid>
-      <description>SwiftUI でList を表示する方法です。 画面遷移後の画面なので、NavigationBar がいます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <guid>https://en.swiswiswift.com/2019-11-13/</guid>
+      <description>Here&#39;s how to display a list in SwiftUI. Since this is the screen after the screen transition, there is a NavigationBar.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>インフラエンジニアなりたてで知らなかった単語をまとめ</title>
-      <link>https://swiswiswift.com/2019-11-08/</link>
+      <title>A summary of words I didn&#39;t know when I was an infrastructure engineer</title>
+      <link>https://en.swiswiswift.com/2019-11-08/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-08/</guid>
-      <description>インフラの勉強をし始めて分からなくて調べた単語をまとめました。 コンソリデーティッドビリング（Cons</description>
+      <guid>https://en.swiswiswift.com/2019-11-08/</guid>
+      <description>I put together a list of words I looked up when I started studying infrastructure and didn&#39;t understand them. Consolidated Billing A bulk billing feature,</description>
     </item>
     
     <item>
-      <title>PHP で本当に簡単なモックサーバーを作る</title>
-      <link>https://swiswiswift.com/2019-11-07/</link>
+      <title>Create a really simple mock server with PHP</title>
+      <link>https://en.swiswiswift.com/2019-11-07/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-07/</guid>
-      <description>ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。 signup.php でユーザー登録を行い、</description>
+      <guid>https://en.swiswiswift.com/2019-11-07/</guid>
+      <description>I needed a local mock server, so I made a simple one in PHP.
+Register a user at signup.php, show a list of users at list.</description>
     </item>
     
     <item>
-      <title>cURL（curl）でアプリにプッシュ通知を送信する</title>
-      <link>https://swiswiswift.com/2019-11-06/</link>
+      <title>Sending push notifications to your app with cURL (curl)</title>
+      <link>https://en.swiswiswift.com/2019-11-06/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-06/</guid>
-      <description>curl コマンドで iOS端末にプッシュ通知を送信する方法です。 証明書と秘密鍵の両方を含めたpemファイルを</description>
+      <guid>https://en.swiswiswift.com/2019-11-06/</guid>
+      <description>How to send push notifications to iOS devices with the curl command.
+Create a PEM file that includes both the certificate and the private key.</description>
     </item>
     
     <item>
-      <title>p12ファイルから証明書と秘密鍵を取り出す</title>
-      <link>https://swiswiswift.com/2019-11-05/</link>
+      <title>Retrieving a certificate and private key from a P12 file</title>
+      <link>https://en.swiswiswift.com/2019-11-05/</link>
       <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-05/</guid>
-      <description>.p12 ファイルから証明書と秘密鍵を取り出す方法です。 AWS SNS を Terraform で書くときに必要でした。 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem $</description>
+      <guid>https://en.swiswiswift.com/2019-11-05/</guid>
+      <description>How to retrieve a certificate and private key from a .p12 file. I needed it when I was writing AWS SNS with Terraform. $ openssl</description>
     </item>
     
   </channel>

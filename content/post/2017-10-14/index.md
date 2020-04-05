@@ -1,8 +1,8 @@
 +++
-title = "UINavigationControllerの戻るボタンの戻るを消す"
+title = "Removing the back button in UINavigationController."
 url = "2017-10-14"
 date = "2017-10-14"
-description = "UINavigationControllerの戻るボタンの戻るを消す"
+description = "Removing the back button in UINavigationController."
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UINavigationControllerの戻るボタンの文字を消します。  
-「＜戻る」を「＜」にします。  
+Removes the text of the back button in UINavigationController.  
+Change "< back" to "<".  
 
 ```
 let backButton = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)

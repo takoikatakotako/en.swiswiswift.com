@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>カンファレンス on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</link>
-    <description>Recent content in カンファレンス on すいすいSwift</description>
+    <title>カンファレンス on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/</link>
+    <description>Recent content in カンファレンス on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Wed, 11 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました</title>
-      <link>https://swiswiswift.com/2019-09-11/</link>
+      <title>I had a chance to speak at iOSDCJapan2019 Day 1 in the Rookies LT slot.</title>
+      <link>https://en.swiswiswift.com/2019-09-11/</link>
       <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-09-11/</guid>
-      <description>まとめ ルーキーズLT枠で申し込んでよかったです！楽しかったです！ ルーキーズLT 私はルーキーズLT枠で</description>
+      <guid>https://en.swiswiswift.com/2019-09-11/</guid>
+      <description>Summary I&#39;m glad I signed up for the Rookies LT slot! It was a lot of fun! Rookies LT I am pleased to announce that</description>
     </item>
     
   </channel>

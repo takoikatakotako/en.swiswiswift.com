@@ -1,59 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/04 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/04/</link>
-    <description>Recent content in 2018/04 on すいすいSwift</description>
+    <title>2018/04 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/04/</link>
+    <description>Recent content in 2018/04 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>TableViewを編集してCellを削除する</title>
-      <link>https://swiswiswift.com/2018-04-24/</link>
+      <title>Edit TableView to delete a Cell</title>
+      <link>https://en.swiswiswift.com/2018-04-24/</link>
       <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-04-24/</guid>
-      <description>TableViewを編集してCellを削除するサンプルコードです。 NavigationBarに編集ボ</description>
+      <guid>https://en.swiswiswift.com/2018-04-24/</guid>
+      <description>This is a sample code to delete a Cell by editing TableView.
+You can add an edit button to the NavigationBar and remove the cell by pressing that button.</description>
     </item>
     
     <item>
-      <title>TableViewを編集してCellを削除する(横スライド)</title>
-      <link>https://swiswiswift.com/2018-04-23/</link>
+      <title>Edit TableView and delete a Cell (side-slide).</title>
+      <link>https://en.swiswiswift.com/2018-04-23/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-04-23/</guid>
-      <description>TableViewを編集してCellを削除するサンプルコードです。 以下の関数を追加することで、セルを</description>
+      <guid>https://en.swiswiswift.com/2018-04-23/</guid>
+      <description>This is a sample code to delete a Cell by editing TableView.
+By adding the following functions, you can add the ability to delete a cell by sliding it horizontally.</description>
     </item>
     
     <item>
-      <title>数字を三桁ごとにカンマ区切りにする(日本円の表示)</title>
-      <link>https://swiswiswift.com/2018-04-23/</link>
+      <title>Separate numbers into commas for each three digits (in Japanese yen)</title>
+      <link>https://en.swiswiswift.com/2018-04-23/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-04-23/</guid>
-      <description>日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。 123,456,789円 みたいな</description>
+      <guid>https://en.swiswiswift.com/2018-04-23/</guid>
+      <description>I tried to find out how to divide the Japanese Yen by 3 digits, as in the Japanese Yen display. It&#39;s like 123,456,789 yen or</description>
     </item>
     
     <item>
-      <title>現在の日付と曜日、現在時間を取得する</title>
-      <link>https://swiswiswift.com/2018-04-20/</link>
+      <title>Get the current date and day of the week and the current time</title>
+      <link>https://en.swiswiswift.com/2018-04-20/</link>
       <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-04-20/</guid>
-      <description>Swift4.1で現在の日付と曜日、現在時間を取得するサンプルコードです。 以下の形式の文字列で取得し</description>
+      <guid>https://en.swiswiswift.com/2018-04-20/</guid>
+      <description>Sample code to get the current date, day of the week, and current time in Swift4.1. You can get it as a string of the</description>
     </item>
     
     <item>
-      <title>CustumTableViewCellとaccessoryViewを使ってTableVIewのレイアウトをカスタマイズ</title>
-      <link>https://swiswiswift.com/2018-04-05/</link>
+      <title>Customize the layout of TableVIew using CustumTableViewCell and accessoryView.</title>
+      <link>https://en.swiswiswift.com/2018-04-05/</link>
       <pubDate>Thu, 05 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-04-05/</guid>
-      <description>CustumTableViewCellを作ると好きなレイアウトのCellをTableViewで使うこ</description>
+      <guid>https://en.swiswiswift.com/2018-04-05/</guid>
+      <description>By creating CustumTableViewCell, you can use cells of your favorite layout in TableView. And the TableViewCell accessory view can be equipped with accessories such as</description>
     </item>
     
   </channel>

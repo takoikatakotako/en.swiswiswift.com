@@ -15,24 +15,24 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-iOSアプリの画面上部によく使われているUINavigationBarについてです。
+The UINavigationBar is the most commonly used UINavigationBar at the top of iOS app screens.
 
-UINavigationBarのクラス階層
+Class hierarchy of UINavigationBar.
 
 NSObject  
-↑  
-UIResponder  
-↑  
-UIView  
-↑  
+↑upside down  
+UIResponder.  
+↑upside down  
+UIView.  
+↑upside down  
 UINavigationBar  
-AppleDeveloperリファレンスUINavigationBar  
+AppleDeveloper Reference UINavigationBar  
 
 
 
-UINavigationBar例文
+UINavigationBar example sentence
 
-UINavigationBarを生成し、タイトルとボタンを付けます。
+Generate a UINavigationBar and put a title and button on it.
 
 <!-- Google Ads -->
 {{< google-ads >}}

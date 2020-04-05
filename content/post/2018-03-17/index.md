@@ -1,8 +1,8 @@
 +++
-title = "UIAlertControllerにTextFieldを追加する"
+title = "Adding a TextField to UIAlertController"
 url = "2018-03-17"
 date = "2018-03-17"
-description = "UIAlertControllerにTextFieldを追加する"
+description = "Adding a TextField to UIAlertController"
 tags = [
     "iOS",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIAlertControllerにTextFieldを追加したサンプルです。  
+This is a sample of adding a TextField to UIAlertController.    
 
 ![alt](1.gif)
 

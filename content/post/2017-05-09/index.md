@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UILabelクラスは文字表示を管理するクラスです。画面に文字を表示させたい時に使用します。
+The UILabel class is a class to manage the character display. This is used when you want to display text on the screen.
 
-UILabelのクラス階層
+UILabel's class hierarchy
 
 NSObject  
 ↑  

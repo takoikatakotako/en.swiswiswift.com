@@ -1,8 +1,8 @@
 +++
-title = "Android Studio でアイコンを設定する"
+title = "Setting Icons in AndroidStudio"
 url = "2018-11-29"
 date = "2018-11-29"
-description = "Android Studio でアイコンを設定する"
+description = "Setting Icons in AndroidStudio"
 tags = [
   "Android",
 ]
@@ -15,10 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-– File -> Image Assets で Configure Image Asset を開く  
-– Pathの…ボタンを押し、アイコンにしたい画像を選択する。  
-– Resize でサイズの微調節を行う。  
-– Nextボタンを推し、アイコン画像の名前やサイズを確認し、Finish。  
+- Open Configure Image Asset in File -> Image Assets  
+- Press the ... button on the Path and select the image you want to make an icon.  
+- Use Resize to fine-tune the size.  
+- Push the Next button to confirm the name and size of the icon image, then Finish.  
 
 <!-- Google Ads -->
 {{< google-ads >}}

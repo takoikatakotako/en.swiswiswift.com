@@ -1,8 +1,8 @@
 +++
-title = "Arduinoでボタンを使う(プルアップ抵抗無し)"
+title = "Using buttons with Arduino (no pull-up resistor)"
 url = "2018-03-25"
 date = "2018-03-25"
-description = "Arduinoでボタンを使う(プルアップ抵抗無し)"
+description = "Using buttons with Arduino (no pull-up resistor)"
 tags = [
     "Arduino",
 ]
@@ -15,9 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Arduinoでボタンを使うときのサンプルコードです。  
-あんまり知られていないんですが、プルアップを使うとプルアップ抵抗が無しで簡単にボタンを使うことができるんですよ。  
-グラウンドとDegitalの2番ポートを繋げると(ボタンを押すと)そのことを認識できます。  
+This is a sample code for using buttons in Arduino.  
+It's not well known, but when you use a pull-up, you can easily use the buttons with no pull-up resistance.  
+If you connect the Ground to the second port of the Degital (by pressing the button), you will be aware of this.  
+
 
 <!-- Google Ads -->
 {{< google-ads >}}

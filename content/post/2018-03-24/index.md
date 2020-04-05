@@ -1,8 +1,8 @@
 +++
-title = "Google Cloud FunctionでHelloWorld"
+title = "HelloWorld with Google Cloud Function"
 url = "2018-03-24"
 date = "2018-03-24"
-description = "Google Cloud FunctionでHelloWorld"
+description = "HelloWorld with Google Cloud Function"
 tags = [
     "GCP",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Google様のCloud Functionを触ってみたので、そのメモです。  
-HelloWorldとJsonでの出力とgetの受け取りです。  
+Because I touched the Cloud Function of Google, it is the note.  
+This is the output and get in HelloWorld and Json.  
 
 <!-- Google Ads -->
 {{< google-ads >}}

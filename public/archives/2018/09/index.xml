@@ -1,50 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/09 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/09/</link>
-    <description>Recent content in 2018/09 on すいすいSwift</description>
+    <title>2018/09 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/09/</link>
+    <description>Recent content in 2018/09 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/09/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/09/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build input file cannot be found: Libraries/WebSocket/libfishhook.a’</title>
-      <link>https://swiswiswift.com/2018-09-27/</link>
+      <link>https://en.swiswiswift.com/2018-09-27/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-09-27/</guid>
-      <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNative</description>
+      <guid>https://en.swiswiswift.com/2018-09-27/</guid>
+      <description>Reference: Xcode 10 libfishhook.a cannot be found
+When I updated Xcode to 10.0, I got the above error and couldn&#39;t compile ReactNative.
+RTCWebSocket.xcodeproject -&amp;gt; RCTWebSocket -&amp;gt; Select Build Phases -&amp;gt; Add libfishhook.</description>
     </item>
     
     <item>
-      <title>KotlinでListViewを内包したTabを作成する</title>
-      <link>https://swiswiswift.com/2018-09-25/</link>
+      <title>Creating a Tab with ListView in Kotlin</title>
+      <link>https://en.swiswiswift.com/2018-09-25/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-09-25/</guid>
-      <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 す</description>
+      <guid>https://en.swiswiswift.com/2018-09-25/</guid>
+      <description>I created a Tab that contains a ListView in Kotlin.
+This is the web page I used as a reference. It&#39;s a very good article, so please see his article from this one.</description>
     </item>
     
     <item>
-      <title>グループスタイルのTableViewを作成する</title>
-      <link>https://swiswiswift.com/2018-09-20/</link>
+      <title>Creating a Group Style TableView</title>
+      <link>https://en.swiswiswift.com/2018-09-20/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-09-20/</guid>
-      <description>グループスタイルのテーブルビューを表示するサンプルコードです 設定画面などはこんな感じですね。 (adsbygoogle = window.adsbygoogle ||</description>
+      <guid>https://en.swiswiswift.com/2018-09-20/</guid>
+      <description>Sample code to display the group style table view. The settings screen looks like this.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>SafeAreaを取得する</title>
-      <link>https://swiswiswift.com/2018-09-19/</link>
+      <title>Getting the SafeArea</title>
+      <link>https://en.swiswiswift.com/2018-09-19/</link>
       <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-09-19/</guid>
-      <description>iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うよう</description>
+      <guid>https://en.swiswiswift.com/2018-09-19/</guid>
+      <description>With the arrival of the iPhoneX, I&#39;ve become more concerned with the layout of the iPhoneX (getting SafeArea).
+SafeArea can be obtained by referring to the safeAreaInsets property in the viewDidLayoutSubviews method.</description>
     </item>
     
   </channel>

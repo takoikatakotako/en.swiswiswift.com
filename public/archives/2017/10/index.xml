@@ -1,68 +1,75 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2017/10 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2017/10/</link>
-    <description>Recent content in 2017/10 on すいすいSwift</description>
+    <title>2017/10 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2017/10/</link>
+    <description>Recent content in 2017/10 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sat, 14 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2017/10/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2017/10/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>UINavigationControllerの戻るボタンの戻るを消す</title>
-      <link>https://swiswiswift.com/2017-10-14/</link>
+      <title>Removing the back button in UINavigationController.</title>
+      <link>https://en.swiswiswift.com/2017-10-14/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-10-14/</guid>
-      <description>UINavigationControllerの戻るボタンの文字を消します。 「＜戻る」を「＜」にします</description>
+      <guid>https://en.swiswiswift.com/2017-10-14/</guid>
+      <description>Removes the text of the back button in UINavigationController.
+Change &amp;ldquo;&amp;lt; back&amp;rdquo; to &amp;ldquo;&amp;lt;&amp;rdquo;.
+let backButton = UIBarButtonItem(title: &amp;quot;&amp;quot;, style: .plain, target: nil, action: nil) self.</description>
     </item>
     
     <item>
-      <title>○秒後に実行させる、毎秒実行する</title>
-      <link>https://swiswiswift.com/2017-10-13/</link>
+      <title>Execute after ○ seconds, execute every second</title>
+      <link>https://en.swiswiswift.com/2017-10-13/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-10-13/</guid>
-      <description>Swiftで数秒後に実行する、毎秒実行させるサンプルです。 一秒ごとにコンソールに出力されます。 (adsbygoogle = window.adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2017-10-13/</guid>
+      <description>Here&#39;s a sample that runs every second, after a few seconds in Swift.
+It is output to the console every second.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>UITableViewにヘッダーを設定する</title>
-      <link>https://swiswiswift.com/2017-10-08/</link>
+      <title>Setting a header in UITableView</title>
+      <link>https://en.swiswiswift.com/2017-10-08/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-10-08/</guid>
-      <description>UITableViewにヘッダーを設定するサンプルです。 フッターも同様に設定することができます。 (adsbygoogle =</description>
+      <guid>https://en.swiswiswift.com/2017-10-08/</guid>
+      <description>This is a sample of setting a header in UITableView.
+The footer can be set up in the same way.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>UICollectionViewにCustomセルを追加する</title>
-      <link>https://swiswiswift.com/2017-10-03/</link>
+      <title>Adding a Custom Cell to UICollectionView</title>
+      <link>https://en.swiswiswift.com/2017-10-03/</link>
       <pubDate>Tue, 03 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-10-03/</guid>
-      <description>UICollectionViewにCustumCollectionセルを追加してみました。 クラス名を</description>
+      <guid>https://en.swiswiswift.com/2017-10-03/</guid>
+      <description>I tried to add a custumCollection cell to UICollectionView.
+The NSStringFromClass(CustumCollectionViewCell.self), which converts class names to strings, is very useful when using UITableView or UICollectionView.</description>
     </item>
     
     <item>
       <title>UICollectionView</title>
-      <link>https://swiswiswift.com/2017-10-02/</link>
+      <link>https://en.swiswiswift.com/2017-10-02/</link>
       <pubDate>Mon, 02 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-10-02/</guid>
-      <description>UICollectionViewのサンプルです。 UICollectionViewを使う を参考にさせて</description>
+      <guid>https://en.swiswiswift.com/2017-10-02/</guid>
+      <description>This is a sample of UICollectionView. This is a reference to the This site is easy to look at and I highly recommend it to</description>
     </item>
     
     <item>
-      <title>ESP32でSDカードのテキストファイルを読み書きする。</title>
-      <link>https://swiswiswift.com/2017-10-01/</link>
+      <title>Reading and writing text files on SD cards with ESP32</title>
+      <link>https://en.swiswiswift.com/2017-10-01/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-10-01/</guid>
-      <description>ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。 読み込んで書き込むシン</description>
+      <guid>https://en.swiswiswift.com/2017-10-01/</guid>
+      <description>This is a sample of reading and writing a text file saved in an SD card with ESP32. I couldn&#39;t find much simple sample code</description>
     </item>
     
   </channel>

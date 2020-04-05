@@ -1,95 +1,112 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ReactNative on すいすいSwift</title>
-    <link>https://swiswiswift.com/categories/reactnative/</link>
-    <description>Recent content in ReactNative on すいすいSwift</description>
+    <title>ReactNative on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/categories/reactnative/</link>
+    <description>Recent content in ReactNative on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Thu, 27 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/categories/reactnative/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/categories/reactnative/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build input file cannot be found: Libraries/WebSocket/libfishhook.a’</title>
-      <link>https://swiswiswift.com/2018-09-27/</link>
+      <link>https://en.swiswiswift.com/2018-09-27/</link>
       <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-09-27/</guid>
-      <description>//参考 Xcode 10 libfishhook.a cannot be found Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNative</description>
+      <guid>https://en.swiswiswift.com/2018-09-27/</guid>
+      <description>Reference: Xcode 10 libfishhook.a cannot be found
+When I updated Xcode to 10.0, I got the above error and couldn&#39;t compile ReactNative.
+RTCWebSocket.xcodeproject -&amp;gt; RCTWebSocket -&amp;gt; Select Build Phases -&amp;gt; Add libfishhook.</description>
     </item>
     
     <item>
-      <title>ReactNativeで画像をボタンにする(TouchableOpacity)</title>
-      <link>https://swiswiswift.com/2018-08-19/</link>
+      <title>Turning an image into a button with ReactNative(TouchableOpacity)</title>
+      <link>https://en.swiswiswift.com/2018-08-19/</link>
       <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-19/</guid>
-      <description>ReactNativeで画像などのViewをボタンにするTouchableOpacityの実装サンプ</description>
+      <guid>https://en.swiswiswift.com/2018-08-19/</guid>
+      <description>This is a sample implementation of TouchableOpacity, which turns a view such as an image into a button in ReactNative.
+Tap on an image of Kabigon to get an alert.</description>
     </item>
     
     <item>
-      <title>ReactNativeでテキストを表示</title>
-      <link>https://swiswiswift.com/2018-08-18/</link>
+      <title>Display text in ReactNative</title>
+      <link>https://en.swiswiswift.com/2018-08-18/</link>
       <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-18/</guid>
-      <description>ReactNativeでTextを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height</description>
+      <guid>https://en.swiswiswift.com/2018-08-18/</guid>
+      <description>This is a sample of displaying Text with ReactNative.
+react-native: 0.56.0
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;</description>
     </item>
     
     <item>
-      <title>ReactNativeでたまにしか使わないコマンドのメモ</title>
-      <link>https://swiswiswift.com/2018-08-17/</link>
+      <title>A note on the commands that are only used occasionally in ReactNative</title>
+      <link>https://en.swiswiswift.com/2018-08-17/</link>
       <pubDate>Fri, 17 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-17/</guid>
-      <description>ReactNativeでたまにしか使わないけど大事なコメントのメモです。 react-native-c</description>
+      <guid>https://en.swiswiswift.com/2018-08-17/</guid>
+      <description>This is an important comment note that I use only occasionally in ReactNative.
+Installing react-native-cli globally with npm
+npm install -g react-native-cli react-native -v Create a project</description>
     </item>
     
     <item>
-      <title>ReactNativeでインディケーターを表示する</title>
-      <link>https://swiswiswift.com/2018-08-16/</link>
+      <title>Show the indicator in ReactNative</title>
+      <link>https://en.swiswiswift.com/2018-08-16/</link>
       <pubDate>Thu, 16 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-16/</guid>
-      <description>ReactNativeでIndicatorを表示するサンプルです。 react-native: 0.56.0 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;;</description>
+      <guid>https://en.swiswiswift.com/2018-08-16/</guid>
+      <description>This is a sample to display an indicator in ReactNative.
+react-native: 0.56.0
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;</description>
     </item>
     
     <item>
-      <title>ReactNativeで画像を表示する</title>
-      <link>https://swiswiswift.com/2018-08-15/</link>
+      <title>Display an image with ReactNative</title>
+      <link>https://en.swiswiswift.com/2018-08-15/</link>
       <pubDate>Wed, 15 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-15/</guid>
-      <description>ReactNativeで画像を表示するサンプルです。 iOSで画像をインターネットから取得する場合はA</description>
+      <guid>https://en.swiswiswift.com/2018-08-15/</guid>
+      <description>This is a sample of displaying an image with ReactNative.
+If you want to retrieve images from the Internet on iOS, you need to set up ATS, so be careful.</description>
     </item>
     
     <item>
-      <title>FlexBoxでViewの大きさを指定する</title>
-      <link>https://swiswiswift.com/2018-08-14/</link>
+      <title>Specifying the size of the View in FlexBox</title>
+      <link>https://en.swiswiswift.com/2018-08-14/</link>
       <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-14/</guid>
-      <description>FlexBoxでViewの大きさを指定するサンプルコードです。 react-native: 0.56.0 紫、黄土色、水色のViewが 1 : 2</description>
+      <guid>https://en.swiswiswift.com/2018-08-14/</guid>
+      <description>This is a sample code to specify the size of the View with FlexBox.
+react-native: 0.56.0
+The purple, ochre, and light blue views are at a height of 1 : 2 : 3.</description>
     </item>
     
     <item>
-      <title>ReactNativeでFlatListを表示する</title>
-      <link>https://swiswiswift.com/2018-08-13/</link>
+      <title>Displaying a FlatList in ReactNative</title>
+      <link>https://en.swiswiswift.com/2018-08-13/</link>
       <pubDate>Mon, 13 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-13/</guid>
-      <description>ReactNativeでFlatListを表示するサンプルです。 react-native: 0.56.0 で動作を確認しました。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2018-08-13/</guid>
+      <description>This is a sample to display FlatList in ReactNative.
+react-native: 0.56.0
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;</description>
     </item>
     
     <item>
-      <title>ReactNativeでボタンを表示する</title>
-      <link>https://swiswiswift.com/2018-08-12/</link>
+      <title>Display the button with ReactNative</title>
+      <link>https://en.swiswiswift.com/2018-08-12/</link>
       <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-08-12/</guid>
-      <description>ReactNativeでボタンを表示するサンプルです。 ボタンを押すとアラームが表示されます。 react-native: 0.56.0 (adsbygoogle =</description>
+      <guid>https://en.swiswiswift.com/2018-08-12/</guid>
+      <description>This is a sample of displaying a button in ReactNative.
+Press the button to display the alarm.
+react-native: 0.56.0
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
   </channel>

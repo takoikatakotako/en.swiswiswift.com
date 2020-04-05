@@ -1,8 +1,8 @@
 +++
-title = "Alamofireを使ってAPIからJSONを取得する"
+title = "Obtaining JSON from the API using Alamofire"
 url = "2017-07-09"
 date = "2017-07-09"
-description = "Alamofireを使ってAPIからJSONを取得する"
+description = "Obtaining JSON from the API using Alamofire"
 tags = [
     "iOS",
 ]
@@ -15,10 +15,17 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-新しい記事(Swift4)はこちらAlamofireを使ってAPIからJSONを取得する(Swift4.2)  
+New article (Swift4) is here. Using Alamofire to get JSON from the API (Swift4.2)  
 
-swiftの有名な通信ライブラリである [Alamofire](https://github.com/Alamofire/Alamofire) とこれまたSwiftで有名なJSONを扱うライブラリであるSwiftyJSONを使って、[お天気API](http://weather.livedoor.com/weather_hacks/webservice) から情報を取得するサンプルです。  
-今回のサンプルでは非同期でJSONを取得し、アラートを表示します。  
+This is a sample of retrieving information from the [weather API](http://weather.livedoor.com/weather_hacks/webservice) using [Alamofire](https://github.com/Alamofire/Alamofire), a famous swift communication library, and SwiftyJSON, another famous swift library for JSON.  
+In this sample, the JSON is acquired asynchronously and an alert is displayed.  
+
+Translated with www.DeepL.com/Translator (free version)
+
+Reference:  
+[Alamofire](https://github.com/Alamofire/Alamofire)  
+[お天気API](http://weather.livedoor.com/weather_hacks/webservice)
+
 
 <!-- Google Ads -->
 {{< google-ads >}}

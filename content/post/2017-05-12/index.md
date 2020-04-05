@@ -15,24 +15,24 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UITextFieldは文字の入力に使われます。
+A UITextField is used to enter a character.
 
-UITextFieldのクラス階層
+Class Hierarchy of UITextField
 
 NSObject  
-↑  
-UIResponder  
-↑  
-UIView  
-↑  
+↑upside down  
+UIResponder.  
+↑upside down  
+UIView.  
+↑upside down  
 UIControl  
-↑  
+↑upside down  
 UITextField  
-AppleDeveloperリファレンスUITextField  
+AppleDeveloper Reference UITextField  
 
-UITextField例文
+UITextField Example Sentence
 
-UITextField、生成し、ボタンが押されるとUITextFieldから文字列を取り出してラベルにコピーします。
+UITextField, generate and, when the button is pressed, take a string from the UITextField and copy it to a label.
 
 ![alt](1.png)
 

@@ -1,86 +1,93 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019/12 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2019/12/</link>
-    <description>Recent content in 2019/12 on すいすいSwift</description>
+    <title>2019/12 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2019/12/</link>
+    <description>Recent content in 2019/12 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2019/12/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2019/12/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>MVPアーキテクチャを使ったサンプルアプリ</title>
-      <link>https://swiswiswift.com/2019-12-30/</link>
+      <title>Sample apps using MVP architecture</title>
+      <link>https://en.swiswiswift.com/2019-12-30/</link>
       <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-30/</guid>
-      <description>MVPアーキテクチャを使ったサンプルアプリです。 Unitテスト、UIテストも書きました。 以下のような</description>
+      <guid>https://en.swiswiswift.com/2019-12-30/</guid>
+      <description>This is a sample application using MVP architecture. I&#39;ve also written unit tests and UI tests.
+It&#39;s an app that adds up numbers like the following</description>
     </item>
     
     <item>
-      <title>StoryboardsをiOS13以上のプロジェクトから削除する</title>
-      <link>https://swiswiswift.com/2019-12-29/</link>
+      <title>Remove Storyboards from projects running iOS13 and above</title>
+      <link>https://en.swiswiswift.com/2019-12-29/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-29/</guid>
-      <description>Swift &amp;amp; Storyboard でファイルを作成します。 Main.storyboard を削除します。 Main storyboard file base name の項を削除する。 Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt; Item0 -&amp;gt; Storyboard Name を削</description>
+      <guid>https://en.swiswiswift.com/2019-12-29/</guid>
+      <description>Create a file with Swift &amp;amp; Storyboard. Removes Main.storyboard. Delete the term Main storyboard file base name. Application Scene Manifest -&amp;gt; Application Session Role -&amp;gt;</description>
     </item>
     
     <item>
-      <title>HugoでGistが表示されない</title>
-      <link>https://swiswiswift.com/2019-12-28/</link>
+      <title>Gist doesn&#39;t show up in Hugo</title>
+      <link>https://en.swiswiswift.com/2019-12-28/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-28/</guid>
-      <description>Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &amp;lt;script src=&amp;quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 以下のように書き</description>
+      <guid>https://en.swiswiswift.com/2019-12-28/</guid>
+      <description>When I updated the version of Hugo, I no longer see the following Gist page.
+&amp;lt;script src=&amp;quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; It worked by rewriting it as follows.
+Reference: Shortcodes</description>
     </item>
     
     <item>
-      <title>Dockerで Alpineベースのコンテナに入る</title>
-      <link>https://swiswiswift.com/2019-12-21/</link>
+      <title>Getting into an Alpine based container with Docker</title>
+      <link>https://en.swiswiswift.com/2019-12-21/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-21/</guid>
-      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入る</description>
+      <guid>https://en.swiswiswift.com/2019-12-21/</guid>
+      <description>There are times when you want to go inside a Docker container and use a shell. Normally, you would use the following command to enter</description>
     </item>
     
     <item>
-      <title>SwiftUI でアラートを表示する</title>
-      <link>https://swiswiswift.com/2019-12-20/</link>
+      <title>Displaying an alert in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-12-20/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-20/</guid>
-      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2019-12-20/</guid>
+      <description>How to display an alert in SwiftUI. It is written quite differently from UIAlertController. The @State of the Property Wrapper is still unfamiliar.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>Swift5.1で追加されたFunctionBuilderを使ってStructを作る</title>
-      <link>https://swiswiswift.com/2019-12-19/</link>
+      <title>Constructing a Struct using the FunctionBuilder added in Swift5.1</title>
+      <link>https://en.swiswiswift.com/2019-12-19/</link>
       <pubDate>Thu, 19 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-19/</guid>
-      <description>Swift5.1で追加されたFunctionBuilderを使ってStructを作る方法です。 SwiftUI でも</description>
+      <guid>https://en.swiswiswift.com/2019-12-19/</guid>
+      <description>This is how to create a Struct using the FunctionBuilder added in Swift 5.1. It&#39;s also active in SwiftUI.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>SwiftUIでリストのセルをタップするとアラートが表示される方法</title>
-      <link>https://swiswiswift.com/2019-12-18/</link>
+      <title>How to get an alert when you tap a cell in a list in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-12-18/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-18/</guid>
-      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+      <guid>https://en.swiswiswift.com/2019-12-18/</guid>
+      <description>How to get an alert when you tap a cell in a list in SwiftUI. I still haven&#39;t gotten used to SwiftUI yet.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIでリストを編集する</title>
-      <link>https://swiswiswift.com/2019-12-17/</link>
+      <title>Editing a List in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-12-17/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-17/</guid>
-      <description>SwiftUIでリストを編集する方法です。 UITableView よりも短いコードで書くことができました。 参考: How to enable editing on</description>
+      <guid>https://en.swiswiswift.com/2019-12-17/</guid>
+      <description>Here&#39;s how to edit a list in SwiftUI. I was able to write shorter code than UITableView.
+Reference: How to enable editing on a list using EditButton</description>
     </item>
     
   </channel>

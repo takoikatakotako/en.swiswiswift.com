@@ -1,8 +1,8 @@
 +++
-title = "UITableViewとUISearchBar"
+title = "UITableView and UISearchBar"
 url = "2017-05-15"
 date = "2017-05-15"
-description = "UITableViewとUISearchBar"
+description = "UITableView and UISearchBar"
 tags = [
     "iOS",
 ]
@@ -15,12 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UITableViewとUISearchBarを組み合わせたサンプルです。  
-ナビゲーションバーにある虫眼鏡を押すとSearchBarが現れ、そこに文字を入力することで検索結果が表示されます。  
+This is a sample of the combination of UITableView and UISearchBar.  
+Pressing the magnifying glass on the navigation bar will bring up the SearchBar, and typing a character there will bring up the search results.  
 
 UITableView  
 
-基本的なテーブルビューの例文を以下に示します。  
+The following is an example sentence for a basic table view.   
 
 ![alt](1.png)
 

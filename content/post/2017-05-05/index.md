@@ -15,10 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIButtonクラスはボタンを設置するためのクラスです。  
-ボタンタップでアクションを起こすことができます。  
+The UIButton class is a class for placing a button.  
+You can take an action with a button tap.  
 
-UIButtonのクラス階層  
+Class Hierarchy of UIButton  
 
 NSObject  
 ↑  
@@ -31,9 +31,9 @@ UIControl
 UIButton  
 [AppleDeveloperリファレンスUIButton](https://developer.apple.com/documentation/uikit/uibutton)
 
-UIButton例文
+UIButton example sentence
 
-様々なUIButtonのサンプルです
+Here are some samples of various UIButtons
 
 ![alt](1.png)
 

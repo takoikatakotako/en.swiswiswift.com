@@ -1,8 +1,8 @@
 +++
-title = "UITabBarControllerにUINavigationControllerを入れ子で実装する"
+title = "Nested implementation of UINavigationController in UITabBarController."
 url = "2018-06-03"
 date = "2018-06-03"
-description = "UITabBarControllerにUINavigationControllerを入れ子で実装する"
+description = "Nested implementation of UINavigationController in UITabBarController."
 tags = [
   "iOS",
 ]
@@ -15,11 +15,11 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UITabBarControllerにUINavigationControllerを入れるコードです。
-UITabBarControllerにUINavigationBarControllerを入れて実装しています。
+This is the code to add UINavigationController to UITabBarController.
+Implemented by including UINavigationBarController in UITabBarController.
 
-UITabBarControllerの実装はこちら。
-NavigationControllerを実装する
+The implementation of UITabBarController is here.
+Implementing NavigationController
 
 ![alt](1.gif)
 

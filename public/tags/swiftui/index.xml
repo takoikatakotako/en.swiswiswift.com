@@ -1,122 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SwiftUI on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/swiftui/</link>
-    <description>Recent content in SwiftUI on すいすいSwift</description>
+    <title>SwiftUI on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/swiftui/</link>
+    <description>Recent content in SwiftUI on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sun, 09 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/swiftui/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SwiftUIでUICollectionViewのようにViewを並べる</title>
-      <link>https://swiswiswift.com/2020-02-09/</link>
+      <title>Aligning Views like UICollectionView in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-09/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-09/</guid>
-      <description>SwiftUI で UICollectionView のように表示する方法です。 Q-Mobile/QGrid というライブラリを使うと簡単です。 QGrid を参考にしながら書いてみました</description>
+      <guid>https://en.swiswiswift.com/2020-02-09/</guid>
+      <description>How to make it look like a UICollectionView in SwiftUI. It&#39;s easy to use a library called Q-Mobile/QGrid . I wrote this with reference to QGrid.</description>
     </item>
     
     <item>
-      <title>SwiftUIでFirestoreの画像を表示する</title>
-      <link>https://swiswiswift.com/2020-02-08/</link>
+      <title>Displaying a Firestore image in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-08/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-08/</guid>
-      <description>SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができませ</description>
+      <guid>https://en.swiswiswift.com/2020-02-08/</guid>
+      <description>How to display a Firestore image in SwiftUI. UIImage can be easily displayed using SDWebImage, but SwiftUI can&#39;t do that. I used SDWebImage/SDWebImageSwiftUI to write</description>
     </item>
     
     <item>
-      <title>SwiftUIのToggleの変更を検知する</title>
-      <link>https://swiswiswift.com/2020-02-05/</link>
+      <title>Detecting changes to the SwiftUI Toggle</title>
+      <link>https://en.swiswiswift.com/2020-02-05/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-05/</guid>
-      <description>SwiftUIのToggleの変更を検知し、print 文を実行します。 参考: How can I trigger an action when a swiftUI toggle() is toggled?</description>
+      <guid>https://en.swiswiswift.com/2020-02-05/</guid>
+      <description>Detects changes to the SwiftUI toggle and executes a print statement.
+Reference: How can I trigger an action when a swiftUI toggle() is toggled?
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIで複数行のPickerを作成する</title>
-      <link>https://swiswiswift.com/2020-01-14/</link>
+      <title>Creating a multi-line picker in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-01-14/</link>
       <pubDate>Tue, 14 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-14/</guid>
-      <description>UIPickerView のような複数行の Picker を作成する方法です。 UIPickerView と使い勝手がかなり異なり、戸惑いました。 参考: Multi-Component Picker (UIPickerView) in SwiftUI (adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2020-01-14/</guid>
+      <description>This is a way to create a multi-line picker like UIPickerView. The usability is quite different from UIPickerView and I was puzzled.
+Reference: Multi-Component Picker (UIPickerView) in SwiftUI</description>
     </item>
     
     <item>
-      <title>SwiftUIのPickerでLabelを表示しない</title>
-      <link>https://swiswiswift.com/2020-01-13/</link>
+      <title>Don&#39;t show the Label in the SwiftUI Picker</title>
+      <link>https://en.swiswiswift.com/2020-01-13/</link>
       <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-13/</guid>
-      <description>SwiftUIのPickerでLabelを表示しない方法です。 labelsHidden を設定することで可能です。 参考: How to</description>
+      <guid>https://en.swiswiswift.com/2020-01-13/</guid>
+      <description>How not to display the Label in the SwiftUI Picker. It is possible to do so by setting labelsHidden. 参考: How to hide</description>
     </item>
     
     <item>
-      <title>SwiftUIでPicker を表示する</title>
-      <link>https://swiswiswift.com/2020-01-12/</link>
+      <title>Displaying a Picker in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-01-12/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-12/</guid>
-      <description>SwiftUI で Picker を表示するサンプルです。 複数行の場合はこちらです。 SwiftUIで複数行のPickerを作成す</description>
+      <guid>https://en.swiswiswift.com/2020-01-12/</guid>
+      <description>This is a sample to display the picker in SwiftUI. In case of multiple lines, click here. Creating a multi-line picker in SwiftUI
+Reference: Is there a way to call a function when a SwiftUI Picker selection changes?</description>
     </item>
     
     <item>
-      <title>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出す</title>
-      <link>https://swiswiswift.com/2020-01-11/</link>
+      <title>Calling the transition source method from the view of the screen transition destination in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-01-11/</link>
       <pubDate>Sat, 11 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-01-11/</guid>
-      <description>SwiftUI で画面遷移先の View から遷移元のメソッドを呼び出すサンプルです。 delegate を使ったのですが、Combine で書</description>
+      <guid>https://en.swiswiswift.com/2020-01-11/</guid>
+      <description>This is a sample that calls the transition source method from the view of the screen transition destination in SwiftUI. I used delegate, but it might be better to write in Combine.</description>
     </item>
     
     <item>
-      <title>SwiftUI でアラートを表示する</title>
-      <link>https://swiswiswift.com/2019-12-20/</link>
+      <title>Displaying an alert in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-12-20/</link>
       <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-20/</guid>
-      <description>SwiftUI でアラートを表示する方法です。 UIAlertController とはかなり書き方が異なります。 Property Wrapper の @State がまだ慣れません。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2019-12-20/</guid>
+      <description>How to display an alert in SwiftUI. It is written quite differently from UIAlertController. The @State of the Property Wrapper is still unfamiliar.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIでリストのセルをタップするとアラートが表示される方法</title>
-      <link>https://swiswiswift.com/2019-12-18/</link>
+      <title>How to get an alert when you tap a cell in a list in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-12-18/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-18/</guid>
-      <description>SwiftUI でリストのセルをタップするとアラートが表示される方法です。 まだまだ SwiftUI に慣れません。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id</description>
+      <guid>https://en.swiswiswift.com/2019-12-18/</guid>
+      <description>How to get an alert when you tap a cell in a list in SwiftUI. I still haven&#39;t gotten used to SwiftUI yet.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIでリストを編集する</title>
-      <link>https://swiswiswift.com/2019-12-17/</link>
+      <title>Editing a List in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2019-12-17/</link>
       <pubDate>Tue, 17 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-17/</guid>
-      <description>SwiftUIでリストを編集する方法です。 UITableView よりも短いコードで書くことができました。 参考: How to enable editing on</description>
+      <guid>https://en.swiswiswift.com/2019-12-17/</guid>
+      <description>Here&#39;s how to edit a list in SwiftUI. I was able to write shorter code than UITableView.
+Reference: How to enable editing on a list using EditButton</description>
     </item>
     
     <item>
-      <title>TabViewを使って画面を切り替える（SwiftUI）</title>
-      <link>https://swiswiswift.com/2019-11-21/</link>
+      <title>Using TabView to switch screens (SwiftUI)</title>
+      <link>https://en.swiswiswift.com/2019-11-21/</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-21/</guid>
-      <description>TabViewを使って画面を切り替えるサンプルです。 かなり簡単に書くことができますね。 TabView - SwiftUI | Apple Developer Documentation</description>
+      <guid>https://en.swiswiswift.com/2019-11-21/</guid>
+      <description>Here&#39;s a sample of how to switch screens using TabView. It&#39;s pretty easy to write about, isn&#39;t it?
+TabView - SwiftUI | Apple Developer Documentation</description>
     </item>
     
     <item>
-      <title>ListViewからそれぞれ別のViewに遷移する（SwiftUI）</title>
-      <link>https://swiswiswift.com/2019-11-20/</link>
+      <title>Transition from one ListView to another (SwiftUI)</title>
+      <link>https://en.swiswiswift.com/2019-11-20/</link>
       <pubDate>Wed, 20 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-20/</guid>
-      <description>設定画面のようにListViewからそれぞれ別のViewに遷移する方法が少し手間でした。 もっと良い方</description>
+      <guid>https://en.swiswiswift.com/2019-11-20/</guid>
+      <description>It was a bit of a hassle to transition from one ListView to another like the configuration screen.
+I feel like there&#39;s a better way to do it.</description>
     </item>
     
   </channel>

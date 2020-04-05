@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeでボタンを表示する"
+title = "Display the button with ReactNative"
 url = "2018-08-12"
 date = "2018-08-12"
-description = "ReactNativeでボタンを表示する"
+description = "Display the button with ReactNative"
 tags = [
     "ReactNative",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeでボタンを表示するサンプルです。  
-ボタンを押すとアラームが表示されます。  
+This is a sample of displaying a button in ReactNative.  
+Press the button to display the alarm.
 
 react-native: 0.56.0  
 

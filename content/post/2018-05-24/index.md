@@ -1,8 +1,8 @@
 +++
-title = "Asset CatalogでColor Setを使って色を管理する"
+title = "Using Color Set to manage colors in Asset Catalog"
 url = "2018-05-24"
 date = "2018-05-24"
-description = "Asset CatalogでColor Setを使って色を管理する"
+description = "Using Color Set to manage colors in Asset Catalog"
 tags = [
     "iOS",
 ]
@@ -15,18 +15,17 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Xcode9(iOS 11)から、色をAssetで管理することができるようになりました。  
-UIColorのExtensionを作って色を登録して関数作ったりしてごにょごにょしなくて良くなりました。  
-色の管理がしやすくなりましたし、デザイナーさんとの連携もちょっとしやすくなったのかな？って思いました。  
-とても良い機能なんですが、iOS１１以上でしか動かないので注意が必要です。  
-Deployment Targetを11.0以上にしないと警告が出ます。  
+Starting with Xcode9 (iOS 11), you can now manage your colors with Assets.  
+I made a UIColor Extension and registered a color and made a function.  
+It's easier to manage the colors, and I think it's easier to work with the designers. I thought to myself.  
+It's a very good feature, but it only works on iOS 11 and above, so you need to be careful.  
+If you don't set Deployment Target to 11.0 or higher, you will get a warning.  
 
-Assetを開いて右クリック -> 「New Color Set」を選択  
-
+Open Asset and right click -> Select "New Color Set".  
 
 ![alt](1.png)
 
-ここでは「original」という名前で濃い緑色を登録  
+Here we register a dark green with the name "ORIGINAL    
 
 ![alt](2.png)
 ![alt](3.png)

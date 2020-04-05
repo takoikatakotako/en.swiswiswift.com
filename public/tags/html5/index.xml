@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HTML5 on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/html5/</link>
-    <description>Recent content in HTML5 on すいすいSwift</description>
+    <title>HTML5 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/html5/</link>
+    <description>Recent content in HTML5 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Tue, 17 Jul 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/html5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>最小構成のhtml、css、javascriptのテンプレート</title>
-      <link>https://swiswiswift.com/2018-07-17/</link>
+      <title>Minimum configuration html, css, javascript templates</title>
+      <link>https://en.swiswiswift.com/2018-07-17/</link>
       <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-07-17/</guid>
-      <description>html, css, javascriptのミニマムなテンプレートです。 毎回調べているのでメモです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;;</description>
+      <guid>https://en.swiswiswift.com/2018-07-17/</guid>
+      <description>It&#39;s a minimal HTML, CSS, and javascript template.
+I look it up every time, so here are my notes.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
   </channel>

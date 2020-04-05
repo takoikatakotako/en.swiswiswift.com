@@ -1,8 +1,8 @@
 +++
-title = "CollectionViewにSearchBarをつけて検索する"
+title = "Search with SearchBar in CollectionView"
 url = "2018-07-18"
 date = "2018-07-18"
-description = "CollectionViewにSearchBarをつけて検索する"
+description = "Search with SearchBar in CollectionView"
 tags = [
     "iOS",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-コレクションビューにサーチバーとコレクションビューをつけて検索するサンプルです。
+This is a sample of a search with a search bar and a collection view in the collection view.
 
 ![alt](1.gif)
 

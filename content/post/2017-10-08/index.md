@@ -1,8 +1,8 @@
 +++
-title = "UITableViewにヘッダーを設定する"
+title = "Setting a header in UITableView"
 url = "2017-10-08"
 date = "2017-10-08"
-description = "UITableViewにヘッダーを設定する"
+description = "Setting a header in UITableView"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UITableViewにヘッダーを設定するサンプルです。  
-フッターも同様に設定することができます。
+This is a sample of setting a header in UITableView.  
+The footer can be set up in the same way.
 
 <!-- Google Ads -->
 {{< google-ads >}}

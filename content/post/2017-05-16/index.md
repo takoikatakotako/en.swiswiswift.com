@@ -1,8 +1,8 @@
 +++
-title = "UIStatusBarを白くする"
+title = "Whitening the UIStatusBar"
 url = "2017-05-16"
 date = "2017-05-16"
-description = "UIStatusBarを白くする"
+description = "Whitening the UIStatusBar"
 tags = [
     "iOS",
 ]
@@ -14,18 +14,18 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-UIStatusBarを白くする方法についてです。  
+Here's how to whiten the UIStatusBar.  
 
-UIStatusBarを白くする方法その1  
+How to make UIStatusBar white, part 1  
 
-UIStatusBarを白くする方法その1です。特定のViewControllerを白くする方法です。白くしたいUIViewControllerに書きます。  
-NavigationController以下にあるStatusBarはこの方法では白くはなりませんので注意してください。  
+How to make UIStatusBar white, part 1. This is how to whiten a particular ViewController. Write it to the UIViewController that you want to make white.  
+Please note that the StatusBar under the NavigationController will not become white in this way.  
 
-UIStatusBarを白くする方法その2
+How to make UIStatusBar white, part 2
 
-全てのStatusBarを白くする方法です。  
-プロジェクトのターゲットのinfoに[Status bar style]と[UIStatusBarStyleLightContent]、[View controller-based status bar appearance]と[NO]を追加します。NavigationController以下にあるStatusBarも白くなります。  
- わかりやすいようにViewの背景色をオレンジにしています。  
+Here's how to make all StatusBar white.  
+Add [Status bar style], [UIStatusBarStyleLightContent], [View controller-based status bar appearance], and [NO] to the project's target info. StatusBar under NavigationController also becomes white.  
+ The background color of the View is orange to make it easier to understand.  
 
  ![alt](1.png)
  ![alt](2.png)

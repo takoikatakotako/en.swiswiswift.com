@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeでたまにしか使わないコマンドのメモ"
+title = "A note on the commands that are only used occasionally in ReactNative"
 url = "2018-08-17"
 date = "2018-08-17"
-description = "ReactNativeでたまにしか使わないコマンドのメモ"
+description = "A note on the commands that are only used occasionally in ReactNative"
 tags = [
     "ReactNative",
 ]
@@ -15,21 +15,24 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeでたまにしか使わないけど大事なコメントのメモです。
+This is an important comment note that I use only occasionally in ReactNative.
 
-react-native-cliをnpmでグローバルにインストールする  
+Installing react-native-cli globally with npm  
+
 ```
 npm install -g react-native-cli
 react-native -v
 ```
 
-プロジェクトを作成する  
-＊Sample(react-native init Sample)などReactNativeとか内部で使っている何かと名前が被るとエラーが出るみたいなので気をつけてください。  
+Create a project  
+Be careful not to use the same name as a Sample(react-native init Sample) or something else used internally such as ReactNative, because it seems to give an error.  
+
 ```
 react-native init ReactNative
 ```
 
-iosのエミュレーター起動する  
+Launching the ios emulator.  
+
 ```
 cd ReactNative
 react-native run-ios

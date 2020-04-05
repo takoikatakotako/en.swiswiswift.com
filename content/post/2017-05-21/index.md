@@ -1,8 +1,8 @@
 +++
-title = "Androidアプリのステータスバーの変更"
+title = "Changing the Android app status bar"
 url = "2017-05-21"
 date = "2017-05-21"
-description = "Androidアプリのステータスバーの変更"
+description = "Changing the Android app status bar"
 tags = [
     "Android",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Androidアプリのステータスバーの変更方法です。
-色を直指定するのは良くないです、Color.xml に書きましょう。
+Here's how to change the Android app's status bar.
+It's not a good idea to specify the color directly, write it in Color.xml.
 
 <!-- Google Ads -->
 {{< google-ads >}}

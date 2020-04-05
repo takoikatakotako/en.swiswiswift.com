@@ -1,8 +1,8 @@
 +++
-title = "UserDefaultsを使ってパラメーターを保存する"
+title = "Using UserDefaults to save parameters"
 url = "2018-01-17"
 date = "2018-01-17"
-description = "UserDefaultsを使ってパラメーターを保存する"
+description = "Using UserDefaults to save parameters"
 tags = [
     "iOS",
 ]
@@ -15,12 +15,12 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UserDefaultsはアプリを落としても保持しておきたいデータを保存するときに使います。  
-使い方はいたってシンプルです。  
-サンプルコードでは、まず最初に `userDefaults.register(defaults: ["KEY_LabelText": "Hello"])` で初期値を設定しています。  
-`.register（）` はとても便利で、指定したキーに対応するデータが存在しない場合に、初期値を入れてくれます。  
-次にラベルにUserDefaultで保存した値を読み取り、ラベルのテキストに反映。  
-そしてボタンを押されたらuserdefaultsとラベルの値を更新しています。  
+UserDefaults are used to store data that you want to keep even if you drop the app.  
+It's very simple to use.  
+In the sample code, the initial value is set with `userDefaults.register(defaults: ["KEY_LabelText": "Hello"]]` at first.  
+The `.register ()` is very useful and puts the initial value when there is no data corresponding to the specified key.  
+Then the label reads the value saved by UserDefault and reflects it in the text of the label.  
+And when the button is pressed, it updates the value of the userdefaults and label.  
 
 ![alt](1.gif)
 

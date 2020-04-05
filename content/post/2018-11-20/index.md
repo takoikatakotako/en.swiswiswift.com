@@ -1,8 +1,8 @@
 +++
-title = "BottomNavigationViewで切り替え時に色を変える"
+title = "Changing the color of the BottomNavigationView when switching"
 url = "2018-11-20"
 date = "2018-11-20"
-description = "BottomNavigationViewで切り替え時に色を変える"
+description = "Changing the color of the BottomNavigationView when switching"
 tags = [
     "Android",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-res/color　ディレクトリ以下に　bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。
+This can be achieved by creating a bottom_navigation_color.xml file under the res/color directory and writing the colors for each state in it.
 
 ![alt](1.gif)
 

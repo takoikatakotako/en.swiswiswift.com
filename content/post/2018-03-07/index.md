@@ -1,8 +1,8 @@
 +++
-title = "文字列やURLからQRコードを生成する"
+title = "Generating a QR code from a string or URL"
 url = "2018-03-07"
 date = "2018-03-07"
-description = "文字列やURLからQRコードを生成する"
+description = "Generating a QR code from a string or URL"
 tags = [
     "iOS",
 ]
@@ -15,15 +15,13 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-文字列やURLからQRコードを生成するサンプルコードです。  
-This is a sample code that generates a QR code from a character string or URL.  
+This is a sample code to generate a QR code from a character string or URL.  
 
-これらの記事を参考にさせていただきました。  
-
+Reference:
 [CIImageをData型に変換したときにハマった時の対処法(Swift3.0)](https://qiita.com/coffeemk2/items/5f6f5352f9b8b1b02ec9)  
 [SwiftでQRコードを生成してみた](https://qiita.com/matsuhisa_h/items/91cdeeaf32553c3b23fb)
 
-生成したQRコードはこちらです。  
+The generated QR code is here.    
 
 ![alt](1.png)
 

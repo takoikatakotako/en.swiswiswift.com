@@ -1,8 +1,8 @@
 +++
-title = "Androidアプリのアクションバーの影を消す"
+title = "Shadowing the action bar in Android apps"
 url = "2017-05-22"
 date = "2017-05-22"
-description = "Androidアプリのアクションバーの影を消す"
+description = "Shadowing the action bar in Android apps"
 tags = [
     "Android",
 ]
@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Androidアプリのアクションバーの影を消します。
-アプリはどんどん新しいことが増えていくので覚えるのが大変です。
-
+Shadow the action bar in the Android app.
+Apps are hard to remember because there are so many new things going on.
 
 <!-- Google Ads -->
 {{< google-ads >}}

@@ -1,59 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/05 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/05/</link>
-    <description>Recent content in 2018/05 on すいすいSwift</description>
+    <title>2018/05 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/05/</link>
+    <description>Recent content in 2018/05 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Fri, 25 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/05/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/05/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>let’s encryptでさくらサーバーをhttpsにする</title>
-      <link>https://swiswiswift.com/2018-05-25/</link>
+      <title>Let&#39;s encrypt the Sakura server to https</title>
+      <link>https://en.swiswiswift.com/2018-05-25/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-05-25/</guid>
-      <description>以下のサイトを参考にして証明書の設定をして以下の.htaccessをrootにおけば完成です。 ちょっ</description>
+      <guid>https://en.swiswiswift.com/2018-05-25/</guid>
+      <description>Refer to the following site to set up the certificate and put the following .htaccess as root to complete the process. It&#39;s a bit jammed.</description>
     </item>
     
     <item>
-      <title>Asset CatalogでColor Setを使って色を管理する</title>
-      <link>https://swiswiswift.com/2018-05-24/</link>
+      <title>Using Color Set to manage colors in Asset Catalog</title>
+      <link>https://en.swiswiswift.com/2018-05-24/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-05-24/</guid>
-      <description>Xcode9(iOS 11)から、色をAssetで管理することができるようになりました。 UIColorのExtensio</description>
+      <guid>https://en.swiswiswift.com/2018-05-24/</guid>
+      <description>Starting with Xcode9 (iOS 11), you can now manage your colors with Assets.
+I made a UIColor Extension and registered a color and made a function.</description>
     </item>
     
     <item>
-      <title>Appleのエンジニアさんにコードレベルの質問を送ってみた</title>
-      <link>https://swiswiswift.com/2018-05-21/</link>
+      <title>I sent a code-level question to an Apple engineer.</title>
+      <link>https://en.swiswiswift.com/2018-05-21/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-05-21/</guid>
-      <description>「AppleDeveloperの登録料が高すぎる」と友達からよく言われるんですが、高いだけあって良い</description>
+      <guid>https://en.swiswiswift.com/2018-05-21/</guid>
+      <description>My friends often tell me that AppleDeveloper registration fees are too high, but there are many good things in spite of the high fees.
+One of them is Technical Support Incident (TSI), where Apple engineers can answer questions and consult with you at the code level about bugs or problems that cannot be fixed.</description>
     </item>
     
     <item>
-      <title>UIViewの背景をグラデーションさせる</title>
-      <link>https://swiswiswift.com/2018-05-06/</link>
+      <title>Grading the UIView background</title>
+      <link>https://en.swiswiswift.com/2018-05-06/</link>
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-05-06/</guid>
-      <description>UIViewの背景をグラデーションさせるサンプルコードです。 参考にさせていただいたページ 【Swift</description>
+      <guid>https://en.swiswiswift.com/2018-05-06/</guid>
+      <description>This is a sample code to make the background of UIView gradient. Reference 【Swift x iOSアプ</description>
     </item>
     
     <item>
-      <title>カスタムボタンクラスを実装する</title>
-      <link>https://swiswiswift.com/2018-05-02/</link>
+      <title>Implementing a custom button class</title>
+      <link>https://en.swiswiswift.com/2018-05-02/</link>
       <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-05-02/</guid>
-      <description>UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。 見た目を別ファ</description>
+      <guid>https://en.swiswiswift.com/2018-05-02/</guid>
+      <description>This is a sample code to create and paste a custom button class that extends UIButton.
+By separating the look and feel of the ViewController into separate files, you can make the ViewController look neat.</description>
     </item>
     
   </channel>

@@ -1,8 +1,8 @@
 +++
-title = "TableViewを編集してCellを削除する"
+title = "Edit TableView to delete a Cell"
 url = "2018-04-24"
 date = "2018-04-24"
-description = "TableViewを編集してCellを削除する"
+description = "Edit TableView to delete a Cell"
 tags = [
     "iOS",
 ]
@@ -15,11 +15,11 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-TableViewを編集してCellを削除するサンプルコードです。  
-NavigationBarに編集ボタンを追加し、そのボタンを押すことでセルを削除することができます。  
-NavigationControllerについてはこの記事を参考にしてください。  
+This is a sample code to delete a Cell by editing TableView.  
+You can add an edit button to the NavigationBar and remove the cell by pressing that button.  
+For more information about NavigationController, please refer to this article.  
 
-NavigationControllerを実装する
+Implementing NavigationController
 
 ![alt](1.gif)
 

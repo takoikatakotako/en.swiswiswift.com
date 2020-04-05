@@ -1,8 +1,8 @@
 +++
-title = "グループスタイルのTableViewを作成する"
+title = "Creating a Group Style TableView"
 url = "2018-09-20"
 date = "2018-09-20"
-description = "グループスタイルのTableViewを作成する"
+description = "Creating a Group Style TableView"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-グループスタイルのテーブルビューを表示するサンプルコードです
-設定画面などはこんな感じですね。
+Sample code to display the group style table view.
+The settings screen looks like this.
 
 ![alt](1.gif)
 

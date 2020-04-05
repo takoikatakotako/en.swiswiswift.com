@@ -1,8 +1,8 @@
 +++
-title = "カスタムレイアウトを持つコレクションビューをつくる"
+title = "Create a collection view with custom layouts"
 url = "2017-11-27"
 date = "2017-11-27"
-description = "カスタムレイアウトを持つコレクションビューをつくる"
+description = "Create a collection view with custom layouts"
 tags = [
     "iOS",
 ]
@@ -15,11 +15,11 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べました。  
+I decided to create a design with nested images in the app I'm working on, so I looked into how to implement it.  
 
-主なコードは以下のサイトを参考にさせていただきました。  
-本当にありがとうございました。  
-Swift2->4の変換は大変でした。。。  
+I used the following site as a reference for the main code.  
+Thank you very much.  
+The Swift2->4 conversion was a pain.  
 
 [iOS UICollecionViewFlowLayout でカスタムレイアウトを作ろう ～ Swift版](https://www.indetail.co.jp/blog/5257/)
 

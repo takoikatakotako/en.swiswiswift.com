@@ -1,8 +1,8 @@
 +++
-title = "UITabBarControllerを実装する"
+title = "Implement UITabBarController."
 url = "2018-06-02"
 date = "2018-06-02"
-description = "UITabBarControllerを実装する"
+description = "Implement UITabBarController."
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Viewの切り替えに使われるUITabBarControllerを実装サンプルです。  
-UITabBarControllerのアイコンは30×30の透過pngです。  
+This is a sample implementation of UITabBarController, which is used to switch views.  
+The icon for UITabBarController is a 30×30 transparent png.   
 
 ![alt](1.png)
 <br>

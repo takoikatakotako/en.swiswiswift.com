@@ -1,8 +1,8 @@
 +++
-title = "KotlinでListViewを内包したTabを作成する"
+title = "Creating a Tab with ListView in Kotlin"
 url = "2018-09-25"
 date = "2018-09-25"
-description = "KotlinでListViewを内包したTabを作成する"
+description = "Creating a Tab with ListView in Kotlin"
 tags = [
     "Android",
 ]
@@ -17,13 +17,14 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 
-KotlinでListViewを内包したTabを作成しました。
+I created a Tab that contains a ListView in Kotlin.
 
-参考にさせて頂いたWebページです。
-すごく良い記事なので、この記事より彼の記事をみてください。
+This is the web page I used as a reference.
+It's a very good article, so please see his article from this one.
+
 [Getting Started with Tabs in Android — Kotlin](https://medium.com/@eijaz/getting-started-with-tablayout-in-android-kotlin-bb7e21783761)
 
-build.gradle に以下のdependencyを追加します。
+Add the following dependency to build.gradle
 
 `implementation 'com.android.support:design:26.1.0'`
 

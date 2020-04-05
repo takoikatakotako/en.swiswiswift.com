@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019/04 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2019/04/</link>
-    <description>Recent content in 2019/04 on すいすいSwift</description>
+    <title>2019/04 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2019/04/</link>
+    <description>Recent content in 2019/04 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2019/04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2019/04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ログイン時にメッセージを表示する（CentOS7）</title>
-      <link>https://swiswiswift.com/2019-04-12/</link>
+      <title>Display a message at login (CentOS7)</title>
+      <link>https://en.swiswiswift.com/2019-04-12/</link>
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-04-12/</guid>
-      <description>サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。 ログイン時に表示し</description>
+      <guid>https://en.swiswiswift.com/2019-04-12/</guid>
+      <description>If you are managing multiple servers, you may accidentally log in to a different server.
+The characters to be displayed at login are written in $/etc/motd.</description>
     </item>
     
     <item>
-      <title>iOSでUITest（E2Eテスト）を行う(Swift5.0)</title>
-      <link>https://swiswiswift.com/2019-04-11/</link>
+      <title>Performing UITest (E2E testing) on iOS (Swift5.0)OSでUITest（E2Eテスト）を行う(Swift5.0)</title>
+      <link>https://en.swiswiswift.com/2019-04-11/</link>
       <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-04-11/</guid>
-      <description>そしてそのアプリのUITest を実装しました。 参考: 【Swift】初めてのUITest導入 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2019-04-11/</guid>
+      <description>Then I implemented UITest for that app. Reference: 【Swift】初めてのUITest</description>
     </item>
     
   </channel>

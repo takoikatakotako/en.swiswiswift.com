@@ -1,8 +1,8 @@
 +++
-title = "サイトリニューアルしました"
+title = "The website has been relaunched!"
 url = "2017-04-01"
 date = "2017-04-01"
-description = "サイトリニューアルしました"
+description = "The website has been relaunched!"
 tags = [
     "Other",
 ]
@@ -14,4 +14,4 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-サイトのリニューアルを行いました。
+The website has been redesigned.

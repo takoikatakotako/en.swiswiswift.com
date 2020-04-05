@@ -1,8 +1,8 @@
 +++
-title = "Appleのエンジニアさんにコードレベルの質問を送ってみた"
+title = "I sent a code-level question to an Apple engineer."
 url = "2018-05-21"
 date = "2018-05-21"
-description = "Appleのエンジニアさんにコードレベルの質問を送ってみた"
+description = "I sent a code-level question to an Apple engineer."
 tags = [
     "iOS",
 ]
@@ -15,27 +15,27 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-「AppleDeveloperの登録料が高すぎる」と友達からよく言われるんですが、高いだけあって良いところもたくさんあります。  
-その中の一つがTechnical Support Incident（TSI）で、修正できないバグや問題をコードのレベルでAppleのエンジニアさんが質問に答えてくれたり、相談に乗ってくれます。  
-AppleDeveloperProgramを登録or更新すると2回テクニカルサポートの権利がもらえます。  
+My friends often tell me that AppleDeveloper registration fees are too high, but there are many good things in spite of the high fees.  
+One of them is Technical Support Incident (TSI), where Apple engineers can answer questions and consult with you at the code level about bugs or problems that cannot be fixed.  
+Register or update your AppleDeveloperProgram to receive two technical support rights.  
 
-以前、目覚まし時計のアプリを作っており、その途中で解決できないバグがありました。  
-具体的には「iPhoneのロック中に通知の音が鳴らない」というもので、シミュレーターでは動くのに、実機ではそのバグが現れます。  
-自分では解決できなかったため、DTIを使うことにしました。  
+I've made an alarm clock app before, and there was a bug in the process that I couldn't resolve.  
+Specifically, it's "Notification sound doesn't sound while iPhone is locked", and although it works in simulator, the bug appears in real machine.  
+I couldn't solve it myself, so I decided to use DTI.  
 
-まず、バグの部分を切り出したXcodeのプロジェクトを作り、githubに上げました。  
-次に「タイトル」、「バグの説明」、「再現手順」、「(リリース済みアプリの場合は)App NameとApp ID」を英語で書き、アカウントページの Code-Level Support のフォーム(https://developer.apple.com/account/?view=support)から送りました。  
-すぐに自動返信メールがくるので、そのメールにバグの部分を切り出したXcodeのプロジェクト(github に上げたものと同じもの)を添付して返信しました。  
+First, I created an Xcode project with the buggy part cut out and put it up on github.  
+Next, I wrote the "Title", "Bug Description", "Reproduction Instructions", and "App Name and App ID" in English, and sent it through the Code-Level Support form on my account page (https://developer.apple.com/account/?view=support).  
+I received an auto-response email immediately, so I attached an Xcode project (the same one I put up on github) with the part of the bug I cut out to the email and replied.  
 
-２日後にAppleのエンジニアさんから返事が届きました。  
-「Xcodeプロジェクトと再現手順ありがとう！君の手順どうりにやったんだけど、僕の環境ではバグは出なかったよ。他の端末でチェックしてみて」といった内容で、妻と友達の端末を借りて動かしたらちゃんと動きました。  
-僕のiPhoneが壊れていたみたいです。。。orz  
+Two days later, I received a reply from an Apple engineer.  
+Thanks for the Xcode project and reproducibility instructions! I followed your instructions and didn't get any bugs in my environment. My wife and I borrowed a friend's terminal and it worked fine.  
+My iPhone seems to have been broken. orz.  
 
-つまらないオチですが、Appleのエンジニアさんが実際にコードを動かして試してくれるのはとてもありがたく、本当に詰まった時はありがたいなと思いました。  
+It's a boring ending, but I really appreciated having an Apple engineer actually work with the code and try it out, and I was grateful when I got really stuck.  
 
-それでは良いSwiftライフをーー！  
+Have a great Swift life!  
 
-AppleDeveloper -テクニカルサポートのリクエスト-  
+AppleDeveloper - Technical Support Requests  
 https://developer.apple.com/jp/support/technical/  
 
 <!-- Google Ads -->

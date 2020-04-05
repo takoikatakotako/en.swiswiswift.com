@@ -1,8 +1,8 @@
 +++
-title = "curlでpostでJson送るときにレスポンスヘッダーも確認したい"
+title = "I also want to check the response header when sending JSON in post with curl"
 url = "2017-07-26"
 date = "2017-07-26"
-description = "curlでpostでJson送るときにレスポンスヘッダーも確認したい"
+description = "I also want to check the response header when sending JSON in post with curl"
 tags = [
     "Linux",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-curlでpostでJson送るときにレスポンスヘッダーも確認したい時に使いました。
-最後に `--include` をつけるとレスポンスヘッダーも表示されます。
+I used it when I wanted to check the response header when sending JSON in post with curl.
+If you add `--include` at the end, the response header is also shown.
 
 ```
 http://localhost:3000/api/url -X POST -H "Content-Type: application/json" -d '{"email":"user@swiswiswift.com", "password":"password"}'--include

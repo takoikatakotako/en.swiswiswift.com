@@ -1,8 +1,8 @@
 +++
-title = "Webテスト用のカンペ"
+title = "Web Testing Campe"
 url = "2017-05-23"
 date = "2017-05-23"
-description = "Webテスト用のカンペ"
+description = "Web Testing Campe"
 tags = [
     "JavaScript",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-JavaScriptのWebテスト用のカンペです。
-ブラウザがあればできるところが好きです。
-ただ、慣れていないので競技プログラミングをしにくい。。。
+This is a sample code for JavaScript web tests.
+I like that you can do it if you have a browser.
+However, it's hard to do the competition programming because I'm not used to it.
 
 <!-- Google Ads -->
 {{< google-ads >}}

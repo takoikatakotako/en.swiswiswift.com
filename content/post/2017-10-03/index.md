@@ -1,8 +1,8 @@
 +++
-title = "UICollectionViewにCustomセルを追加する"
+title = "Adding a Custom Cell to UICollectionView"
 url = "2017-10-03"
 date = "2017-10-03"
-description = "UICollectionViewにCustomセルを追加する"
+description = "Adding a Custom Cell to UICollectionView"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UICollectionViewにCustumCollectionセルを追加してみました。  
+I tried to add a custumCollection cell to UICollectionView.  
 
-クラス名を文字列に変換する `NSStringFromClass(CustumCollectionViewCell.self)` は、`UITableViewやUICollectionView` を使うときにとても便利です。
+The `NSStringFromClass(CustumCollectionViewCell.self)`, which converts class names to strings, is very useful when using `UITableView or UICollectionView`.
 
 <!-- Google Ads -->
 {{< google-ads >}}

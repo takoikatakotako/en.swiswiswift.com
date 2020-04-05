@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeで画像を表示する"
+title = "Display an image with ReactNative"
 url = "2018-08-15"
 date = "2018-08-15"
-description = "ReactNativeで画像を表示する"
+description = "Display an image with ReactNative"
 tags = [
     "ReactNative",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeで画像を表示するサンプルです。  
-iOSで画像をインターネットから取得する場合はATSを設定する必要があるので気をつけてください。  
+This is a sample of displaying an image with ReactNative.  
+If you want to retrieve images from the Internet on iOS, you need to set up ATS, so be careful.  
 
 react-native: 0.56.0
 

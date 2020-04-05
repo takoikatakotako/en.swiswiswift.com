@@ -15,15 +15,15 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-//参考
+Reference: 
 [Xcode 10 libfishhook.a cannot be found](https://github.com/facebook/react-native/issues/19569)
 
-Xcodeを10.0 にアップデートしたら上記のエラーが出てReactNativeのコンパイルできなくなった。
+When I updated Xcode to 10.0, I got the above error and couldn't compile ReactNative.
 
-RTCWebSocket.xcodeproject -> RCTWebSocket -> Build Phasesを選択 -> Link Binary WithLibraried にlibfishhook.aを追加。  
-すでに追加されている場合は削除  
+RTCWebSocket.xcodeproject -> RCTWebSocket -> Select Build Phases -> Add libfishhook.a to Link Binary WithLibraried.  
+Delete if already added.  
 
-を行うことで解決した。
+The problem was solved by doing
 
 <!-- Google Ads -->
 {{< google-ads >}}

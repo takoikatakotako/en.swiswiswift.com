@@ -1,8 +1,8 @@
 +++
-title = "音声認識(SFSpeechRecognizer)"
+title = "Speech Recognition(SFSpeechRecognizer)"
 url = "2017-05-13"
 date = "2017-05-13"
-description = "音声認識(SFSpeechRecognizer)"
+description = "Speech Recognition(SFSpeechRecognizer)"
 tags = [
     "iOS",
 ]

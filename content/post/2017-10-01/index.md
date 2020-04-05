@@ -1,8 +1,8 @@
 +++
-title = "ESP32でSDカードのテキストファイルを読み書きする。"
+title = "Reading and writing text files on SD cards with ESP32"
 url = "2017-10-01"
 date = "2017-10-01"
-description = "ESP32でSDカードのテキストファイルを読み書きする。"
+description = "Reading and writing text files on SD cards with ESP32"
 tags = [
     "ESP32",
 ]
@@ -15,16 +15,16 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ESP32でSDカードに保存されたテキストファイルを読み書きするサンプルです。  
-読み込んで書き込むシンプルなサンプルコードがネットにあまりな無かったので描いてみました。  
+This is a sample of reading and writing a text file saved in an SD card with ESP32.  
+I couldn't find much simple sample code on the net to read and write, so I drew it.  
 
-SDカードとESPとの配線はこちらのサイトを参考にしました。  
-[mgo-tec電子工作](https://www.mgo-tec.com/blog-entry-esp32-wroom-micro-sdhc-01.html)  
-いろいろ調べたのですが、プルアップ抵抗はあった方が良いっぽいです。
-そして、 [mgo-tec電子工作](https://www.mgo-tec.com/blog-entry-esp32-wroom-micro-sdhc-01.html) にはいつもお世話になっています、ありがとうございます。  
+I used this site as a reference for wiring between the SD card and ESP.  
 
-そしてこちらのコードを参考にさせていただきました。  
-ArduinoでSDカードにデータを保存する  
+And I used this code as a reference.  
+Save data to SD card with Arduino  
+
+Reference:
+[mgo-tec電子工作](https://www.mgo-tec.com/blog-entry-esp32-wroom-micro-sdhc-01.html)
 
 <!-- Google Ads -->
 {{< google-ads >}}

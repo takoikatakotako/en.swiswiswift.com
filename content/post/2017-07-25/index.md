@@ -1,8 +1,8 @@
 +++
-title = "curlでpostでJson送る"
+title = "Sending JSON in post with curl"
 url = "2017-07-25"
 date = "2017-07-25"
-description = "curlでpostでJson送る"
+description = "Sending JSON in post with curl"
 tags = [
     "Linux",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Macのターミナルからcurlコマンドでjsonをpostする方法です。  
-ローカルで開発をしていて、apiの確認をしたい時によく使います。  
+How to post json from Mac terminal with curl command.  
+I often use it when I'm developing locally and want to check the APIs.  
 
 ```
 curl http://localhost:3000/api/url -X POST -H "Content-Type: application/json" -d '{"email":"kabigon@swiswiswift.com", "password":"password"}'

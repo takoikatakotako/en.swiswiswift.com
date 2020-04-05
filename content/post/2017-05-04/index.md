@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UINavigationBarの要素追加、カスタマイズに用いられるUIBarButtonItemについてです。
+UIBarButtonItem used to add or customize elements in UINavigationBar.
 
-UIBarButtonItemのクラス階層
+Class hierarchy of UIBarButtonItem
 
 NSObject  
 ↑  
@@ -26,18 +26,18 @@ UIBarItem
 UIBarButtonItem  
 [AppleDeveloperリファレンスUIBarButtonItem](https://developer.apple.com/documentation/uikit/uibarbuttonitem)
 
-UIBarButtonItem例文
+UIBarButtonItem example sentence
 
-UINavigationBarを生成し、タイトルとボタンを付けます。
+Generate a UINavigationBar and put a title and button on it.
 
 ![alt](1.png)
 
 {{< gist takoikatakotako 401a75d396db4548302b32e757f44e52 >}}
 
 
-UIBarButtonItemの色の変更
+Changing the color of UIBarButtonItem
 
-UIBarButtonItemはデフォルトでは青色ですが、以下の方法で色を指定することができます。  
+UIBarButtonItem is blue by default, but the color can be specified in the following way.  
 Change color of Back button in navigation bar
 
 ```

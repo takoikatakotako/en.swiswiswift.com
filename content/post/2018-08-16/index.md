@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeでインディケーターを表示する"
+title = "Show the indicator in ReactNative"
 url = "2018-08-16"
 date = "2018-08-16"
-description = "ReactNativeでインディケーターを表示する"
+description = "Show the indicator in ReactNative"
 tags = [
     "ReactNative",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeでIndicatorを表示するサンプルです。  
+This is a sample to display an indicator in ReactNative.  
 react-native: 0.56.0  
 
 ![alt](1.png)

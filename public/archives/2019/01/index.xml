@@ -1,149 +1,162 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019/01 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2019/01/</link>
-    <description>Recent content in 2019/01 on すいすいSwift</description>
+    <title>2019/01 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2019/01/</link>
+    <description>Recent content in 2019/01 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2019/01/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2019/01/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>id_rsa’ are too open.</title>
-      <link>https://swiswiswift.com/2019-01-28/</link>
+      <link>https://en.swiswiswift.com/2019-01-28/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-28/</guid>
-      <description>以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しまし</description>
+      <guid>https://en.swiswiswift.com/2019-01-28/</guid>
+      <description>I get the following error and I can no longer connect to SSH. The problem was solved by restricting the privileges of the private key.</description>
     </item>
     
     <item>
-      <title>ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)</title>
-      <link>https://swiswiswift.com/2019-01-27/</link>
+      <title>Parse a local Json file and display it in table view (Swift4.2)</title>
+      <link>https://en.swiswiswift.com/2019-01-27/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-27/</guid>
-      <description>ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。 Swi</description>
+      <guid>https://en.swiswiswift.com/2019-01-27/</guid>
+      <description>This is a sample code that parses the locally added JSON file and displays it in TableView.
+It would be better to use SwiftyJson or something like that, but this time I wrote it without using it.</description>
     </item>
     
     <item>
-      <title>SwiftでUITestを導入(Swift4.2)</title>
-      <link>https://swiswiswift.com/2019-01-26/</link>
+      <title>Adopting UITest with Swift(Swift4.2)</title>
+      <link>https://en.swiswiswift.com/2019-01-26/</link>
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-26/</guid>
-      <description>プロジェクトにUITestを追加します。 プロジェクト作成時に作らなかった場合は以下の画像の手順で追加</description>
+      <guid>https://en.swiswiswift.com/2019-01-26/</guid>
+      <description>Add the UITest to your project.
+If you didn&#39;t create it when you created the project, you can add it by following the steps in the image below.</description>
     </item>
     
     <item>
-      <title>NavigationControllerで画面遷移を行う（Swift4.2）</title>
-      <link>https://swiswiswift.com/2019-01-21/</link>
+      <title>Screen transition in NavigationController（Swift4.2）</title>
+      <link>https://en.swiswiswift.com/2019-01-21/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-21/</guid>
-      <description>NavigationContorollerのサンプルコードです。 NavigationContorol</description>
+      <guid>https://en.swiswiswift.com/2019-01-21/</guid>
+      <description>This is the sample code for the NavigationContoroller.
+The NavigationContoroller moves sideways to make screen transitions.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>NavigationControllerのRootを切り替える（Swift4.2）</title>
-      <link>https://swiswiswift.com/2019-01-20/</link>
+      <title>Switching the Root of NavigationController（Swift4.2）</title>
+      <link>https://en.swiswiswift.com/2019-01-20/</link>
       <pubDate>Sun, 20 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-20/</guid>
-      <description>(adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;&#34;; amzn_assoc_default_search_key =&#34;&#34;;amzn_assoc_theme =&#34;light&#34;; amzn_assoc_bg_color =&#34;FFFFFF&#34;;</description>
+      <guid>https://en.swiswiswift.com/2019-01-20/</guid>
+      <description>(adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;JP&#34;; amzn_assoc_placement =&#34;&#34;; amzn_assoc_search_type = &#34;search_widget&#34;;amzn_assoc_width =&#34;auto&#34;; amzn_assoc_height =&#34;auto&#34;; amzn_assoc_default_search_category =&#34;</description>
     </item>
     
     <item>
       <title>tar (child): gzip: Cannot exec: No such file or directory</title>
-      <link>https://swiswiswift.com/2019-01-17/</link>
+      <link>https://en.swiswiswift.com/2019-01-17/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-17/</guid>
-      <description>$ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now 依存パッケージの gzip を入れてあげる</description>
+      <guid>https://en.swiswiswift.com/2019-01-17/</guid>
+      <description>$ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now The problem was solved by including the dependency package gzip.</description>
     </item>
     
     <item>
       <title>sudo 時に PATH を引き継ぐ</title>
-      <link>https://swiswiswift.com/2019-01-16/</link>
+      <link>https://en.swiswiswift.com/2019-01-16/</link>
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-16/</guid>
-      <description>which java と sudo which java でパスが違ったのでその解決 参考: sudo「コマンドが見つかりません」PATHが初期化され</description>
+      <guid>https://en.swiswiswift.com/2019-01-16/</guid>
+      <description>which java と sudo which java でパスが違ったのでその解決 参考: sud</description>
     </item>
     
     <item>
-      <title>CentOS7にRailsをインストールする</title>
-      <link>https://swiswiswift.com/2019-01-14/</link>
+      <title>Installing Rails on CentOS7</title>
+      <link>https://en.swiswiswift.com/2019-01-14/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-14/</guid>
-      <description>CentOS7にRailsをインストールした時のメモになります。 最終的なNginxの nginx.conf ファイルはこち</description>
+      <guid>https://en.swiswiswift.com/2019-01-14/</guid>
+      <description>This is a note when Rails was installed on CentOS7.
+The final Nginx nginx.conf file can be found here.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>ImagePickerControllerで画像を選択する(Swift4.2)</title>
-      <link>https://swiswiswift.com/2019-01-11/</link>
+      <title>Selecting an image with ImagePickerController(Swift4.2)</title>
+      <link>https://en.swiswiswift.com/2019-01-11/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-11/</guid>
-      <description># Swift 4.2 Swift3の記事はこちら UIImagePickerControllerで画像の選択 iPhon</description>
+      <guid>https://en.swiswiswift.com/2019-01-11/</guid>
+      <description># Swift 4.2
+Read the Swift3 article here.
+Selecting images with UIImagePickerController
+It is a sample program to get an image from the photo library of the iPhone.</description>
     </item>
     
     <item>
-      <title>ListViewを使ってリスト表示する(Kotlin)</title>
-      <link>https://swiswiswift.com/2019-01-08/</link>
+      <title>Using ListView to display a list(Kotlin)</title>
+      <link>https://en.swiswiswift.com/2019-01-08/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-08/</guid>
-      <description>ListViewを使ってリストの表示を行います。 Kotlin 、Android は設定ファイルが多くて難しいです。</description>
+      <guid>https://en.swiswiswift.com/2019-01-08/</guid>
+      <description>Use ListView to display the list. Kotlin and Android are difficult because of the large number of configuration files.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
       <title>Function(Swift4.2)</title>
-      <link>https://swiswiswift.com/2019-01-02/</link>
+      <link>https://en.swiswiswift.com/2019-01-02/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-02/</guid>
-      <description>Swiftで関数を作る方法です。 最近はネット記事を見ないでも見なくても書けるようになってきました。 (adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2019-01-02/</guid>
+      <description>This is how to create a function in Swift. Lately, I&#39;ve been able to write without even looking at online articles.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
       <title>Array(Swift4.2)</title>
-      <link>https://swiswiswift.com/2019-01-01/</link>
+      <link>https://en.swiswiswift.com/2019-01-01/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-01/</guid>
-      <description>#Swift4.2 Swiftの配列です。配列の作成と呼び出しについて記載します。 #Swift3の記事はこちら Array (adsbygoogle = window.adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2019-01-01/</guid>
+      <description>#Swift4.2 It&#39;s a Swift array. This section describes the creation and calling of arrays. #Swift3の記事は</description>
     </item>
     
     <item>
       <title>Print(Swift4.2)</title>
-      <link>https://swiswiswift.com/2018-12-31/</link>
+      <link>https://en.swiswiswift.com/2018-12-31/</link>
       <pubDate>Mon, 31 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-31/</guid>
-      <description>#Swift4.2 print文を使うことでコンソールに配列の中身や文字列などの情報を出力することができます。 (adsbygoogle = window.adsbygoogle ||</description>
+      <guid>https://en.swiswiswift.com/2018-12-31/</guid>
+      <description>#Swift4.2
+The print statement can be used to output information such as the contents of an array or a string to the console.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>UITableViewの中身をUISearchBarで検索する(Swift4)</title>
-      <link>https://swiswiswift.com/2018-12-30/</link>
+      <title>Search the contents of UITableView with UISearchBar(Swift4)</title>
+      <link>https://en.swiswiswift.com/2018-12-30/</link>
       <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-30/</guid>
-      <description>#Swift4.2 UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある</description>
+      <guid>https://en.swiswiswift.com/2018-12-30/</guid>
+      <description>#Swift4.2 This is a sample of the combination of UITableView and UISearchBar. Pressing the magnifying glass on the navigation bar will bring up the SearchBar,</description>
     </item>
     
     <item>
-      <title>アプリ使用中に位置情報を取得する</title>
-      <link>https://swiswiswift.com/2018-12-29/</link>
+      <title>Obtaining location information while using the app</title>
+      <link>https://en.swiswiswift.com/2018-12-29/</link>
       <pubDate>Sat, 29 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-29/</guid>
-      <description>#Swift 4.2 アプリ使用中に緯度と経度を取得するサンプルコードです。 端末の緯度と経度が変わるとラベル文字列が更</description>
+      <guid>https://en.swiswiswift.com/2018-12-29/</guid>
+      <description>#Swift 4.2 This is a sample code to get the latitude and longitude while using the app. The label string is updated when the latitude</description>
     </item>
     
   </channel>

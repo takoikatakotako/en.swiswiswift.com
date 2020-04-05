@@ -17,9 +17,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swiftの辞書配列です。
-辞書配列の作成と呼び出しについて記載します。  
-人によって辞書配列だったり、ハッシュだったり、マップだったりと、言い方が違うのが好きです。
+A Swift dictionary array.
+Describes how to create and call a dictionary array.  
+I like that different people use different ways of saying things like dictionary arrays, hashes, maps, etc.
 
 <!-- Google Ads -->
 {{< google-ads >}}

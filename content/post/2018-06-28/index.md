@@ -1,8 +1,8 @@
 +++
-title = "流れるように動く背景を実装する"
+title = "Implementing a flowing background"
 url = "2018-06-28"
 date = "2018-06-28"
-description = "流れるように動く背景を実装する"
+description = "Implementing a flowing background"
 tags = [
     "iOS",
 ]
@@ -15,10 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きました。  
-アプリのアイコン画像がViewの背景を流れます。  
-またviewDidLoadにアニメーション関係のメソッドを書くと、NavigationBarの遷移によりアニメーションが止まってしまうことがあります。  
-その場合はアニメーション関係のメソッドをviewWillAppearに書き出すことで解決します。  
+I'm sometimes asked how to implement the background of an app I'm making called Four Choice Chemistry, so I wrote a sample code for it.  
+The icon image of the app flows through the background of the View.  
+Also, if you write animation-related methods in viewDidLoad, animations may stop due to navigation bar transitions.  
+In this case, writing the animation-related methods to viewWillAppear solves the problem.  
 
 
 ![alt](1.gif)

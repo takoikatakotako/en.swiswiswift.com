@@ -1,8 +1,8 @@
 +++
-title = "パスワードの入力欄の中身を確認したい"
+title = "I want to see what's in the password field."
 url = "2018-11-14"
 date = "2018-11-14"
-description = "パスワードの入力欄の中身を確認したい"
+description = "I want to see what's in the password field."
 tags = [
     "Other",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ログイン画面のパスワード入力欄で黒丸●●●●●となっている中身を確認する方法です。  
-要素と検証を開いて、inputタグの type を text　に変更します。  
+The method to confirm the contents of the black circle●●●● in the password input column of the login screen.  
+element and validation, and change the type of the input tag to text.  
 
 ![alt](1.png)
 

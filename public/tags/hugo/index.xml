@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/hugo/</link>
-    <description>Recent content in Hugo on すいすいSwift</description>
+    <title>Hugo on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/hugo/</link>
+    <description>Recent content in Hugo on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sat, 28 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>HugoでGistが表示されない</title>
-      <link>https://swiswiswift.com/2019-12-28/</link>
+      <title>Gist doesn&#39;t show up in Hugo</title>
+      <link>https://en.swiswiswift.com/2019-12-28/</link>
       <pubDate>Sat, 28 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-28/</guid>
-      <description>Hugo のバージョンを更新したところ、以下のような Gist のページが表示されなくなりました。 &amp;lt;script src=&amp;quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 以下のように書き</description>
+      <guid>https://en.swiswiswift.com/2019-12-28/</guid>
+      <description>When I updated the version of Hugo, I no longer see the following Gist page.
+&amp;lt;script src=&amp;quot;https://gist.github.com/takoikatakotako/5aba51305d74c009a2c878897837e006.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; It worked by rewriting it as follows.
+Reference: Shortcodes</description>
     </item>
     
   </channel>

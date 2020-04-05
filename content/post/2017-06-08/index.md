@@ -1,8 +1,8 @@
 +++
-title = "rootのログインを禁止にする"
+title = "Disable root login"
 url = "2017-06-08"
 date = "2017-06-08"
-description = "rootのログインを禁止にする"
+description = "Disable root login"
 tags = [
     "Linux",
 ]
@@ -15,60 +15,60 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
+Here's a note to ban root login, which is the first thing you do after renting a VPS.  
 
-VPSを借りて一番最初に行うrootのログインの禁止のメモです。  
+Log in to the server as root and enter your password.  
 
-rootでサーバーにログインしてパスワードを入力します。  
 
 ```
 $ ssh -l root xxx.xxx.xxx.xxx
 ```
 
-ユーザーの追加をします。onojunというユーザーを追加します。  
+Add a user, named onojun.    
 
 ```
 $ adduser onojun
 ```
 
-パスワードを設定します。OSによってはadduserの時に設定するはずです。  
+Set the password, depending on the OS, it should be set when you use adduser.  
 
 ```
 $ passwd onojun
 ```
 
-一旦ログアウします。
+Log out once.
 
 ```
 $ exit
 ```
 
-作成したonojunでログインできるか確かめます。SSHのログインコマンドはお好みで  
+Check if you can log in with the onojun you created, you can use SSH login command as you like.  
 
 
 ```
 $ ssh onojun@xxx.xxx.xxx.xxx
 ```
 
-ログインできたらrootに切り替えます。  
+Once you are logged in, switch to root.  
 
 ```
 $ su -
 ```
 
-sshの設定ファイルを編集します。バックアップも作って上げます。  
+Edit the ssh configuration file. I'll make a backup for you too.  
 
 ```
 $ cd /etc/ssh
 $ cp sshd_config sshd_config.old
 ```
 
-vimで設定ファイルを編集します。PermitRootLogin noにしてあげます。  
+Edit the configuration file in vim and set it to PermitRootLogin no.  
 
 ```
 $ vim sshd_config
 ```
 
-40行目ぐらいにあります。  
+It's at about line 40.  
 
 ```
 PermitRootLogin no
@@ -76,13 +76,13 @@ PermitRootLogin no
 
 ![alt](1.png)
 
-ssshの再起動  
+Restarting sssh  
 
 ```
 $ service sshd restart
 ```
 
-rootでログインできなかったら終わり！！
+If I can't log in as root, I'm done!
 
 <!-- Google Ads -->
 {{< google-ads >}}

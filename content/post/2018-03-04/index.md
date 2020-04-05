@@ -1,8 +1,8 @@
 +++
-title = "列挙型 enum"
+title = "Enumerated Type"
 url = "2018-03-04"
 date = "2018-03-04"
-description = "列挙型 enum"
+description = "Enumerated Type"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-列挙型、enumの書き方のサンプルコードです。  
-ここではpersonというクラスを作り、カビゴンさんの名前と出身地をenumを用いて登録しています。  
+This is a sample code of how to write enum and enum.  
+Here, we created a class called "person" and registered Kabigon's name and hometown using enum.  
 
 <!-- Google Ads -->
 {{< google-ads >}}

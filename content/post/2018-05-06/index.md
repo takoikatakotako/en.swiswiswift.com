@@ -1,8 +1,8 @@
 +++
-title = "UIViewの背景をグラデーションさせる"
+title = "Grading the UIView background"
 url = "2018-05-06"
 date = "2018-05-06"
-description = "UIViewの背景をグラデーションさせる"
+description = "Grading the UIView background"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIViewの背景をグラデーションさせるサンプルコードです。  
+This is a sample code to make the background of UIView gradient.    
 
-参考にさせていただいたページ  
+Reference
 [【Swift x iOSアプリ開発】Viewの背景色にグラデーションを設定する方法](http://amazarashi.me/ios-swift-background-gradiation/)
 [Swift UIViewの背景をグラデーションさせる方法　-iPhoneアプリ開発- ](https://techno-monkey.com/swift-uiview-gradation-iphoneapp/)
 

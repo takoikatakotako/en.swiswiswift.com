@@ -1,8 +1,8 @@
 +++
-title = "一定時間で繰り返しを行う"
+title = "Repeating at a certain time"
 url = "2017-12-13"
 date = "2017-12-13"
-description = "一定時間で繰り返しを行う"
+description = "Repeating at a certain time"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Timeを使って3秒ごとに繰り返しを行います。  
-時計のような機能を持つアプリを作る時に使いました。
-
+Repeat every three seconds using Time.  
+I used it to create an app that functions like a clock.
 
 <!-- Google Ads -->
 {{< google-ads >}}

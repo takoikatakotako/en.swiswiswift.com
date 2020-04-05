@@ -1,8 +1,8 @@
 +++
-title = "Swiftでクラス名と関数名と行番号を取得、表示する"
+title = "Get and display the class name, function name and line number in Swift"
 url = "2017-06-15"
 date = "2017-06-15"
-description = "Swiftでクラス名と関数名と行番号を取得、表示する"
+description = "Get and display the class name, function name and line number in Swift"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。  
-クラス名と行番号、取得表示することができます。  
-
+We can't move in here! The debugging will be quicker if you write it in a part of the  
+The class name and line number, retrieved can be displayed.  
 
 ```
 print("Class name : \(NSStringFromClass(type(of: self))) ")

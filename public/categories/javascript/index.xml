@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript on すいすいSwift</title>
-    <link>https://swiswiswift.com/categories/javascript/</link>
-    <description>Recent content in JavaScript on すいすいSwift</description>
+    <title>JavaScript on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/categories/javascript/</link>
+    <description>Recent content in JavaScript on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Tue, 23 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Webテスト用のカンペ</title>
-      <link>https://swiswiswift.com/2017-05-23/</link>
+      <title>Web Testing Campe</title>
+      <link>https://en.swiswiswift.com/2017-05-23/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-23/</guid>
-      <description>JavaScriptのWebテスト用のカンペです。 ブラウザがあればできるところが好きです。 ただ、慣れ</description>
+      <guid>https://en.swiswiswift.com/2017-05-23/</guid>
+      <description>This is a sample code for JavaScript web tests. I like that you can do it if you have a browser. However, it&#39;s hard to do the competition programming because I&#39;m not used to it.</description>
     </item>
     
   </channel>

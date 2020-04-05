@@ -1,104 +1,113 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/03 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/03/</link>
-    <description>Recent content in 2018/03 on すいすいSwift</description>
+    <title>2018/03 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/03/</link>
+    <description>Recent content in 2018/03 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sun, 25 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/03/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/03/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Arduinoでボタンを使う(プルアップ抵抗無し)</title>
-      <link>https://swiswiswift.com/2018-03-25/</link>
+      <title>Using buttons with Arduino (no pull-up resistor)</title>
+      <link>https://en.swiswiswift.com/2018-03-25/</link>
       <pubDate>Sun, 25 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-25/</guid>
-      <description>Arduinoでボタンを使うときのサンプルコードです。 あんまり知られていないんですが、プルアップを使</description>
+      <guid>https://en.swiswiswift.com/2018-03-25/</guid>
+      <description>This is a sample code for using buttons in Arduino.
+It&#39;s not well known, but when you use a pull-up, you can easily use the buttons with no pull-up resistance.</description>
     </item>
     
     <item>
-      <title>Google Cloud FunctionでHelloWorld</title>
-      <link>https://swiswiswift.com/2018-03-24/</link>
+      <title>HelloWorld with Google Cloud Function</title>
+      <link>https://en.swiswiswift.com/2018-03-24/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-24/</guid>
-      <description>Google様のCloud Functionを触ってみたので、そのメモです。 HelloWorldとJs</description>
+      <guid>https://en.swiswiswift.com/2018-03-24/</guid>
+      <description>Because I touched the Cloud Function of Google, it is the note.
+This is the output and get in HelloWorld and Json.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>UIAlertControllerにTextFieldを追加する</title>
-      <link>https://swiswiswift.com/2018-03-17/</link>
+      <title>Adding a TextField to UIAlertController</title>
+      <link>https://en.swiswiswift.com/2018-03-17/</link>
       <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-17/</guid>
-      <description>UIAlertControllerにTextFieldを追加したサンプルです。 (adsbygoogle = window.adsbygoogle || []).push({}); amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;;</description>
+      <guid>https://en.swiswiswift.com/2018-03-17/</guid>
+      <description>This is a sample of adding a TextField to UIAlertController.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;responsive_search_widget&#34;; amzn_assoc_tracking_id =&#34;swiswiswift-22&#34;; amzn_assoc_marketplace =&#34;amazon&#34;; amzn_assoc_region =&#34;</description>
     </item>
     
     <item>
-      <title>NavigationControllerを実装する</title>
-      <link>https://swiswiswift.com/2018-03-15/</link>
+      <title>Implementing NavigationController</title>
+      <link>https://en.swiswiswift.com/2018-03-15/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-15/</guid>
-      <description>NavigationContorollerのサンプルコードです。 NavigationContorol</description>
+      <guid>https://en.swiswiswift.com/2018-03-15/</guid>
+      <description>This is the sample code for the NavigationContoroller.
+The NavigationContoroller moves sideways to make screen transitions.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>ESP32でRTCモジュールを使う</title>
-      <link>https://swiswiswift.com/2018-03-14/</link>
+      <title>Using the RTC module with ESP32</title>
+      <link>https://en.swiswiswift.com/2018-03-14/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-14/</guid>
-      <description>ESP32でRTCモジュールを使おうとしたら少し詰まったので記事にしました。 結論を先に書くと、#in</description>
+      <guid>https://en.swiswiswift.com/2018-03-14/</guid>
+      <description>I tried to use the RTC module with ESP32 and got a little stuck, so I wrote about it. To conclude, I solved the problem</description>
     </item>
     
     <item>
-      <title>文字列やURLからQRコードを生成する</title>
-      <link>https://swiswiswift.com/2018-03-07/</link>
+      <title>Generating a QR code from a string or URL</title>
+      <link>https://en.swiswiswift.com/2018-03-07/</link>
       <pubDate>Wed, 07 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-07/</guid>
-      <description>文字列やURLからQRコードを生成するサンプルコードです。 This is a sample code that generates a QR code from a character string or URL. これらの記</description>
+      <guid>https://en.swiswiswift.com/2018-03-07/</guid>
+      <description>This is a sample code to generate a QR code from a character string or URL. Reference: CIImageを</description>
     </item>
     
     <item>
-      <title>UIAlertControllerでアラートを表示する</title>
-      <link>https://swiswiswift.com/2018-03-06/</link>
+      <title>Display an alert with UIAlertController</title>
+      <link>https://en.swiswiswift.com/2018-03-06/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-06/</guid>
-      <description>UIAlertControllerを使ってアラートを出すサンプルです。 UIAlertControllerStyle.alert をUIAlertContro</description>
+      <guid>https://en.swiswiswift.com/2018-03-06/</guid>
+      <description>Here is a sample of how to issue alerts using UIAlertController.
+If you set UIAlertControllerStyle.alert to UIAlertControllerStyle.actionSheet, it will be an alert that comes out from the bottom.</description>
     </item>
     
     <item>
-      <title>UIAlertControllerで下からニュッと出す(UIActionSheet)</title>
-      <link>https://swiswiswift.com/2018-03-05/</link>
+      <title>UIAlertController(UIActionSheet)</title>
+      <link>https://en.swiswiswift.com/2018-03-05/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-05/</guid>
-      <description>下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。 遥か昔、下から</description>
+      <guid>https://en.swiswiswift.com/2018-03-05/</guid>
+      <description>The alerts that come out from below are implemented using UIAlertController.
+A long time ago, there was a time when alerts coming out of the bottom were called UIActionSheets, but they have been integrated into UIAlertController.</description>
     </item>
     
     <item>
-      <title>列挙型 enum</title>
-      <link>https://swiswiswift.com/2018-03-04/</link>
+      <title>Enumerated Type</title>
+      <link>https://en.swiswiswift.com/2018-03-04/</link>
       <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-04/</guid>
-      <description>列挙型、enumの書き方のサンプルコードです。 ここではpersonというクラスを作り、カビゴンさんの</description>
+      <guid>https://en.swiswiswift.com/2018-03-04/</guid>
+      <description>This is a sample code of how to write enum and enum.
+Here, we created a class called &amp;ldquo;person&amp;rdquo; and registered Kabigon&#39;s name and hometown using enum.</description>
     </item>
     
     <item>
-      <title>iPhoneアプリのプログラミングの勉強法</title>
-      <link>https://swiswiswift.com/2018-03-03/</link>
+      <title>How to learn how to program iPhone apps</title>
+      <link>https://en.swiswiswift.com/2018-03-03/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-03-03/</guid>
-      <description>「iPhoneアプリを作るには何から勉強したらいい？」と友達にちょくちょく聞かれるのでオススメの勉強</description>
+      <guid>https://en.swiswiswift.com/2018-03-03/</guid>
+      <description>What do I have to learn to make an iPhone app from? My friends often ask me, &amp;ldquo;What&#39;s the best way to study?&amp;quot;, so I&#39;ve put together some recommendations.</description>
     </item>
     
   </channel>

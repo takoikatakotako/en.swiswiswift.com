@@ -17,16 +17,16 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-配列の書き方
+How to write an array
 
-Swiftの配列です。配列の作成と呼び出しについて記載します。
+It's a Swift array. This section describes the creation and calling of arrays.
 
 
 {{< gist takoikatakotako c969fea9788ad017d62418b8497550fa >}}
 
-配列の追加、挿入、削除
+Add, Insert and Delete Arrays
 
-配列の追加、挿入、削除をしてみます。
+I will try to add, insert and delete arrays.
 
 <!-- Google Ads -->
 {{< google-ads >}}

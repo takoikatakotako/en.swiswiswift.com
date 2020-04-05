@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2017/11 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2017/11/</link>
-    <description>Recent content in 2017/11 on すいすいSwift</description>
+    <title>2017/11 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2017/11/</link>
+    <description>Recent content in 2017/11 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Mon, 27 Nov 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2017/11/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2017/11/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>カスタムレイアウトを持つコレクションビューをつくる</title>
-      <link>https://swiswiswift.com/2017-11-27/</link>
+      <title>Create a collection view with custom layouts</title>
+      <link>https://en.swiswiswift.com/2017-11-27/</link>
       <pubDate>Mon, 27 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-11-27/</guid>
-      <description>今作成しているアプリに画像が入れ子となったデザインをつくることになったので、実装方法について調べまし</description>
+      <guid>https://en.swiswiswift.com/2017-11-27/</guid>
+      <description>I decided to create a design with nested images in the app I&#39;m working on, so I looked into how to implement it. I used</description>
     </item>
     
     <item>
-      <title>SwiftでUDP通信を行い、文字列を送る</title>
-      <link>https://swiswiswift.com/2017-11-26/</link>
+      <title>UDP communication in Swift and sending a string</title>
+      <link>https://en.swiswiswift.com/2017-11-26/</link>
       <pubDate>Sun, 26 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-11-26/</guid>
-      <description>SwiftでUDP通信するメモです。 SwiftSocket をcocoapodsで入れて、こんな感じで書きました。 woom</description>
+      <guid>https://en.swiswiswift.com/2017-11-26/</guid>
+      <description>This is a note to communicate with UDP in Swift.
+I installed SwiftSocket via cocoapods and wrote it like this. I used it to communicate with the WOOM-02.</description>
     </item>
     
     <item>
-      <title>Swift3からSwift4への移行時に出る@objc inference warningsを消す</title>
-      <link>https://swiswiswift.com/2017-11-25/</link>
+      <title>Removing @objc inference warnings when migrating from Swift3 to Swift4</title>
+      <link>https://en.swiswiswift.com/2017-11-25/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-11-25/</guid>
-      <description>Xcode8からXcode9へ乗り換えてSwift4へ変換すると以下のエラーが出ます。それの消し方で</description>
+      <guid>https://en.swiswiswift.com/2017-11-25/</guid>
+      <description>When I switch from Xcode8 to Xcode9 and convert to Swift4, I get the following error. Here&#39;s how to make it disappear.
+The use of Swift 3 @objc inference in Swift 4 mode is deprecated.</description>
     </item>
     
   </channel>

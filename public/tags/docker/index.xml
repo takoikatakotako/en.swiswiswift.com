@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docker on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/docker/</link>
-    <description>Recent content in Docker on すいすいSwift</description>
+    <title>Docker on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/docker/</link>
+    <description>Recent content in Docker on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Dockerで Alpineベースのコンテナに入る</title>
-      <link>https://swiswiswift.com/2019-12-21/</link>
+      <title>Getting into an Alpine based container with Docker</title>
+      <link>https://en.swiswiswift.com/2019-12-21/</link>
       <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-12-21/</guid>
-      <description>Docker コンテナの中に入ってシェルを使いたい時ありますよね。 普通は以下のようなコマンドでコンテナの中に入る</description>
+      <guid>https://en.swiswiswift.com/2019-12-21/</guid>
+      <description>There are times when you want to go inside a Docker container and use a shell. Normally, you would use the following command to enter</description>
     </item>
     
     <item>
-      <title>Dockerを使ってPostgreSQLを立て、テーブルを作成する。</title>
-      <link>https://swiswiswift.com/2019-11-22/</link>
+      <title>Use Docker to set up PostgreSQL and create tables.</title>
+      <link>https://en.swiswiswift.com/2019-11-22/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-11-22/</guid>
-      <description>postgres-Docker Hub 以下のコマンドで、ローカルの 5432ポートに postgres11 を立てることができ、kabigon というユーザーで</description>
+      <guid>https://en.swiswiswift.com/2019-11-22/</guid>
+      <description>postgres-Docker Hub The following command allows you to set up postgres11 on the local 5432 port and log in as a user named kabigon. (password</description>
     </item>
     
     <item>
-      <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
-      <link>https://swiswiswift.com/2018-12-25/</link>
+      <title>Docker image that can be SSHed in(CentOS7)</title>
+      <link>https://en.swiswiswift.com/2018-12-25/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-25/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d</description>
+      <guid>https://en.swiswiswift.com/2018-12-25/</guid>
+      <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
+docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost    (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SSH で入ることのできるDockerイメージ(CentOS6)</title>
-      <link>https://swiswiswift.com/2018-11-19/</link>
+      <title>Docker image that can be SSHed in(CentOS6)</title>
+      <link>https://en.swiswiswift.com/2018-11-19/</link>
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-19/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run</description>
+      <guid>https://en.swiswiswift.com/2018-11-19/</guid>
+      <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
+$ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost    (adsbygoogle = window.</description>
     </item>
     
   </channel>

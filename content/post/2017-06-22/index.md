@@ -1,8 +1,8 @@
 +++
-title = "現在時刻の取得(kotlin)"
+title = "Obtaining the current time(kotlin)"
 url = "2017-06-22"
 date = "2017-06-22"
-description = "現在時刻の取得(kotlin)"
+description = "Obtaining the current time(kotlin)"
 tags = [
     "Android",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Kotlin で現在時刻の取得を行います。
-アラーム機能を持ったアプリを作っています。
-このあたりは Swift と異なりますね。
+Get the current time with Kotlin.
+I'm making an app that has an alarm function.
+This is different from Swift.
 
 <!-- Google Ads -->
 {{< google-ads >}}

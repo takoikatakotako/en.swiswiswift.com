@@ -1,8 +1,8 @@
 +++
-title = "UIPickerViewを使って値を選択する"
+title = "Selecting values using the UIPickerView"
 url = "2018-01-14"
 date = "2018-01-14"
-description = "UIPickerViewを使って値を選択する"
+description = "Selecting values using the UIPickerView"
 tags = [
     "iOS",
 ]
@@ -15,10 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-はいどーも！  
-UIPickerViewを使って値を取得するサンプルコードです。  
-PIPickerViewは選択肢の中から要素を選ぶときによく使いますね。  
-今回は食べ物とドリンクとフードを選ぶアプリを作ってみました。  
+Hi there!  
+This is the sample code for retrieving the value using UIPickerView.  
+PIPickerView is often used to select elements from a selection.  
+This time, I created an app that allows you to choose between food, drink and food.  
 
 AppleDeveloperDocuments  
 [UIPickerView](https://developer.apple.com/documentation/uikit/uipickerview)

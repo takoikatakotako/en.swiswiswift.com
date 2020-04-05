@@ -1,8 +1,8 @@
 +++
-title = "UIScrollViewで画像をピンチで拡大したり縮小する"
+title = "Pinch to zoom in and out on an image with UIScrollView"
 url = "2017-11-13"
 date = "2017-11-13"
-description = "UIScrollViewで画像をピンチで拡大したり縮小する"
+description = "Pinch to zoom in and out on an image with UIScrollView"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIScrollViewの中にある画像を拡大したり縮小するサンプルです。  
-ピンチで画像を大きくしたり、小さくします。  
+This is a sample of how to zoom in and out on an image in a UIScrollView.  
+Pinch to make the image larger or smaller.  
 
 ![alt](1.png)
 ![alt](2.png)

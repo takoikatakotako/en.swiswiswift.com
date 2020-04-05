@@ -1,8 +1,8 @@
 +++
-title = "Fragmentsを入れ子にしたBottomNavigationを実装する"
+title = "Implementing BottomNavigation with nested Fragments."
 url = "2018-11-13"
 date = "2018-11-13"
-description = "Fragmentsを入れ子にしたBottomNavigationを実装する"
+description = "Implementing BottomNavigation with nested Fragments."
 tags = [
     "Android",
 ]
@@ -15,10 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-BottomNavigationはiOSのTabBarControllerによく似たAPIです。  
-BottomNavigationのタブを選択するとFragmentが切り替わるサンプルコードです。  
+BottomNavigation is an API similar to iOS's TabBarController.  
+This is a sample code that switches Fragment when selecting a tab in BottomNavigation.  
 
-参考にさせていただいたページ。  
+The page I used as a reference.   
 [BottomNavigationView入門](https://qiita.com/neonankiti/items/8f5a4b9039914192a948)  
 [Bottom Navigation Android Example using Fragments](https://www.simplifiedcoding.net/bottom-navigation-android-example/)  
 

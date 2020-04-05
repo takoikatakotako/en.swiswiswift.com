@@ -15,16 +15,16 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UserNotificationはユーザーに対して通知を発行する時に使用します。  
-UserNotificationは大きく分けて二種類あり、外部から通知を発行できるRemoteNotification(LineやTwitterのような通知)とLocalNotification(時計アプリなどの内部的に発行する通知)があります。  
-ここではLocalNotificationを取り扱います。  
+UserNotification is used to issue a notification to a user.  
+There are two main types of UserNotifications, RemoteNotification (notifications like Line and Twitter) and LocalNotification (notifications that are issued internally, like clock apps).  
+This section deals with LocalNotification.  
 
-UserNotificationサンプル  
+UserNotification sample  
 
-初めにオリジナル通知音の発行に使用する音データ(.cafファイル)をプロジェクトに登録します。  
-`.caf` ファイルをプロジェクトに追加し、BundleResoucesに登録されていることを確認します。  
-また使用したcafファイルはこちらです。  
-UserNotificationの仕様として、使用するオリジナル通知音に不具合がある場合、デフォルトの通知音が再生されます。  
+First of all, the sound data (.caf file) to be used for issuing the original notification sound is registered in the project.  
+Add the `.caf` file to your project and make sure that it is registered with BundleResouces.  
+Here's the CAF file I also used.  
+As a specification of UserNotification, if the original notification sound used is defective, the default notification sound will be played back.  
 
 ![alt](1.png)
 

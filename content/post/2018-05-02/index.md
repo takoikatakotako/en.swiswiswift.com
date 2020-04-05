@@ -1,8 +1,8 @@
 +++
-title = "カスタムボタンクラスを実装する"
+title = "Implementing a custom button class"
 url = "2018-05-02"
 date = "2018-05-02"
-description = "カスタムボタンクラスを実装する"
+description = "Implementing a custom button class"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIButtonを拡張したカスタムボタンクラスを作成して貼り付けるサンプルコードです。  
-見た目を別ファイルに切り分けることでViewControllerがすっきりします。  
+This is a sample code to create and paste a custom button class that extends UIButton.  
+By separating the look and feel of the ViewController into separate files, you can make the ViewController look neat.  
 
 ![alt](1.png)
 

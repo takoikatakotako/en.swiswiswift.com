@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019/05 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2019/05/</link>
-    <description>Recent content in 2019/05 on すいすいSwift</description>
+    <title>2019/05 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2019/05/</link>
+    <description>Recent content in 2019/05 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sun, 12 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2019/05/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2019/05/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CallKit を使って着信画面を表示する</title>
-      <link>https://swiswiswift.com/2019-05-12/</link>
+      <title>Displaying an incoming call screen using CallKit.</title>
+      <link>https://en.swiswiswift.com/2019-05-12/</link>
       <pubDate>Sun, 12 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-05-12/</guid>
-      <description>CallKit を使うことで着信時のUIを使うことができます。 電話がかかってくるアプリを作る時に使いました。 (adsbygoogle = window.adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2019-05-12/</guid>
+      <description>You can use CallKit to use the UI on incoming calls. I used it to create an app that would call me.
+   (adsbygoogle = window.</description>
     </item>
     
   </channel>

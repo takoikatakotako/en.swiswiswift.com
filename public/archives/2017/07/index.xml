@@ -1,50 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2017/07 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2017/07/</link>
-    <description>Recent content in 2017/07 on すいすいSwift</description>
+    <title>2017/07 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2017/07/</link>
+    <description>Recent content in 2017/07 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Wed, 26 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2017/07/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2017/07/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>curlでpostでJson送るときにレスポンスヘッダーも確認したい</title>
-      <link>https://swiswiswift.com/2017-07-26/</link>
+      <title>I also want to check the response header when sending JSON in post with curl</title>
+      <link>https://en.swiswiswift.com/2017-07-26/</link>
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-07-26/</guid>
-      <description>curlでpostでJson送るときにレスポンスヘッダーも確認したい時に使いました。 最後に --include をつける</description>
+      <guid>https://en.swiswiswift.com/2017-07-26/</guid>
+      <description>I used it when I wanted to check the response header when sending JSON in post with curl. If you add --include at the end, the response header is also shown.</description>
     </item>
     
     <item>
-      <title>curlでpostでJson送る</title>
-      <link>https://swiswiswift.com/2017-07-25/</link>
+      <title>Sending JSON in post with curl</title>
+      <link>https://en.swiswiswift.com/2017-07-25/</link>
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-07-25/</guid>
-      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、a</description>
+      <guid>https://en.swiswiswift.com/2017-07-25/</guid>
+      <description>How to post json from Mac terminal with curl command.
+I often use it when I&#39;m developing locally and want to check the APIs.
+curl http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;kabigon@swiswiswift.</description>
     </item>
     
     <item>
-      <title>Alamofireを使ってAPIからJSONを取得する</title>
-      <link>https://swiswiswift.com/2017-07-09/</link>
+      <title>Obtaining JSON from the API using Alamofire</title>
+      <link>https://en.swiswiswift.com/2017-07-09/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-07-09/</guid>
-      <description>新しい記事(Swift4)はこちらAlamofireを使ってAPIからJSONを取得する(Swift</description>
+      <guid>https://en.swiswiswift.com/2017-07-09/</guid>
+      <description>New article (Swift4) is here. Using Alamofire to get JSON from the API (Swift4.2) This is a sample of retrieving information from the weather API</description>
     </item>
     
     <item>
-      <title>delegateで別のViewからメソッドを呼び出す</title>
-      <link>https://swiswiswift.com/2017-07-08/</link>
+      <title>Calling a method from another View in a delegate</title>
+      <link>https://en.swiswiswift.com/2017-07-08/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-07-08/</guid>
-      <description>あるViewから他のViewControllerにある関数などを実行するデリゲートのサンプルです。 今</description>
+      <guid>https://en.swiswiswift.com/2017-07-08/</guid>
+      <description>This is a sample of a delegate that executes functions, etc. from one View to another ViewController.
+In this case, I changed the background color of the original view from a modal view using a delegate.</description>
     </item>
     
   </channel>

@@ -1,8 +1,8 @@
 +++
-title = "SafeAreaを取得する"
+title = "Getting the SafeArea"
 url = "2018-09-19"
 date = "2018-09-19"
-description = "SafeAreaを取得する"
+description = "Getting the SafeArea"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-iPhoneXが登場したことで、iPhoneXのレイアウト(SafeAreaの取得)には気を使うようになりました。  
-SafeAreaはviewDidLayoutSubviews メソッド内で、safeAreaInsets プロパティを参照することで取得することができます。  
+With the arrival of the iPhoneX, I've become more concerned with the layout of the iPhoneX (getting SafeArea).  
+SafeArea can be obtained by referring to the safeAreaInsets property in the viewDidLayoutSubviews method.  
 
 ![alt](1.png)
 

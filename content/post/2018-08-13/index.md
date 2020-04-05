@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeでFlatListを表示する"
+title = "Displaying a FlatList in ReactNative"
 url = "2018-08-13"
 date = "2018-08-13"
-description = "ReactNativeでFlatListを表示する"
+description = "Displaying a FlatList in ReactNative"
 tags = [
     "ReactNative",
 ]
@@ -15,8 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeでFlatListを表示するサンプルです。  
-react-native: 0.56.0  で動作を確認しました。
+This is a sample to display FlatList in ReactNative.    
+
+react-native: 0.56.0
 
 ![alt](1.png)
 

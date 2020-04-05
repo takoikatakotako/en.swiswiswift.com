@@ -1,8 +1,8 @@
 +++
-title = "最小構成のhtml、css、javascriptのテンプレート"
+title = "Minimum configuration html, css, javascript templates"
 url = "2018-07-17"
 date = "2018-07-17"
-description = "最小構成のhtml、css、javascriptのテンプレート"
+description = "Minimum configuration html, css, javascript templates"
 tags = [
     "HTML5",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-html, css, javascriptのミニマムなテンプレートです。  
-毎回調べているのでメモです。  
+It's a minimal HTML, CSS, and javascript template.  
+I look it up every time, so here are my notes.   
 
 <!-- Google Ads -->
 {{< google-ads >}}

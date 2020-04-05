@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Rubyの配列についてです。
-最近は競技プログラミングを Ruby でやっています。
-C++ への移行タイミングをいつにしようか悩んでいます。
+It's about Ruby arrays.
+Recently, I've been doing some competition programming in Ruby.
+I'm worried about when to migrate to C++.
 
 <!-- Google Ads -->
 {{< google-ads >}}

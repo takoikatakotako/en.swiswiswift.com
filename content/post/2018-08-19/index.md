@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeで画像をボタンにする(TouchableOpacity)"
+title = "Turning an image into a button with ReactNative(TouchableOpacity)"
 url = "2018-08-19"
 date = "2018-08-19"
-description = "ReactNativeで画像をボタンにする(TouchableOpacity)"
+description = "Turning an image into a button with ReactNative(TouchableOpacity)"
 tags = [
     "ReactNative",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeで画像などのViewをボタンにするTouchableOpacityの実装サンプルです。  
-カビゴンの画像をタップするとアラートが表示します。  
+This is a sample implementation of TouchableOpacity, which turns a view such as an image into a button in ReactNative.  
+Tap on an image of Kabigon to get an alert.  
 
 react-native: 0.56.0  
 

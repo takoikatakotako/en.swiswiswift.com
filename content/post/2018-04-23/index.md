@@ -1,8 +1,8 @@
 +++
-title = "数字を三桁ごとにカンマ区切りにする(日本円の表示)"
+title = "Separate numbers into commas for each three digits (in Japanese yen)"
 url = "2018-04-23"
 date = "2018-04-23"
-description = "数字を三桁ごとにカンマ区切りにする(日本円の表示)"
+description = "Separate numbers into commas for each three digits (in Japanese yen)"
 tags = [
   "iOS",
 ]
@@ -15,10 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-日本円を表示するときのように3桁ごと,で区切る方法を調べてみました。  
-`123,456,789円` みたいな感じです。  
+I tried to find out how to divide the Japanese Yen by 3 digits, as in the Japanese Yen display.  
+It's like `123,456,789 yen` or something like that.  
 
-参考に指せて頂いた記事  
+Reference:   
 [[Swift]数字を三桁ごとにカンマ区切りにする](https://qiita.com/ktanaka117/items/57c43c897fb7040e0980)
 
 <!-- Google Ads -->

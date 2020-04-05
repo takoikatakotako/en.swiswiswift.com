@@ -1,8 +1,8 @@
 +++
-title = "ymf825boardのサンプルコードのピンを変更"
+title = "Change the pin of the sample code of ymf825board"
 url = "2017-09-05"
 date = "2017-09-05"
-description = "ymf825boardのサンプルコードのピンを変更"
+description = "Change the pin of the sample code of ymf825board"
 tags = [
     "電子工作",
 ]
@@ -15,9 +15,11 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-YMF825のサンプルコード　([yamaha-webmusic/ymf825board](https://github.com/yamaha-webmusic/ymf825board/tree/master/sample1/ymf825board_sample1))のピンを変更する。  
+YMF825 sample code to change the pin.
+Because of the shield, the pins No9 and No10 could not be used, so I changed the pins.  
 
-シールドの関係で、規定のピンNo9,No10が使えなかったので、ピンを変更しました。  
+Reference:
+[yamaha-webmusic/ymf825board](https://github.com/yamaha-webmusic/ymf825board/tree/master/sample1/ymf825board_sample1)
 
 <!-- Google Ads -->
 {{< google-ads >}}

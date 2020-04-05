@@ -1,68 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/12 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/12/</link>
-    <description>Recent content in 2018/12 on すいすいSwift</description>
+    <title>2018/12 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/12/</link>
+    <description>Recent content in 2018/12 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/12/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/12/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Lifesumアプリのインタラクションが素敵だったので再現してみた</title>
-      <link>https://swiswiswift.com/2018-12-28/</link>
+      <title>The interaction of the Lifesum app was nice, so I tried to recreate it.</title>
+      <link>https://en.swiswiswift.com/2018-12-28/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-28/</guid>
-      <description>#Swift4.2 Lifesumというアプリの登録導線のインタラクションがとても素敵だったので再現してみました。 イン</description>
+      <guid>https://en.swiswiswift.com/2018-12-28/</guid>
+      <description>#Swift4.2
+I tried to recreate the interaction of the registration guide of the app Lifesum because it was very nice.
+I&#39;m curious about the correlation between the awesomeness of the interaction and the registration dropout rate.</description>
     </item>
     
     <item>
       <title>押すとクニュっとするボタンを実装する</title>
-      <link>https://swiswiswift.com/2018-12-27/</link>
+      <link>https://en.swiswiswift.com/2018-12-27/</link>
       <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-27/</guid>
-      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです。 iOSでよくあるマイクロインタラクションです。 僕</description>
+      <guid>https://en.swiswiswift.com/2018-12-27/</guid>
+      <description>#Swift 4.2 押すとクニュっとするボタンのサンプルコードです</description>
     </item>
     
     <item>
-      <title>SSH で入ることのできるDockerイメージ(Ubuntu14.04)</title>
-      <link>https://swiswiswift.com/2018-12-26/</link>
+      <title>Docker image that can be SSHed in(Ubuntu14.04)</title>
+      <link>https://en.swiswiswift.com/2018-12-26/</link>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-26/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 CentOS7はこ</description>
+      <guid>https://en.swiswiswift.com/2018-12-26/</guid>
+      <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH. Click here for CentOS7 Click here for CentOS6</description>
     </item>
     
     <item>
-      <title>SSH で入ることのできるDockerイメージ(CentOS7)</title>
-      <link>https://swiswiswift.com/2018-12-25/</link>
+      <title>Docker image that can be SSHed in(CentOS7)</title>
+      <link>https://en.swiswiswift.com/2018-12-25/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-25/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 docker build -t ssh_centos7:latest . --no-cache docker run -d</description>
+      <guid>https://en.swiswiswift.com/2018-12-25/</guid>
+      <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
+docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost    (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>食洗機の分岐水栓取り付け工事を自分で行う。</title>
-      <link>https://swiswiswift.com/2018-12-24/</link>
+      <title>Do it yourself to install a branch faucet for a dishwasher</title>
+      <link>https://en.swiswiswift.com/2018-12-24/</link>
       <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-24/</guid>
-      <description>例のPayPyaの20%キャッシュバックキャンペーンに釣られてビックカメラで食洗機を買いました。 パナ</description>
+      <guid>https://en.swiswiswift.com/2018-12-24/</guid>
+      <description>I bought a dishwasher at Bic Camera with the cash back campaign. パナソニック 食器洗い機（ホ</description>
     </item>
     
     <item>
-      <title>Alamofireを使ってAPIからJSONを取得する(Swift4.2)</title>
-      <link>https://swiswiswift.com/2018-12-01/</link>
+      <title>Obtaining JSON from the API using Alamofire(Swift4.2)</title>
+      <link>https://en.swiswiswift.com/2018-12-01/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-12-01/</guid>
-      <description>古い記事(Swift3)は こちら Alamofireを使ってAPIからJSONを取得する #Xcode 10.1 #Swift 4.2 swi</description>
+      <guid>https://en.swiswiswift.com/2018-12-01/</guid>
+      <description>Old article (Swift3) is here Getting JSON from the API using Alamofire
+#Xcode 10.1
+#Swift 4.2
+This is a sample to get information from the weather API using Alamofire, a famous swift communication library, and SwiftyJSON, a famous swift JSON library.</description>
     </item>
     
   </channel>

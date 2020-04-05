@@ -1,68 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/11 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/11/</link>
-    <description>Recent content in 2018/11 on すいすいSwift</description>
+    <title>2018/11 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/11/</link>
+    <description>Recent content in 2018/11 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Thu, 29 Nov 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/11/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/11/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Android Studio でアイコンを設定する</title>
-      <link>https://swiswiswift.com/2018-11-29/</link>
+      <title>Setting Icons in AndroidStudio</title>
+      <link>https://en.swiswiswift.com/2018-11-29/</link>
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-29/</guid>
-      <description>– File -&amp;gt; Image Assets で Configure Image Asset を開く – Pathの…ボタンを押し、アイコンにしたい画像を選択する。 – Resize でサイズの微</description>
+      <guid>https://en.swiswiswift.com/2018-11-29/</guid>
+      <description>Open Configure Image Asset in File -&amp;gt; Image Assets Press the &amp;hellip; button on the Path and select the image you want to make an icon.</description>
     </item>
     
     <item>
-      <title>BottomNavigationViewで切り替え時に色を変える</title>
-      <link>https://swiswiswift.com/2018-11-20/</link>
+      <title>Changing the color of the BottomNavigationView when switching</title>
+      <link>https://en.swiswiswift.com/2018-11-20/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-20/</guid>
-      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2018-11-20/</guid>
+      <description>This can be achieved by creating a bottom_navigation_color.xml file under the res/color directory and writing the colors for each state in it.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SSH で入ることのできるDockerイメージ(CentOS6)</title>
-      <link>https://swiswiswift.com/2018-11-19/</link>
+      <title>Docker image that can be SSHed in(CentOS6)</title>
+      <link>https://en.swiswiswift.com/2018-11-19/</link>
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-19/</guid>
-      <description>Ansibleの練習のため、SSHで入ることができるイメージが欲しくて書きました。 $ docker build -t docker_ssh:latest . $ docker run</description>
+      <guid>https://en.swiswiswift.com/2018-11-19/</guid>
+      <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
+$ docker build -t docker_ssh:latest . $ docker run -d -p 2222:22 docker_ssh:latest $ ssh -p 2222 kabigon@localhost    (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>パスワードの入力欄の中身を確認したい</title>
-      <link>https://swiswiswift.com/2018-11-14/</link>
+      <title>I want to see what&#39;s in the password field.</title>
+      <link>https://en.swiswiswift.com/2018-11-14/</link>
       <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-14/</guid>
-      <description>ログイン画面のパスワード入力欄で黒丸●●●●●となっている中身を確認する方法です。 要素と検証を開いて</description>
+      <guid>https://en.swiswiswift.com/2018-11-14/</guid>
+      <description>The method to confirm the contents of the black circle●●●● in the password input column of the login screen.
+element and validation, and change the type of the input tag to text.</description>
     </item>
     
     <item>
-      <title>Fragmentsを入れ子にしたBottomNavigationを実装する</title>
-      <link>https://swiswiswift.com/2018-11-13/</link>
+      <title>Implementing BottomNavigation with nested Fragments.</title>
+      <link>https://en.swiswiswift.com/2018-11-13/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-13/</guid>
-      <description>BottomNavigationはiOSのTabBarControllerによく似たAPIです。 Bo</description>
+      <guid>https://en.swiswiswift.com/2018-11-13/</guid>
+      <description>BottomNavigation is an API similar to iOS&#39;s TabBarController. This is a sample code that switches Fragment when selecting a tab in BottomNavigation. The page I</description>
     </item>
     
     <item>
-      <title>Xcode10でプロジェクト名を変更する</title>
-      <link>https://swiswiswift.com/2018-11-12/</link>
+      <title>Renaming a project in Xcode10</title>
+      <link>https://en.swiswiswift.com/2018-11-12/</link>
       <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-12/</guid>
-      <description>こちらの記事を参考にさせていただきました。 ありがとうございます！ 参考記事の方が丁寧に書いてありますの</description>
+      <guid>https://en.swiswiswift.com/2018-11-12/</guid>
+      <description>I referred to this article as a reference. Thank you so much! The reference article is more detailed, so if you have any questions, please</description>
     </item>
     
   </channel>

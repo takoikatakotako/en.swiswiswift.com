@@ -1,8 +1,8 @@
 +++
-title = "NavigationControllerを実装する"
+title = "Implementing NavigationController"
 url = "2018-03-15"
 date = "2018-03-15"
-description = "NavigationControllerを実装する"
+description = "Implementing NavigationController"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-NavigationContorollerのサンプルコードです。  
-NavigationContorollerは横にニュッと動いて画面遷移をします。  
+This is the sample code for the NavigationContoroller.  
+The NavigationContoroller moves sideways to make screen transitions.   
 
 ![alt](1.gif)
 

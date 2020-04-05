@@ -1,68 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2017/06 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2017/06/</link>
-    <description>Recent content in 2017/06 on すいすいSwift</description>
+    <title>2017/06 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2017/06/</link>
+    <description>Recent content in 2017/06 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2017/06/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2017/06/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>現在時刻の取得(kotlin)</title>
-      <link>https://swiswiswift.com/2017-06-22/</link>
+      <title>Obtaining the current time(kotlin)</title>
+      <link>https://en.swiswiswift.com/2017-06-22/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-22/</guid>
-      <description>Kotlin で現在時刻の取得を行います。 アラーム機能を持ったアプリを作っています。 このあたりは Swift と異なりますね</description>
+      <guid>https://en.swiswiswift.com/2017-06-22/</guid>
+      <description>Get the current time with Kotlin. I&#39;m making an app that has an alarm function. This is different from Swift.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>Swiftでクラス名と関数名と行番号を取得、表示する</title>
-      <link>https://swiswiswift.com/2017-06-15/</link>
+      <title>Get and display the class name, function name and line number in Swift</title>
+      <link>https://en.swiswiswift.com/2017-06-15/</link>
       <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-15/</guid>
-      <description>「ここは動いたらヤバい！」的な箇所に書くとでデバックが捗ります。 クラス名と行番号、取得表示することが</description>
+      <guid>https://en.swiswiswift.com/2017-06-15/</guid>
+      <description>We can&#39;t move in here! The debugging will be quicker if you write it in a part of the
+The class name and line number, retrieved can be displayed.</description>
     </item>
     
     <item>
-      <title>UIImagePickerControllerで画像の選択</title>
-      <link>https://swiswiswift.com/2017-06-14/</link>
+      <title>Selecting images with UIImagePickerController</title>
+      <link>https://en.swiswiswift.com/2017-06-14/</link>
       <pubDate>Wed, 14 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-14/</guid>
-      <description>iPhoneのフォトライブラリから画像を取得するサンプルプログラムです。 フォトライブラリから画像を選</description>
+      <guid>https://en.swiswiswift.com/2017-06-14/</guid>
+      <description>It is a sample program to get an image from the photo library of the iPhone.
+In order to select images from the photo library, you have to specify that the photo library is used in the info.</description>
     </item>
     
     <item>
-      <title>rootのログインを禁止にする</title>
-      <link>https://swiswiswift.com/2017-06-08/</link>
+      <title>Disable root login</title>
+      <link>https://en.swiswiswift.com/2017-06-08/</link>
       <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-08/</guid>
-      <description>VPSを借りて一番最初に行うrootのログインの禁止のメモです。 rootでサーバーにログインしてパス</description>
+      <guid>https://en.swiswiswift.com/2017-06-08/</guid>
+      <description>Here&#39;s a note to ban root login, which is the first thing you do after renting a VPS.
+Log in to the server as root and enter your password.</description>
     </item>
     
     <item>
-      <title>texworksのURL</title>
-      <link>https://swiswiswift.com/2017-06-07/</link>
+      <title>URL for texworks</title>
+      <link>https://en.swiswiswift.com/2017-06-07/</link>
       <pubDate>Wed, 07 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-07/</guid>
-      <description>Windowsのパソコンを自作し、texworksを入れたのですがショートカットを間違えて消してしま</description>
+      <guid>https://en.swiswiswift.com/2017-06-07/</guid>
+      <description>I made the personal computer of Windows by myself and put in texworks, but I made a shortcut wrong and erased it, and I was</description>
     </item>
     
     <item>
-      <title>Swiftで音楽を再生する</title>
-      <link>https://swiswiswift.com/2017-06-05/</link>
+      <title>Playing music with Swift</title>
+      <link>https://en.swiswiswift.com/2017-06-05/</link>
       <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-05/</guid>
-      <description>Swiftで音楽を簡単に再生するサンプルコードです。 リピート再生も簡単にできました。 サンプルコードに</description>
+      <guid>https://en.swiswiswift.com/2017-06-05/</guid>
+      <description>This is a sample code to play music easily with Swift. Repeat playback was easy to do. It&#39;s not in the sample code, but it should handle errors properly.</description>
     </item>
     
   </channel>

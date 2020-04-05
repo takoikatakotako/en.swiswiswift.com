@@ -1,8 +1,8 @@
 +++
-title = "TableViewを編集してCellを削除する(横スライド)"
+title = "Edit TableView and delete a Cell (side-slide)."
 url = "2018-04-23"
 date = "2018-04-23"
-description = "TableViewを編集してCellを削除する(横スライド)"
+description = "Edit TableView and delete a Cell (side-slide)."
 tags = [
     "iOS",
 ]
@@ -15,9 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-TableViewを編集してCellを削除するサンプルコードです。  
-以下の関数を追加することで、セルを横スライドで削除できる機能を付けることができます。  
-
+This is a sample code to delete a Cell by editing TableView.  
+By adding the following functions, you can add the ability to delete a cell by sliding it horizontally.  
 
 ```
 func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)

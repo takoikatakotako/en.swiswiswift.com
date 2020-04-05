@@ -1,8 +1,8 @@
 +++
-title = "UIAlertControllerでアラートを表示する"
+title = "Display an alert with UIAlertController"
 url = "2018-03-06"
 date = "2018-03-06"
-description = "UIAlertControllerでアラートを表示する"
+description = "Display an alert with UIAlertController"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIAlertControllerを使ってアラートを出すサンプルです。  
-`UIAlertControllerStyle.alert` を`UIAlertControllerStyle.actionSheet` にするとニュッと下から出るタイプのアラートになります。  
+Here is a sample of how to issue alerts using UIAlertController.  
+If you set `UIAlertControllerStyle.alert` to `UIAlertControllerStyle.actionSheet`, it will be an alert that comes out from the bottom.  
 
 ![alt](1.gif)
 

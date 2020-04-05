@@ -1,59 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2018/06 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2018/06/</link>
-    <description>Recent content in 2018/06 on すいすいSwift</description>
+    <title>2018/06 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2018/06/</link>
+    <description>Recent content in 2018/06 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2018/06/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2018/06/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>流れるように動く背景を実装する</title>
-      <link>https://swiswiswift.com/2018-06-28/</link>
+      <title>Implementing a flowing background</title>
+      <link>https://en.swiswiswift.com/2018-06-28/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-06-28/</guid>
-      <description>私が作っている４択化学というアプリの背景の実装方法をたまに聞かれるので、それのサンプルコードを書きま</description>
+      <guid>https://en.swiswiswift.com/2018-06-28/</guid>
+      <description>I&#39;m sometimes asked how to implement the background of an app I&#39;m making called Four Choice Chemistry, so I wrote a sample code for it.</description>
     </item>
     
     <item>
-      <title>PageViewControllerとPageControl</title>
-      <link>https://swiswiswift.com/2018-06-21/</link>
+      <title>PageViewController &amp; PageControl</title>
+      <link>https://en.swiswiswift.com/2018-06-21/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-06-21/</guid>
-      <description>チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプル</description>
+      <guid>https://en.swiswiswift.com/2018-06-21/</guid>
+      <description>This is an implementation sample of PageViewController, which is often used for tutorial screens and e-book readers.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>CustomViewをコードで実装する</title>
-      <link>https://swiswiswift.com/2018-06-19/</link>
+      <title>Implementing CustomView with Code</title>
+      <link>https://en.swiswiswift.com/2018-06-19/</link>
       <pubDate>Tue, 19 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-06-19/</guid>
-      <description>コードでカスタムビューを作り表示するサンプルです。 私はxibやstoryboradを使わずに実装する</description>
+      <guid>https://en.swiswiswift.com/2018-06-19/</guid>
+      <description>Here&#39;s a sample of how to create and display a custom view in your code.
+I like to implement it without using xib or storyborad, but what&#39;s best?</description>
     </item>
     
     <item>
-      <title>UITabBarControllerにUINavigationControllerを入れ子で実装する</title>
-      <link>https://swiswiswift.com/2018-06-03/</link>
+      <title>Nested implementation of UINavigationController in UITabBarController.</title>
+      <link>https://en.swiswiswift.com/2018-06-03/</link>
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-06-03/</guid>
-      <description>UITabBarControllerにUINavigationControllerを入れるコードです</description>
+      <guid>https://en.swiswiswift.com/2018-06-03/</guid>
+      <description>This is the code to add UINavigationController to UITabBarController. Implemented by including UINavigationBarController in UITabBarController.
+The implementation of UITabBarController is here. Implementing NavigationController
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>UITabBarControllerを実装する</title>
-      <link>https://swiswiswift.com/2018-06-02/</link>
+      <title>Implement UITabBarController.</title>
+      <link>https://en.swiswiswift.com/2018-06-02/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-06-02/</guid>
-      <description>Viewの切り替えに使われるUITabBarControllerを実装サンプルです。 UITabBar</description>
+      <guid>https://en.swiswiswift.com/2018-06-02/</guid>
+      <description>This is a sample implementation of UITabBarController, which is used to switch views.
+The icon for UITabBarController is a 30×30 transparent png.
+   (adsbygoogle = window.</description>
     </item>
     
   </channel>

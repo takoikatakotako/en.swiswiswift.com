@@ -1,8 +1,8 @@
 +++
-title = "PageViewControllerとPageControl"
+title = "PageViewController & PageControl"
 url = "2018-06-21"
 date = "2018-06-21"
-description = "PageViewControllerとPageControl"
+description = "PageViewController & PageControl"
 tags = [
     "iOS",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-チュートリアル画面や電子書籍リーダーによく使われるPageViewControllerの実装サンプルです。
+This is an implementation sample of PageViewController, which is often used for tutorial screens and e-book readers.
 
 ![alt](1.gif)
 

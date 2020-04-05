@@ -1,8 +1,8 @@
 +++
-title = "Webテスト用のカンペ(Ruby)"
+title = "Web Testing Campe(Ruby)"
 url = "2017-05-18"
 date = "2017-05-18"
-description = "Webテスト用のカンペ(Ruby)"
+description = "Web Testing Campe(Ruby)"
 tags = [
     "Ruby",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Webテスト用のカンペです。
-就活してるとWebテストで競技プログラミングがよく出てくるので、まとめてみました。
+This is a sample code for web testing.
+When I'm looking for a job, I often see competition programming in web tests, so I put it together.
 
 
 <!-- Google Ads -->

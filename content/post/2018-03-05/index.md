@@ -1,8 +1,8 @@
 +++
-title = "UIAlertControllerで下からニュッと出す(UIActionSheet)"
+title = "UIAlertController(UIActionSheet)"
 url = "2018-03-05"
 date = "2018-03-05"
-description = "UIAlertControllerで下からニュッと出す(UIActionSheet)"
+description = "UIAlertController(UIActionSheet)"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-下からニュッと出てくるアラートはUIAlertControllerを用いて実装します。  
-遥か昔、下からニュッと出てくるアラートはUIActionSheetなんて呼ばれている時期もありましたが、UIAlertControllerに統合されました。  
+The alerts that come out from below are implemented using UIAlertController.  
+A long time ago, there was a time when alerts coming out of the bottom were called UIActionSheets, but they have been integrated into UIAlertController.
 
 ![alt](1.gif)
 

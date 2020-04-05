@@ -1,185 +1,199 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2020/02 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2020/02/</link>
-    <description>Recent content in 2020/02 on すいすいSwift</description>
+    <title>2020/02 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2020/02/</link>
+    <description>Recent content in 2020/02 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2020/02/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2020/02/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SwiftUIでキーボードをボタンで隠す</title>
-      <link>https://swiswiswift.com/2020-02-29/</link>
+      <title>Hide keyboard with buttons in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-29/</link>
       <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-29/</guid>
-      <description>SwiftUIでキーボードをボタンで隠す方法です。 UIApplicationを拡張して実現しています</description>
+      <guid>https://en.swiswiswift.com/2020-02-29/</guid>
+      <description>It is a way to hide the keyboard with a button in SwiftUI. It is realized by extending UIApplication.
+How to lower (hide) the keyboard in SwiftUI</description>
     </item>
     
     <item>
-      <title>SwiftUIでKeyboardの高さや出現を検知する</title>
-      <link>https://swiswiswift.com/2020-02-28/</link>
+      <title>Detect keyboard height and appearance with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-28/</link>
       <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-28/</guid>
-      <description>SwiftUIでKeyboardの高さや出現を検知する方法です。 Combineを使って実現しています</description>
+      <guid>https://en.swiswiswift.com/2020-02-28/</guid>
+      <description>It is a way to detect keyboard height and appearance with SwiftUI. It is implemented using Combine Frame Work.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>SwiftUIで複数行の文字列を入力する</title>
-      <link>https://swiswiswift.com/2020-02-27/</link>
+      <title>Input a multi-line string with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-27/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-27/</guid>
-      <description>SwiftUIで複数行の文字列を入力する方法です。 UIKitのTextViewを使って実現しています</description>
+      <guid>https://en.swiswiswift.com/2020-02-27/</guid>
+      <description>It is a way to input a multi-line string with SwiftUI. It is implemented using TextView of UIKit. I want Apple to release something like UITextView.</description>
     </item>
     
     <item>
-      <title>SwiftUIで下からPickerを出す</title>
-      <link>https://swiswiswift.com/2020-02-26/</link>
+      <title>Show picker from bottom with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-26/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-26/</guid>
-      <description>SwiftUIで下から Picker を出す方法です。 下からモーダルのように表示させています。 Importing an image into SwiftUI using UIImagePickerController (adsbygoogle = window.adsbygoogle</description>
+      <guid>https://en.swiswiswift.com/2020-02-26/</guid>
+      <description>It is a way to show picker from bottom with SwiftUI. Picker shows from bottom like a modal.
+Importing an image into SwiftUI using UIImagePickerController</description>
     </item>
     
     <item>
-      <title>SwiftUIでUIImagePickerControllerを使う</title>
-      <link>https://swiswiswift.com/2020-02-25/</link>
+      <title>Using UIImagePickerController with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-25/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-25/</guid>
-      <description>SwiftUIでSwiftUIでUIImagePickerControllerを使う方法です。 UIKit と同</description>
+      <guid>https://en.swiswiswift.com/2020-02-25/</guid>
+      <description>It is a way to Using UIImagePickerController with SwiftUI. I can choose any image.
+Importing an image into SwiftUI using UIImagePickerController
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>SwiftUIでButton内の画像の色を変えない</title>
-      <link>https://swiswiswift.com/2020-02-24/</link>
+      <title>Do not change the color of the Image in the Button with SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-24/</link>
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-24/</guid>
-      <description>SwiftUIでButton内の画像の色を変えない方法です。 デフォルトのままだと以下の画像のように色</description>
+      <guid>https://en.swiswiswift.com/2020-02-24/</guid>
+      <description>It is a way to do not change the color of the Image in the Button with SwiftUI. If you keep the default, the color will change to blue as in the following image.</description>
     </item>
     
     <item>
-      <title>iOS13のModalPresentationStyleを全部試してみた</title>
-      <link>https://swiswiswift.com/2020-02-23/</link>
+      <title>I tried all the ModalPresentationStyle of iOS 13</title>
+      <link>https://en.swiswiswift.com/2020-02-23/</link>
       <pubDate>Sun, 23 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-23/</guid>
-      <description>iOS13のModalPresentationStyleを全部試してみました。 PopPage モーダルのことを弊社</description>
+      <guid>https://en.swiswiswift.com/2020-02-23/</guid>
+      <description>I tried all the ModalPresentationStyle of iOS 13. Our department calls the PopPage modal a &amp;ldquo;fashionable modal&amp;rdquo;.
+   (adsbygoogle = window.adsbygoogle || []).push({});  amzn_assoc_ad_type =&#34;</description>
     </item>
     
     <item>
-      <title>Swiftで動画の終了を検知する</title>
-      <link>https://swiswiswift.com/2020-02-22/</link>
+      <title>Detect video end with Swift</title>
+      <link>https://en.swiswiswift.com/2020-02-22/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-22/</guid>
-      <description>Swiftで動画の終了を検知するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちら</description>
+      <guid>https://en.swiswiswift.com/2020-02-22/</guid>
+      <description>It is a way to detect video end with Swift. The video is from this site.
+Hybrid Creative Movies SAKURA
+I referred to this site.</description>
     </item>
     
     <item>
-      <title>Swiftで動画を再生する</title>
-      <link>https://swiswiswift.com/2020-02-21/</link>
+      <title>Play videos with Swift</title>
+      <link>https://en.swiswiswift.com/2020-02-21/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-21/</guid>
-      <description>Swiftで動画を再生するサンプルです。 動画はこちらのサイトからお借りしました。 Hybrid Creative Movies SAKURA こちらのサイ</description>
+      <guid>https://en.swiswiswift.com/2020-02-21/</guid>
+      <description>This is a sample to play a video with Swift. The video was borrowed from this site.
+Hybrid Creative Movies SAKURA
+I used this site as a reference.</description>
     </item>
     
     <item>
-      <title>SwiftUIでSwiftUIでサイドメニュー（ハンバーガーメニュー）を表示する</title>
-      <link>https://swiswiswift.com/2020-02-20/</link>
+      <title>Display the side menu (hamburger menu) in SwiftUI with SwiftUI.</title>
+      <link>https://en.swiswiswift.com/2020-02-20/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-20/</guid>
-      <description>SwiftUIでサイドメニュー（ハンバーガーメニュー）を表示するサンプルです。 ドラッグで消す箇所など</description>
+      <guid>https://en.swiswiswift.com/2020-02-20/</guid>
+      <description>Sample to display the side menu (hamburger menu) in SwiftUI. I made a few compromises, such as where I could drag it out. I&#39;ll post it again when I put on a better side menu.</description>
     </item>
     
     <item>
-      <title>SwiftUIのListのSectionの色を変える</title>
-      <link>https://swiswiswift.com/2020-02-19/</link>
+      <title>Change the color of Section of List in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-19/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-19/</guid>
-      <description>SwiftUIのListのSectionの色を変えるサンプルです。 Appearanceを使って背景色</description>
+      <guid>https://en.swiswiswift.com/2020-02-19/</guid>
+      <description>This is a sample to change the color of Section of List in SwiftUI. There are some articles that use Appearance to change the background color, but I was able to do it in the following way.</description>
     </item>
     
     <item>
-      <title>タップでセクション区切りのListViewにチェックを入れる</title>
-      <link>https://swiswiswift.com/2020-02-18/</link>
+      <title>Tap to check the section-delimited ListView</title>
+      <link>https://en.swiswiswift.com/2020-02-18/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-18/</guid>
-      <description>タップでセクション区切りのListViewにチェックを入れるサンプルです。 タップすることで State が変化し</description>
+      <guid>https://en.swiswiswift.com/2020-02-18/</guid>
+      <description>Here&#39;s a sample of tapping a check mark into a section-delimited ListView. Tap on it to change the state and draw ✔︎.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>タップでListViewにチェックを入れる</title>
-      <link>https://swiswiswift.com/2020-02-17/</link>
+      <title>Tap to check the ListView</title>
+      <link>https://en.swiswiswift.com/2020-02-17/</link>
       <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-17/</guid>
-      <description>タップで ListView にチェックを入れるサンプルです。 タップすることで State が変化し、✔︎を描画するようになります。</description>
+      <guid>https://en.swiswiswift.com/2020-02-17/</guid>
+      <description>Here&#39;s a sample of tapping to check the ListView. Tap on it to change the state and draw ✔︎.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>SwiftでCSVを集計する</title>
-      <link>https://swiswiswift.com/2020-02-16/</link>
+      <title>Aggregating CSV with Swift</title>
+      <link>https://en.swiswiswift.com/2020-02-16/</link>
       <pubDate>Sun, 16 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-16/</guid>
-      <description>Swift で CSV を集計する方法です。 まず前処理として、CSV ファイルを utf8 に変換する必要があります。 Mac の場合は Numbers</description>
+      <guid>https://en.swiswiswift.com/2020-02-16/</guid>
+      <description>How to aggregate CSV in Swift. First, we need to convert the CSV file to utf8 as a preprocessor. On a Mac, I opened it with Numbers and saved it as a CSV file.</description>
     </item>
     
     <item>
-      <title>UIViewの背景をグリッドにしたり、ドットにしたりする</title>
-      <link>https://swiswiswift.com/2020-02-14/</link>
+      <title>Make the background of UIView a grid or a dot.</title>
+      <link>https://en.swiswiswift.com/2020-02-14/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-14/</guid>
-      <description>UIView の背景をグリッドにしたり、ドットにしたりする方法です。 今回は GridView という UIView のサブクラスを作り、ボタンを</description>
+      <guid>https://en.swiswiswift.com/2020-02-14/</guid>
+      <description>Here&#39;s how to make the UIView background a grid or a dot. This time, I created a subclass of UIView called GridView so that the dots can be switched by pressing a button.</description>
     </item>
     
     <item>
-      <title>ReplayKitを使って画面を録音する</title>
-      <link>https://swiswiswift.com/2020-02-12/</link>
+      <title>Using ReplayKit to record a screen</title>
+      <link>https://en.swiswiswift.com/2020-02-12/</link>
       <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-12/</guid>
-      <description>ReplayKit を使うと画面を録画することができます。 凄く簡単に使うことができる上に、マイクで実況？をしたりするこ</description>
+      <guid>https://en.swiswiswift.com/2020-02-12/</guid>
+      <description>You can use ReplayKit to record your screen. It&#39;s very easy to use, and it&#39;s also very easy to use it on the mic. and so on.</description>
     </item>
     
     <item>
-      <title>SwiftUIでUICollectionViewのようにViewを並べる</title>
-      <link>https://swiswiswift.com/2020-02-09/</link>
+      <title>Aligning Views like UICollectionView in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-09/</link>
       <pubDate>Sun, 09 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-09/</guid>
-      <description>SwiftUI で UICollectionView のように表示する方法です。 Q-Mobile/QGrid というライブラリを使うと簡単です。 QGrid を参考にしながら書いてみました</description>
+      <guid>https://en.swiswiswift.com/2020-02-09/</guid>
+      <description>How to make it look like a UICollectionView in SwiftUI. It&#39;s easy to use a library called Q-Mobile/QGrid . I wrote this with reference to QGrid.</description>
     </item>
     
     <item>
-      <title>SwiftUIでFirestoreの画像を表示する</title>
-      <link>https://swiswiswift.com/2020-02-08/</link>
+      <title>Displaying a Firestore image in SwiftUI</title>
+      <link>https://en.swiswiswift.com/2020-02-08/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-08/</guid>
-      <description>SwiftUI で Firestore の画像を表示する方法です。 UIImage は SDWebImage を使えば簡単に表示できますが、SwiftUI ではそれができませ</description>
+      <guid>https://en.swiswiswift.com/2020-02-08/</guid>
+      <description>How to display a Firestore image in SwiftUI. UIImage can be easily displayed using SDWebImage, but SwiftUI can&#39;t do that. I used SDWebImage/SDWebImageSwiftUI to write</description>
     </item>
     
     <item>
-      <title>SwiftUIのToggleの変更を検知する</title>
-      <link>https://swiswiswift.com/2020-02-05/</link>
+      <title>Detecting changes to the SwiftUI Toggle</title>
+      <link>https://en.swiswiswift.com/2020-02-05/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2020-02-05/</guid>
-      <description>SwiftUIのToggleの変更を検知し、print 文を実行します。 参考: How can I trigger an action when a swiftUI toggle() is toggled?</description>
+      <guid>https://en.swiswiswift.com/2020-02-05/</guid>
+      <description>Detects changes to the SwiftUI toggle and executes a print statement.
+Reference: How can I trigger an action when a swiftUI toggle() is toggled?
+   (adsbygoogle = window.</description>
     </item>
     
   </channel>

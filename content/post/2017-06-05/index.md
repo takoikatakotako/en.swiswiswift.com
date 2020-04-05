@@ -1,8 +1,8 @@
 +++
-title = "Swiftで音楽を再生する"
+title = "Playing music with Swift"
 url = "2017-06-05"
 date = "2017-06-05"
-description = "Swiftで音楽を再生する"
+description = "Playing music with Swift"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swiftで音楽を簡単に再生するサンプルコードです。
-リピート再生も簡単にできました。
-サンプルコードにはないですが、ちゃんとエラーハンドリングしましょう。
+This is a sample code to play music easily with Swift.
+Repeat playback was easy to do.
+It's not in the sample code, but it should handle errors properly.
 
 <!-- Google Ads -->
 {{< google-ads >}}

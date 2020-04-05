@@ -1,68 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/linux/</link>
-    <description>Recent content in Linux on すいすいSwift</description>
+    <title>Linux on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/linux/</link>
+    <description>Recent content in Linux on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>id_rsa’ are too open.</title>
-      <link>https://swiswiswift.com/2019-01-28/</link>
+      <link>https://en.swiswiswift.com/2019-01-28/</link>
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-28/</guid>
-      <description>以下のエラーが出てssh接続ができなくなりました。 原因は秘密鍵の権限を制限してあげることで解決しまし</description>
+      <guid>https://en.swiswiswift.com/2019-01-28/</guid>
+      <description>I get the following error and I can no longer connect to SSH. The problem was solved by restricting the privileges of the private key.</description>
     </item>
     
     <item>
       <title>tar (child): gzip: Cannot exec: No such file or directory</title>
-      <link>https://swiswiswift.com/2019-01-17/</link>
+      <link>https://en.swiswiswift.com/2019-01-17/</link>
       <pubDate>Thu, 17 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-17/</guid>
-      <description>$ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now 依存パッケージの gzip を入れてあげる</description>
+      <guid>https://en.swiswiswift.com/2019-01-17/</guid>
+      <description>$ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz tar (child): gzip: Cannot exec: No such file or directory tar (child): Error is not recoverable: exiting now tar: Child returned status 2 tar: Error is not recoverable: exiting now The problem was solved by including the dependency package gzip.</description>
     </item>
     
     <item>
       <title>sudo 時に PATH を引き継ぐ</title>
-      <link>https://swiswiswift.com/2019-01-16/</link>
+      <link>https://en.swiswiswift.com/2019-01-16/</link>
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-16/</guid>
-      <description>which java と sudo which java でパスが違ったのでその解決 参考: sudo「コマンドが見つかりません」PATHが初期化され</description>
+      <guid>https://en.swiswiswift.com/2019-01-16/</guid>
+      <description>which java と sudo which java でパスが違ったのでその解決 参考: sud</description>
     </item>
     
     <item>
-      <title>curlでpostでJson送るときにレスポンスヘッダーも確認したい</title>
-      <link>https://swiswiswift.com/2017-07-26/</link>
+      <title>I also want to check the response header when sending JSON in post with curl</title>
+      <link>https://en.swiswiswift.com/2017-07-26/</link>
       <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-07-26/</guid>
-      <description>curlでpostでJson送るときにレスポンスヘッダーも確認したい時に使いました。 最後に --include をつける</description>
+      <guid>https://en.swiswiswift.com/2017-07-26/</guid>
+      <description>I used it when I wanted to check the response header when sending JSON in post with curl. If you add --include at the end, the response header is also shown.</description>
     </item>
     
     <item>
-      <title>curlでpostでJson送る</title>
-      <link>https://swiswiswift.com/2017-07-25/</link>
+      <title>Sending JSON in post with curl</title>
+      <link>https://en.swiswiswift.com/2017-07-25/</link>
       <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-07-25/</guid>
-      <description>Macのターミナルからcurlコマンドでjsonをpostする方法です。 ローカルで開発をしていて、a</description>
+      <guid>https://en.swiswiswift.com/2017-07-25/</guid>
+      <description>How to post json from Mac terminal with curl command.
+I often use it when I&#39;m developing locally and want to check the APIs.
+curl http://localhost:3000/api/url -X POST -H &amp;quot;Content-Type: application/json&amp;quot; -d &#39;{&amp;quot;email&amp;quot;:&amp;quot;kabigon@swiswiswift.</description>
     </item>
     
     <item>
-      <title>rootのログインを禁止にする</title>
-      <link>https://swiswiswift.com/2017-06-08/</link>
+      <title>Disable root login</title>
+      <link>https://en.swiswiswift.com/2017-06-08/</link>
       <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-08/</guid>
-      <description>VPSを借りて一番最初に行うrootのログインの禁止のメモです。 rootでサーバーにログインしてパス</description>
+      <guid>https://en.swiswiswift.com/2017-06-08/</guid>
+      <description>Here&#39;s a note to ban root login, which is the first thing you do after renting a VPS.
+Log in to the server as root and enter your password.</description>
     </item>
     
   </channel>

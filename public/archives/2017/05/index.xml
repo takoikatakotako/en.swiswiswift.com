@@ -1,203 +1,230 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2017/05 on すいすいSwift</title>
-    <link>https://swiswiswift.com/archives/2017/05/</link>
-    <description>Recent content in 2017/05 on すいすいSwift</description>
+    <title>2017/05 on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/archives/2017/05/</link>
+    <description>Recent content in 2017/05 on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Wed, 24 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/archives/2017/05/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/archives/2017/05/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Igorでグラフの背景を白にする</title>
-      <link>https://swiswiswift.com/2017-05-24/</link>
+      <title>Setting the background of a graph to white in Igor</title>
+      <link>https://en.swiswiswift.com/2017-05-24/</link>
       <pubDate>Wed, 24 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-24/</guid>
-      <description>グラフ中で右クリック -&amp;gt; Colors -&amp;gt; both background -&amp;gt; 白色を選択 でできました。 データの解析にすごい便利ですが、先輩のマクロ</description>
+      <guid>https://en.swiswiswift.com/2017-05-24/</guid>
+      <description>I was able to do this by right-clicking in the graph -&amp;gt; Colors -&amp;gt; both background -&amp;gt; choose white. It&#39;s amazingly useful for analyzing data, but it&#39;s hard to read the senior macros.</description>
     </item>
     
     <item>
-      <title>Webテスト用のカンペ</title>
-      <link>https://swiswiswift.com/2017-05-23/</link>
+      <title>Web Testing Campe</title>
+      <link>https://en.swiswiswift.com/2017-05-23/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-23/</guid>
-      <description>JavaScriptのWebテスト用のカンペです。 ブラウザがあればできるところが好きです。 ただ、慣れ</description>
+      <guid>https://en.swiswiswift.com/2017-05-23/</guid>
+      <description>This is a sample code for JavaScript web tests. I like that you can do it if you have a browser. However, it&#39;s hard to do the competition programming because I&#39;m not used to it.</description>
     </item>
     
     <item>
-      <title>Androidアプリのアクションバーの影を消す</title>
-      <link>https://swiswiswift.com/2017-05-22/</link>
+      <title>Shadowing the action bar in Android apps</title>
+      <link>https://en.swiswiswift.com/2017-05-22/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-22/</guid>
-      <description>Androidアプリのアクションバーの影を消します。 アプリはどんどん新しいことが増えていくので覚える</description>
+      <guid>https://en.swiswiswift.com/2017-05-22/</guid>
+      <description>Shadow the action bar in the Android app. Apps are hard to remember because there are so many new things going on.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>Androidアプリのステータスバーの変更</title>
-      <link>https://swiswiswift.com/2017-05-21/</link>
+      <title>Changing the Android app status bar</title>
+      <link>https://en.swiswiswift.com/2017-05-21/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-21/</guid>
-      <description>Androidアプリのステータスバーの変更方法です。 色を直指定するのは良くないです、Color.xm</description>
+      <guid>https://en.swiswiswift.com/2017-05-21/</guid>
+      <description>Here&#39;s how to change the Android app&#39;s status bar. It&#39;s not a good idea to specify the color directly, write it in Color.xml.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
       <title>FizzBuzz(C)</title>
-      <link>https://swiswiswift.com/2017-05-20/</link>
+      <link>https://en.swiswiswift.com/2017-05-20/</link>
       <pubDate>Sat, 20 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-20/</guid>
-      <description>FizzBuzzをCで解きました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2017-05-20/</guid>
+      <description>I solved the FizzBuzz with a C. It&#39;s interesting to see the differences between different languages when creating FizzBuzz.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
       <title>FizzBuzz(Ruby)</title>
-      <link>https://swiswiswift.com/2017-05-19/</link>
+      <link>https://en.swiswiswift.com/2017-05-19/</link>
       <pubDate>Fri, 19 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-19/</guid>
-      <description>FizzBuzzをRubyで解いてみました。 いろいろな言語で FizzBuzz を作ってみると違いが出て面白いですね。</description>
+      <guid>https://en.swiswiswift.com/2017-05-19/</guid>
+      <description>I tried to solve FizzBuzz with Ruby. It&#39;s interesting to see the differences between different languages when creating FizzBuzz.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>Webテスト用のカンペ(Ruby)</title>
-      <link>https://swiswiswift.com/2017-05-18/</link>
+      <title>Web Testing Campe(Ruby)</title>
+      <link>https://en.swiswiswift.com/2017-05-18/</link>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-18/</guid>
-      <description>Webテスト用のカンペです。 就活してるとWebテストで競技プログラミングがよく出てくるので、まとめて</description>
+      <guid>https://en.swiswiswift.com/2017-05-18/</guid>
+      <description>This is a sample code for web testing. When I&#39;m looking for a job, I often see competition programming in web tests, so I put it together.</description>
     </item>
     
     <item>
       <title>Array(Ruby)</title>
-      <link>https://swiswiswift.com/2017-05-17/</link>
+      <link>https://en.swiswiswift.com/2017-05-17/</link>
       <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-17/</guid>
-      <description>Rubyの配列についてです。 最近は競技プログラミングを Ruby でやっています。 C++ への移行タイミングをいつに</description>
+      <guid>https://en.swiswiswift.com/2017-05-17/</guid>
+      <description>It&#39;s about Ruby arrays. Recently, I&#39;ve been doing some competition programming in Ruby. I&#39;m worried about when to migrate to C++.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>UIStatusBarを白くする</title>
-      <link>https://swiswiswift.com/2017-05-16/</link>
+      <title>Whitening the UIStatusBar</title>
+      <link>https://en.swiswiswift.com/2017-05-16/</link>
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-16/</guid>
-      <description>UIStatusBarを白くする方法その1 UIStatusBarを白くする方法その1です。特定のVi</description>
+      <guid>https://en.swiswiswift.com/2017-05-16/</guid>
+      <description>How to make UIStatusBar white, part 1
+How to make UIStatusBar white, part 1. This is how to whiten a particular ViewController. Write it to the UIViewController that you want to make white.</description>
     </item>
     
     <item>
-      <title>UITableViewとUISearchBar</title>
-      <link>https://swiswiswift.com/2017-05-15/</link>
+      <title>UITableView and UISearchBar</title>
+      <link>https://en.swiswiswift.com/2017-05-15/</link>
       <pubDate>Mon, 15 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-15/</guid>
-      <description>UITableViewとUISearchBarを組み合わせたサンプルです。 ナビゲーションバーにある虫</description>
+      <guid>https://en.swiswiswift.com/2017-05-15/</guid>
+      <description>This is a sample of the combination of UITableView and UISearchBar.
+Pressing the magnifying glass on the navigation bar will bring up the SearchBar, and typing a character there will bring up the search results.</description>
     </item>
     
     <item>
       <title>UserNotification(LocalNotification)</title>
-      <link>https://swiswiswift.com/2017-05-14/</link>
+      <link>https://en.swiswiswift.com/2017-05-14/</link>
       <pubDate>Sun, 14 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-14/</guid>
-      <description>UserNotificationはユーザーに対して通知を発行する時に使用します。 UserNotifi</description>
+      <guid>https://en.swiswiswift.com/2017-05-14/</guid>
+      <description>UserNotification is used to issue a notification to a user.
+There are two main types of UserNotifications, RemoteNotification (notifications like Line and Twitter) and LocalNotification (notifications that are issued internally, like clock apps).</description>
     </item>
     
     <item>
-      <title>音声認識(SFSpeechRecognizer)</title>
-      <link>https://swiswiswift.com/2017-05-13/</link>
+      <title>Speech Recognition(SFSpeechRecognizer)</title>
+      <link>https://en.swiswiswift.com/2017-05-13/</link>
       <pubDate>Sat, 13 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-13/</guid>
-      <description>iOS10からSpeech Frameworkが登場しました。 ここではSFSpeechRecogniz</description>
+      <guid>https://en.swiswiswift.com/2017-05-13/</guid>
+      <description>iOS10からSpeech Frameworkが登場</description>
     </item>
     
     <item>
       <title>UITextField</title>
-      <link>https://swiswiswift.com/2017-05-12/</link>
+      <link>https://en.swiswiswift.com/2017-05-12/</link>
       <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-12/</guid>
-      <description>UITextFieldは文字の入力に使われます。 UITextFieldのクラス階層 NSObject ↑ UIResponder ↑ UIView ↑ UIControl ↑ UITextField</description>
+      <guid>https://en.swiswiswift.com/2017-05-12/</guid>
+      <description>A UITextField is used to enter a character.
+Class Hierarchy of UITextField
+NSObject
+↑upside down
+UIResponder.
+↑upside down
+UIView.
+↑upside down
+UIControl
+↑upside down
+UITextField</description>
     </item>
     
     <item>
-      <title>cafファイルの作成</title>
-      <link>https://swiswiswift.com/2017-05-11/</link>
+      <title>Creating a CAF file</title>
+      <link>https://en.swiswiswift.com/2017-05-11/</link>
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-11/</guid>
-      <description>.cafファイルはiOSに用いられる音声ファイル形式です。以下はwavファイルを同名で出力するコマン</description>
+      <guid>https://en.swiswiswift.com/2017-05-11/</guid>
+      <description>.caf file is an audio file format used by iOS. The following command outputs a wav file with the same name. afconvert -f caff -d</description>
     </item>
     
     <item>
       <title>UINavigationBar</title>
-      <link>https://swiswiswift.com/2017-05-10/</link>
+      <link>https://en.swiswiswift.com/2017-05-10/</link>
       <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-10/</guid>
-      <description>iOSアプリの画面上部によく使われているUINavigationBarについてです。 UINaviga</description>
+      <guid>https://en.swiswiswift.com/2017-05-10/</guid>
+      <description>The UINavigationBar is the most commonly used UINavigationBar at the top of iOS app screens.
+Class hierarchy of UINavigationBar.
+NSObject
+↑upside down
+UIResponder.
+↑upside down</description>
     </item>
     
     <item>
       <title>UILabel</title>
-      <link>https://swiswiswift.com/2017-05-09/</link>
+      <link>https://en.swiswiswift.com/2017-05-09/</link>
       <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-09/</guid>
-      <description>UILabelクラスは文字表示を管理するクラスです。画面に文字を表示させたい時に使用します。 UILa</description>
+      <guid>https://en.swiswiswift.com/2017-05-09/</guid>
+      <description>The UILabel class is a class to manage the character display. This is used when you want to display text on the screen. UILabel&#39;s class</description>
     </item>
     
     <item>
-      <title>現在時刻の取得</title>
-      <link>https://swiswiswift.com/2017-05-08/</link>
+      <title>Obtaining the current time</title>
+      <link>https://en.swiswiswift.com/2017-05-08/</link>
       <pubDate>Mon, 08 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-08/</guid>
-      <description>現在時間を取得します。 AppleDeveloperリファレンスNSCalender サンプルプログラム</description>
+      <guid>https://en.swiswiswift.com/2017-05-08/</guid>
+      <description>Get the current time. AppleDeveloperリファレンスN</description>
     </item>
     
     <item>
       <title>UIButton</title>
-      <link>https://swiswiswift.com/2017-05-05/</link>
+      <link>https://en.swiswiswift.com/2017-05-05/</link>
       <pubDate>Fri, 05 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-05/</guid>
-      <description>UIButtonクラスはボタンを設置するためのクラスです。 ボタンタップでアクションを起こすことができ</description>
+      <guid>https://en.swiswiswift.com/2017-05-05/</guid>
+      <description>The UIButton class is a class for placing a button. You can take an action with a button tap. Class Hierarchy of UIButton NSObject ↑</description>
     </item>
     
     <item>
       <title>UIBarButtonItem</title>
-      <link>https://swiswiswift.com/2017-05-04/</link>
+      <link>https://en.swiswiswift.com/2017-05-04/</link>
       <pubDate>Thu, 04 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-04/</guid>
-      <description>UINavigationBarの要素追加、カスタマイズに用いられるUIBarButtonItemにつ</description>
+      <guid>https://en.swiswiswift.com/2017-05-04/</guid>
+      <description>UIBarButtonItem used to add or customize elements in UINavigationBar. Class hierarchy of UIBarButtonItem NSObject ↑ UIBarItem ↑ UIBarButtonItem AppleDe</description>
     </item>
     
     <item>
       <title>Dictionary</title>
-      <link>https://swiswiswift.com/2017-05-02/</link>
+      <link>https://en.swiswiswift.com/2017-05-02/</link>
       <pubDate>Tue, 02 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-02/</guid>
-      <description>Swiftの辞書配列です。 辞書配列の作成と呼び出しについて記載します。 人によって辞書配列だったり、ハ</description>
+      <guid>https://en.swiswiswift.com/2017-05-02/</guid>
+      <description>A Swift dictionary array. Describes how to create and call a dictionary array.
+I like that different people use different ways of saying things like dictionary arrays, hashes, maps, etc.</description>
     </item>
     
     <item>
       <title>Array</title>
-      <link>https://swiswiswift.com/2017-05-01/</link>
+      <link>https://en.swiswiswift.com/2017-05-01/</link>
       <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-01/</guid>
-      <description>配列の書き方 Swiftの配列です。配列の作成と呼び出しについて記載します。 配列の追加、挿入、削除 配列</description>
+      <guid>https://en.swiswiswift.com/2017-05-01/</guid>
+      <description>How to write an array
+It&#39;s a Swift array. This section describes the creation and calling of arrays.
+ Add, Insert and Delete Arrays
+I will try to add, insert and delete arrays.</description>
     </item>
     
   </channel>

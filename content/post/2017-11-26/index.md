@@ -1,8 +1,8 @@
 +++
-title = "SwiftでUDP通信を行い、文字列を送る"
+title = "UDP communication in Swift and sending a string"
 url = "2017-11-26"
 date = "2017-11-26"
-description = "SwiftでUDP通信を行い、文字列を送る"
+description = "UDP communication in Swift and sending a string"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftでUDP通信するメモです。  
-[SwiftSocket](https://github.com/swiftsocket/SwiftSocket) をcocoapodsで入れて、こんな感じで書きました。  
-woom-02と通信するのに使いました。  
+This is a note to communicate with UDP in Swift.  
+  
+I installed [SwiftSocket](https://github.com/swiftsocket/SwiftSocket) via cocoapods and wrote it like this.
+I used it to communicate with the WOOM-02.  
 
 <!-- Google Ads -->
 {{< google-ads >}}

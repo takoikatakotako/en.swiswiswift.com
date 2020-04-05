@@ -1,8 +1,8 @@
 +++
-title = "ReactNativeでテキストを表示"
+title = "Display text in ReactNative"
 url = "2018-08-18"
 date = "2018-08-18"
-description = "ReactNativeでテキストを表示"
+description = "Display text in ReactNative"
 tags = [
     "ReactNative",
 ]
@@ -15,7 +15,7 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ReactNativeでTextを表示するサンプルです。  
+This is a sample of displaying Text with ReactNative.  
 
 react-native: 0.56.0  
 

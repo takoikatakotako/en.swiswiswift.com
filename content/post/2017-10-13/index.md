@@ -1,8 +1,8 @@
 +++
-title = "○秒後に実行させる、毎秒実行する"
+title = "Execute after ○ seconds, execute every second"
 url = "2017-10-13"
 date = "2017-10-13"
-description = "○秒後に実行させる、毎秒実行する"
+description = "Execute after ○ seconds, execute every second"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swiftで数秒後に実行する、毎秒実行させるサンプルです。  
-一秒ごとにコンソールに出力されます。  
+Here's a sample that runs every second, after a few seconds in Swift.  
+It is output to the console every second.  
 
 <!-- Google Ads -->
 {{< google-ads >}}

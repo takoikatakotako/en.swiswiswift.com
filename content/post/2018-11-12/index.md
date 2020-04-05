@@ -1,8 +1,8 @@
 +++
-title = "Xcode10でプロジェクト名を変更する"
+title = "Renaming a project in Xcode10"
 url = "2018-11-12"
 date = "2018-11-12"
-description = "Xcode10でプロジェクト名を変更する"
+description = "Renaming a project in Xcode10"
 tags = [
     "iOS",
 ]
@@ -15,66 +15,66 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-
-こちらの記事を参考にさせていただきました。  
-ありがとうございます！  
-参考記事の方が丁寧に書いてありますので、わからないことがあったら是非そちらを  
+I referred to this article as a reference.  
+Thank you so much!  
+The reference article is more detailed, so if you have any questions, please check it out.  
 
 [Xcodeでプロジェクト名を変更する方法 (Xcode8.0)](https://tech.librastudio.co.jp/index.php/2016/10/05/post-1038/)
 
-今回は WebRTCHandsOn　というプロジェクト名を、simple-video-chat-ios というプロジェクト名に変更します。
+In this case, I've renamed the project WebRTCHandsOn to simple-video-chat-ios.
 
-1.Xcodeからプロジェクト名を変更する
-右側ペインにその詳細が表示されるので「Identity and Type」のNameを新しいプロジェクト名(ここではsimple-video-chat-ios)に修正する。
+1.Renaming a project from Xcode
+You can see the details in the right pane, so change the Name of "Identity and Type" to a new project name (in this case, simple-video-chat-ios).
 
 ![alt](1.png)
 
-確認とアラートが出るので、　rename　ボタンを押してリネームする。
+When you get a confirmation and an alert, press the rename button to rename.
 
 ![alt](2.png)
 
-2.Schemeの変更
-画面上部のメニューから「Product」-> 「Scheme」->「Manage Schemes」 を選択します。  
-アラートが表示されたら左下の 「+」 ボタンを選択し、新しいターゲット(リネーム後のターゲーット)を追加します。  
+2.Change of Scheme
+Select [Product] -> [Scheme] -> [Manage Schemes] from the menu at the top of the screen.  
+When an alert appears, select the "+" button at the bottom left to add a new target (the target after the rename).  
 
 ![alt](3.png)
 
-新しいターゲットを追加したら、古いターゲットを削除し、 close　します。
+After adding the new target, delete the old target and close it.
 
 ![alt](4.png)
 
-3.Podfileの修正  
-CocoaPodsを使っている場合は、podファイルも修正が必要です。  
-targetの箇所に新しいプロジェクト名を入力してください。  
+3.Modification of Podfile  
+If you're using CocoaPods, the pod file also needs to be modified.  
+Enter a new project name in the target field.  
 
 ![alt](5.png)
 
-podfileの修正が完了したら、Podディレクトリを削除し、　もう一度 pod install　を行います。  
-前のプロジェクト名の.workplaceファイルは不要なので削除します。  
+When you're done modifying the podfile, delete the pod directory and run pod install again.  
+Remove the .workplace file of the previous project name because it is not needed.  
 
 ![alt](6.png)
 
-pod installが終わったら、General の　Linked Frameworks and Libraries を開き、半透明になっている古いプロジェクト名のLinkを削除します。
+When you're done modifying the podfile, delete the pod directory and run pod install again.  
+Remove the .workplace file of the previous project name because it is not needed.  
 
 ![alt](7.png)
 
-この状態でビルドし、エラーが出ないことを確認してください。  
+Build in this state and make sure that no errors appear.  
 
-5.ディレクトリ名の修正  
-最後に手作業でディレクトリ名を新しい名前に修正します。  
-ディレクトリ名を修正するとXcodeが認識しなくなってしまうので、 Identity and Type で新しいディレクトリを登録します。  
+5. Modify the directory name.  
+Finally, manually modify the directory name to the new name.  
+If you modify the directory name, Xcode won't recognize it, so register a new directory with Identity and Type.  
 
 ![alt](8.png)
 
-info.plist の読込先も間違っているので修正します。  
+Also, the destination of info.plist is wrong, so fix it.  
 
 ![alt](9.png)
 
-これで完了です！  
+And you're done!  
 
-2019/06/20 追記  
-リネームを行うとUnitTest, UITest が実行できなくなってしまいました。  
-Target を一度削除して、作り直すとうまく動作しました。  
+Jun 20, 2019 Postscript.  
+When renaming, UnitTest and UITest can no longer be run.  
+I deleted Target once and rebuilt it, and it worked fine.  
 
 
 <!-- Google Ads -->

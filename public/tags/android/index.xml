@@ -1,86 +1,92 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Android on すいすいSwift</title>
-    <link>https://swiswiswift.com/tags/android/</link>
-    <description>Recent content in Android on すいすいSwift</description>
+    <title>Android on SwiSwiSwift</title>
+    <link>https://en.swiswiswift.com/tags/android/</link>
+    <description>Recent content in Android on SwiSwiSwift</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://swiswiswift.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://en.swiswiswift.com/tags/android/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>ListViewを使ってリスト表示する(Kotlin)</title>
-      <link>https://swiswiswift.com/2019-01-08/</link>
+      <title>Using ListView to display a list(Kotlin)</title>
+      <link>https://en.swiswiswift.com/2019-01-08/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2019-01-08/</guid>
-      <description>ListViewを使ってリストの表示を行います。 Kotlin 、Android は設定ファイルが多くて難しいです。</description>
+      <guid>https://en.swiswiswift.com/2019-01-08/</guid>
+      <description>Use ListView to display the list. Kotlin and Android are difficult because of the large number of configuration files.
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
     <item>
-      <title>Android Studio でアイコンを設定する</title>
-      <link>https://swiswiswift.com/2018-11-29/</link>
+      <title>Setting Icons in AndroidStudio</title>
+      <link>https://en.swiswiswift.com/2018-11-29/</link>
       <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-29/</guid>
-      <description>– File -&amp;gt; Image Assets で Configure Image Asset を開く – Pathの…ボタンを押し、アイコンにしたい画像を選択する。 – Resize でサイズの微</description>
+      <guid>https://en.swiswiswift.com/2018-11-29/</guid>
+      <description>Open Configure Image Asset in File -&amp;gt; Image Assets Press the &amp;hellip; button on the Path and select the image you want to make an icon.</description>
     </item>
     
     <item>
-      <title>BottomNavigationViewで切り替え時に色を変える</title>
-      <link>https://swiswiswift.com/2018-11-20/</link>
+      <title>Changing the color of the BottomNavigationView when switching</title>
+      <link>https://en.swiswiswift.com/2018-11-20/</link>
       <pubDate>Tue, 20 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-20/</guid>
-      <description>res/color ディレクトリ以下に bottom_navigation_color.xml ファイルを作成し、そこにstateごとの色を書くことで実現できます。 (adsbygoogle = window.adsbygoogle || []).push({});</description>
+      <guid>https://en.swiswiswift.com/2018-11-20/</guid>
+      <description>This can be achieved by creating a bottom_navigation_color.xml file under the res/color directory and writing the colors for each state in it.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>Fragmentsを入れ子にしたBottomNavigationを実装する</title>
-      <link>https://swiswiswift.com/2018-11-13/</link>
+      <title>Implementing BottomNavigation with nested Fragments.</title>
+      <link>https://en.swiswiswift.com/2018-11-13/</link>
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-11-13/</guid>
-      <description>BottomNavigationはiOSのTabBarControllerによく似たAPIです。 Bo</description>
+      <guid>https://en.swiswiswift.com/2018-11-13/</guid>
+      <description>BottomNavigation is an API similar to iOS&#39;s TabBarController. This is a sample code that switches Fragment when selecting a tab in BottomNavigation. The page I</description>
     </item>
     
     <item>
-      <title>KotlinでListViewを内包したTabを作成する</title>
-      <link>https://swiswiswift.com/2018-09-25/</link>
+      <title>Creating a Tab with ListView in Kotlin</title>
+      <link>https://en.swiswiswift.com/2018-09-25/</link>
       <pubDate>Tue, 25 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2018-09-25/</guid>
-      <description>KotlinでListViewを内包したTabを作成しました。 参考にさせて頂いたWebページです。 す</description>
+      <guid>https://en.swiswiswift.com/2018-09-25/</guid>
+      <description>I created a Tab that contains a ListView in Kotlin.
+This is the web page I used as a reference. It&#39;s a very good article, so please see his article from this one.</description>
     </item>
     
     <item>
-      <title>現在時刻の取得(kotlin)</title>
-      <link>https://swiswiswift.com/2017-06-22/</link>
+      <title>Obtaining the current time(kotlin)</title>
+      <link>https://en.swiswiswift.com/2017-06-22/</link>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-06-22/</guid>
-      <description>Kotlin で現在時刻の取得を行います。 アラーム機能を持ったアプリを作っています。 このあたりは Swift と異なりますね</description>
+      <guid>https://en.swiswiswift.com/2017-06-22/</guid>
+      <description>Get the current time with Kotlin. I&#39;m making an app that has an alarm function. This is different from Swift.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>Androidアプリのアクションバーの影を消す</title>
-      <link>https://swiswiswift.com/2017-05-22/</link>
+      <title>Shadowing the action bar in Android apps</title>
+      <link>https://en.swiswiswift.com/2017-05-22/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-22/</guid>
-      <description>Androidアプリのアクションバーの影を消します。 アプリはどんどん新しいことが増えていくので覚える</description>
+      <guid>https://en.swiswiswift.com/2017-05-22/</guid>
+      <description>Shadow the action bar in the Android app. Apps are hard to remember because there are so many new things going on.
+   (adsbygoogle = window.</description>
     </item>
     
     <item>
-      <title>Androidアプリのステータスバーの変更</title>
-      <link>https://swiswiswift.com/2017-05-21/</link>
+      <title>Changing the Android app status bar</title>
+      <link>https://en.swiswiswift.com/2017-05-21/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://swiswiswift.com/2017-05-21/</guid>
-      <description>Androidアプリのステータスバーの変更方法です。 色を直指定するのは良くないです、Color.xm</description>
+      <guid>https://en.swiswiswift.com/2017-05-21/</guid>
+      <description>Here&#39;s how to change the Android app&#39;s status bar. It&#39;s not a good idea to specify the color directly, write it in Color.xml.
+   (adsbygoogle = window.</description>
     </item>
     
   </channel>

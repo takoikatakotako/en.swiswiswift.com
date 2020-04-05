@@ -1,8 +1,8 @@
 +++
-title = "let’s encryptでさくらサーバーをhttpsにする"
+title = "Let's encrypt the Sakura server to https"
 url = "2018-05-25"
 date = "2018-05-25"
-description = "let’s encryptでさくらサーバーをhttpsにする"
+description = "Let's encrypt the Sakura server to https"
 tags = [
     "Other",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-以下のサイトを参考にして証明書の設定をして以下の.htaccessをrootにおけば完成です。  
-ちょっとだけ詰まりました。  
+Refer to the following site to set up the certificate and put the following .htaccess as root to complete the process.  
+It's a bit jammed.  
 
 [さくらのサポート情報　【無料SSL】サーバコントロールパネルからの導入手順](https://help.sakura.ad.jp/115000136822/)
 

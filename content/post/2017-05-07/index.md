@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。
+UITableView is a class that displays text in the form of a list. It is useful for displaying a list of data and so on.
 
-UITableViewのクラス階層
+UITableView's class hierarchy
 
 NSObject  
 ↑  
@@ -39,9 +39,7 @@ UITableView
 
 {{< gist takoikatakotako 03d842a3c371bdf7030ec6a7d0537e47 >}}
 
-
-
-二つのグループの場合です。
+This is the case for the two groups.
 
 ![alt](2.png)
 
