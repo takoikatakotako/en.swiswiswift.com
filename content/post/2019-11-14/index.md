@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでStructが使いまわされる"
+title =  "SwiftUI gets used a lot with Struct"
 url = "2019-11-14"
 date = "2019-11-14"
-description = "SwiftUIでStructが使いまわされる"
+description = "SwiftUI gets used a lot with Struct"
 tags = [
     "iOS", "Swift"
 ]
@@ -14,15 +14,15 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-画面遷移をするたびに異なる ID を表示させたかったのですが、それができませんでした。（毎回同じ ID が表示される）
+I wanted to display a different ID for each screen transition, but I couldn't do that. (The same ID is displayed each time.)
 
-![同じIDが表示される](1.gif)
+![SameID](1.gif)
 
-`onDisappear` で id を再生成することで回避しました。  
-`@State` に変化が無い場合はキャッシュを使い回したりするということでしょうか？   
-勉強していきます！！
+This was avoided by regenerating the id with `onDisappear`.  
+If there is no change in `@State`, does that mean that you use the cache?   
+I'm going to learn more about it!
 
-![同じIDが表示される](2.gif)
+![SameID](2.gif)
 
 <!-- Google Ads -->
 {{< google-ads >}}

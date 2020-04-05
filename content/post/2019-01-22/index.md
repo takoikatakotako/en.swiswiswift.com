@@ -1,8 +1,8 @@
 +++
-title = "UITableViewでテーブルにアイテムを表示（Swift4.2）"
+title = "Display items in a table with UITableView（Swift4.2）"
 url = "2019-01-22"
 date = "2019-01-22"
-description = "UITableViewでテーブルにアイテムを表示（Swift4.2）"
+description = "Display items in a table with UITableView（Swift4.2）"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-UITableViewはリストのような形でテキストを表示するクラスです。データ一覧などを表示する時などに役立ちます。
+UITableView is a class that displays text in the form of a list. It is useful for displaying a list of data and so on.
 
-UITableViewのクラス階層
+UITableView's class hierarchy
 
 NSObject
 ↑

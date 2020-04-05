@@ -1,8 +1,8 @@
 +++
-title = "NavigationControllerのRootを切り替える（Swift4.2）"
+title = "Switching the Root of NavigationController（Swift4.2）"
 url = "2019-01-20"
 date = "2019-01-20"
-description = "NavigationControllerのRootを切り替える（Swift4.2）"
+description = "Switching the Root of NavigationController（Swift4.2）"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-`# Swift4.2`  
-`setViewControllers`でNavigationControllerのRootを切り替えています。
+Switching the Root of NavigationController with `setViewControllers`.
 
 ![alt](1.gif)
 

@@ -1,8 +1,8 @@
 +++
-title = "RootViewController をアニメーション付きで切り替える(Swift4.2)"
+title = "Switch RootViewController with animation (Swift4.2)"
 url = "2019-02-01"
 date = "2019-02-01"
-description = "RootViewController をアニメーション付きで切り替える(Swift4.2)"
+description = "Switch RootViewController with animation (Swift4.2)"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-RootViewController をアニメーション付きで切り替えるサンプルコードです。  
-チュートリアルの後とかでの使用を想定しています。
+This is a sample code to switch RootViewController with animation.  
+It's supposed to be used after the tutorial and so on.
 
 ![alt](1.gif)
 

@@ -1,8 +1,8 @@
 +++
-title = "SwiftでUITestを導入(Swift4.2)"
+title = "Adopting UITest with Swift(Swift4.2)"
 url = "2019-01-26"
 date = "2019-01-26"
-description = "SwiftでUITestを導入(Swift4.2)"
+description = "Adopting UITest with Swift(Swift4.2)"
 tags = [
     "iOS",
 ]
@@ -15,13 +15,11 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-プロジェクトにUITestを追加します。  
-プロジェクト作成時に作らなかった場合は以下の画像の手順で追加することができます。
+Add the UITest to your project.  
+If you didn't create it when you created the project, you can add it by following the steps in the image below.
 
-
-
-`@testable import Swiswiswift`（Swiswiswiftはプロジェクト名）　と書くことで、テストクラスの中から参照できるようになります。  
-関数名の頭にtestと付けることで、テストとして実行できるようになります。
+Write `@testable import Swiswiswift` (Swiswiswift is the name of the project) so that you can refer to it in the test class.  
+By prefixing the function name with "test", it can be executed as a test.
 
 <!-- Google Ads -->
 {{< google-ads >}}

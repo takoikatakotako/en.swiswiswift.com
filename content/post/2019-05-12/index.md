@@ -1,8 +1,8 @@
 +++
-title = "CallKit を使って着信画面を表示する"
+title = "Displaying an incoming call screen using CallKit."
 url = "2019-05-12"
 date = "2019-05-12"
-description = "CallKit を使って着信画面を表示する"
+description = "Displaying an incoming call screen using CallKit."
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-CallKit を使うことで着信時のUIを使うことができます。
-電話がかかってくるアプリを作る時に使いました。
+You can use CallKit to use the UI on incoming calls.
+I used it to create an app that would call me.
 
 ![alt](1.jpg)
 ![alt](2.png)

@@ -1,8 +1,8 @@
 +++
-title = "NavigationControllerで画面遷移を行う（Swift4.2）"
+title = "Screen transition in NavigationController（Swift4.2）"
 url = "2019-01-21"
 date = "2019-01-21"
-description = "NavigationControllerで画面遷移を行う（Swift4.2）"
+description = "Screen transition in NavigationController（Swift4.2）"
 tags = [
     "iOS",
 ]
@@ -17,8 +17,8 @@ aliases = ["migrate-from-jekyl"]
 <br>
 #Swift4.2
 
-NavigationContorollerのサンプルコードです。  
-NavigationContorollerは横にニュッと動いて画面遷移をします。  
+This is the sample code for the NavigationContoroller.  
+The NavigationContoroller moves sideways to make screen transitions.  
 
 ![alt](1.gif)
 

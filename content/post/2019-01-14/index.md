@@ -1,8 +1,8 @@
 +++
-title = "CentOS7にRailsをインストールする"
+title = "Installing Rails on CentOS7"
 url = "2019-01-14"
 date = "2019-01-14"
-description = "CentOS7にRailsをインストールする"
+description = "Installing Rails on CentOS7"
 tags = [
   "CentOS",
 ]
@@ -17,8 +17,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-CentOS7にRailsをインストールした時のメモになります。  
-最終的なNginxの　nginx.conf ファイルはこちらになります。
+This is a note when Rails was installed on CentOS7.  
+The final Nginx nginx.conf file can be found here.
 
 ![alt](1.png)
 

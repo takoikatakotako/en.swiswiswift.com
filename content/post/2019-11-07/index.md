@@ -1,8 +1,8 @@
 +++
-title =  "PHP で本当に簡単なモックサーバーを作る"
+title =  "Create a really simple mock server with PHP"
 url = "2019-11-07"
 date = "2019-11-07"
-description = "PHP で本当に簡単なモックサーバーを作る"
+description = "Create a really simple mock server with PHP"
 tags = [
     "PHP",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ローカルにモックサーバーが必要だったので簡単なものをPHPで作ってみました。  
-`signup.php` でユーザー登録を行い、`list.php` でユーザーの一覧を表示し、`deleate.php` でユーザーを全て削除します。
+I needed a local mock server, so I made a simple one in PHP.  
+Register a user at `signup.php`, show a list of users at `list.php`, and remove all users at `deleate.php`.
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -25,22 +25,22 @@ aliases = ["migrate-from-jekyl"]
 {{< amazon-ads >}}
 
 {{< highlight html >}}
-# サーバー起動
+# Server Start
 $ php -S localhost:8000
 {{< /highlight >}}
 
 {{< highlight html >}}
-# ユーザー登録
+# Regist User
 $ curl http://localhost:8000/signup.php -X POST -H "Content-Type: application/json" -d '{"name":"onojun", "age":24}'
 {{< /highlight >}}
 
 {{< highlight html >}}
-# ユーザー一覧
+# User List
 $ curl http://localhost:8000/list.php
 {{< /highlight >}}
 
 {{< highlight html >}}
-# 全てのユーザーを削除
+# Delete All User
 $ curl http://localhost:8000/deleate.php
 {{< /highlight >}}
 

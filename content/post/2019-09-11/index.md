@@ -1,8 +1,8 @@
 +++
-title = "iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました"
+title = "I had a chance to speak at iOSDCJapan2019 Day 1 in the Rookies LT slot."
 url = "2019-09-11"
 date = "2019-09-11"
-description = "iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました"
+description = "I had a chance to speak at iOSDCJapan2019 Day 1 in the Rookies LT slot."
 tags = [
     "iOS",
     "カンファレンス",
@@ -15,36 +15,36 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-iOSDC Japan 2019のDay1において、ルーキーズLT枠で登壇させていただきました。
-聞いたセッションについてはまた別ブログで。
+I had a chance to speak at iOSDC Japan 2019 Day 1 in the Rookies LT slot.
+I'll write about the sessions I heard in another blog.
 <br>
 
-## まとめ
-ルーキーズLT枠で申し込んでよかったです！楽しかったです！
+## Summary
+I'm glad I signed up for the Rookies LT slot! It was a lot of fun!
 
-## ルーキーズLT
-私はルーキーズLT枠で発表させていただきました。
-「iOSDCでのトークが初めての方のみ応募が可能な枠」で、基本的なルールは通常のLTと同じです。
-この枠で採択されたスピーカーは iOSDC の2-3週間前に開かれる「iOSDCルーキーズLT練習会」に参加することができます。
-ルーキーズLT練習会では、運営スタッフの方に発表予定のスライドを添削して頂くことができます。
-僕のスライドもたくさん添削していただき、かなり良い感じにして頂きました。
-添削の他にも、友達（少なくとも僕からは一方的に思ってます）ができたのもとても嬉しいです。
-同期?のような感覚で、iOSDC が終わった後も Twitter で絡んで貰え、とても嬉しいです。
+## Rookies LT
+I am pleased to announce that I am the Rookies' LT slot.
+The basic rules are the same as the regular LT.
+Speakers accepted in this slot will be able to attend the "iOSDC Rookies LT Practice Session" which will be held 2-3 weeks prior to iOSDC.
+At the Rookie's LT practice session, you will have the opportunity to have your slides corrected by one of our staff members.
+He also corrected many of my slides and made them look pretty good.
+Aside from the corrections, I'm also very happy that I've made friends (at least from my point of view, which is one-sided).
+Synchronization? I'm very happy to have people on Twitter even after iOSDC is over.
 
-## 発表
-発表はとても緊張しました。発表中の記憶がありません。
-プログラミング初心者の僕にいろいろ教えてくださった亀仙的な師匠な人（少なくとも僕からは一方的に(ry）の [@tdakak](https://twitter.com/tdakak)さんや、ルーキーズLTで知り合った人が聞きにきてくれたのがとても嬉しかったです。
-また、Twitterをエゴサしたらコメントが何件かありました。
-発表のためにWindowsのPCを組んだり、ガジェットを作ったり大変でしたが、発表してよかったです。
+## Presentation
+I was very nervous about the announcement. I have no memory of it being announced.
+I was very happy to hear that some of the people I met at Rookies LT, such as [@tdakak](https://twitter.com/tdakak), who is a Kamen-like mentor who taught me a lot of things (at least unilaterally (from me)).
+Also, I egged on Twitter and got a few comments.
+It was a lot of work to build a Windows PC and build a gadget for the presentation, but I'm glad I made the presentation.
 
-## 発表スライド
+## Presentation Slides
 [iOSエンジニアでもできるIoTガジェット作成 基板発注もう何も怖くない](https://speakerdeck.com/onojun/iosenziniademodekiruiotgazietutozuo-cheng-ji-ban-fa-zhu-mouhe-mobu-kunai)
 
-## まとめ
-ルーキーズLT枠で申し込んでよかったです！楽しかったです！
-事前に添削してもらえますし、友達もできるのでルーキーズLTで申し込んでも良いと思います。
+## Summary
+I'm glad I signed up for the Rookies LT slot! It was a lot of fun!
+I think it's a good idea to sign up at Rookies LT because they will correct your questions in advance and you can make friends.
 
-## 追記
-最後のネットワークスタッフの方のLTがとても面白く、カッコよかったです。
-僕の本業はインフラエンジニアなので、ネットワーク周りを一年かけてもっと勉強して強くなり、スタッフとして貢献できたら良いなと思いました。時期が来たら応募してみたいです。
-ネットワークスタッフの方には「来年に備えて八の字巻き練習しといて！！」と言われました、練習します。
+## Postscript.
+The network staff's LT at the end was very interesting and cool.
+My main job is as an infrastructure engineer, so I wanted to spend a year learning more about network technology to become stronger and to contribute as a staff member. I would like to apply when the time comes.
+To the network staff, "Practice rolling the figure eight for next year! I'm going to practice.

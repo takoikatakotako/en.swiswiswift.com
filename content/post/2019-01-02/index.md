@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Swiftで関数を作る方法です。
-最近はネット記事を見ないでも見なくても書けるようになってきました。
+This is how to create a function in Swift.
+Lately, I've been able to write without even looking at online articles.
 
 <!-- Google Ads -->
 {{< google-ads >}}

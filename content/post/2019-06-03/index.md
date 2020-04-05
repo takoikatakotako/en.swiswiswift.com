@@ -1,8 +1,8 @@
 +++
-title = "UIButton、ボタンを表示する(Swift5.0)"
+title = "UIButton, display a button (Swift5.0)"
 url = "2019-06-03"
 date = "2019-06-03"
-description = "UIButton、ボタンを表示する(Swift5.0)"
+description = "UIButton, display a button (Swift5.0)"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UIButton を使ってボタンを表示するサンプルコードです。
-角丸ボタンはよく使います。
+This is a sample code to display a button using UIButton.
+I use the rounded corner buttons a lot.
 
 ![alt](1.png)
 

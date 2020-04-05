@@ -1,8 +1,8 @@
 +++
-title =  "Alamofireで受け取ったJsonをCodableを使ってパースする"
+title =  "Parsing the Json received in Alamofire using Codable"
 url = "2019-11-19"
 date = "2019-11-19"
-description = "Alamofireで受け取ったJsonをCodableを使ってパースする"
+description = "Parsing the Json received in Alamofire using Codable"
 tags = [
     "iOS", "Swift"
 ]
@@ -15,7 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-[お天気Webサービス（Livedoor Weather Web Service）](http://weather.livedoor.com/weather_hacks/webservice) の API を Alamofire から叩き、帰ってきた JSON を struct にパースする方法です。
+
+This is a way of tapping [お天気Webサービス（Livedoor Weather Web Service）](http://weather.livedoor.com/weather_hacks/webservice) 's API from Alamofire and parsing the returned JSON into a struct.
 
 <!-- Google Ads -->
 {{< google-ads >}}

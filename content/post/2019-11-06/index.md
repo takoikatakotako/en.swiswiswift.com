@@ -1,8 +1,8 @@
 +++
-title =  "cURL（curl）でアプリにプッシュ通知を送信する"
+title =  "Sending push notifications to your app with cURL (curl)"
 url = "2019-11-06"
 date = "2019-11-06"
-description = "cURL（curl）でアプリにプッシュ通知を送信する"
+description = "Sending push notifications to your app with cURL (curl)"
 tags = [
     "iOS",
 ]
@@ -15,9 +15,10 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-curl コマンドで iOS端末にプッシュ通知を送信する方法です。
+How to send push notifications to iOS devices with the curl command.
 
-証明書と秘密鍵の両方を含めたpemファイルを作成します。
+Create a PEM file that includes both the certificate and the private key.
+
 
 {{< highlight html >}}
 $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem
@@ -29,14 +30,14 @@ $ openssl pkcs12 -in xxxx.p12 -nodes -out certificate-and-privatekey.pem
 <!-- Amazon Ads -->
 {{< amazon-ads >}}
 
-`curl` コマンドでプッシュ通知を送信します。  
-プッシュペイロード、トピック、デバイストークンは使用している環境のものを使ってください。  
-また、本番環境（テストフライトなど）と開発環境ではドメイン (https://api.push.apple.com/3/device/ or https://api.development.push.apple.com) が違うことに気をつけてください。  
+The `curl` command is used to send a push notification.  
+Push payloads, topics, and debit tokens should be from your environment.  
+Also, be aware that the domain (https://api.push.apple.com/3/device/ or https://api.development.push.apple.com) is different between the production environment (e.g. test flights) and the development environment.  
 
 
 {{< highlight html >}}
-# for 本番環境
+# Production Server
 $ curl -v -d '{"aps":{"alert":"hello"}}' -H "apns-topic: com.swiswiswift.myapp" --http2 --cert certificate-and-privatekey.pem https://api.push.apple.com/3/device/{your_device_token}
-# for 開発環境
+# Staging Server
 $ curl -v -d '{"aps":{"alert":"hello"}}' -H "apns-topic: com.swiswiswift.myapp" --http2 --cert certificate-and-privatekey.pem https://api.development.push.apple.com/3/device/{your_device_token}
 {{< /highlight >}}

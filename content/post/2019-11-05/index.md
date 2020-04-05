@@ -1,8 +1,8 @@
 +++
-title =  "p12ファイルから証明書と秘密鍵を取り出す"
+title =  "Retrieving a certificate and private key from a P12 file"
 url = "2019-11-05"
 date = "2019-11-05"
-description = "p12ファイルから証明書と秘密鍵を取り出す"
+description = "Retrieving a certificate and private key from a P12 file"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-.p12 ファイルから証明書と秘密鍵を取り出す方法です。  
-AWS SNS を Terraform で書くときに必要でした。  
+How to retrieve a certificate and private key from a .p12 file.  
+I needed it when I was writing AWS SNS with Terraform.  
 
 {{< highlight html >}}
 $ openssl pkcs12 -in xxxx.p12 -nodes -nokeys -out certificate.pem
@@ -31,11 +31,11 @@ $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts -out privatekey.oem
 {{< amazon-ads >}}
 
 
-ただ、この方法では、ファイルの先頭に NoArgument から始まるテキストが入ってしまいます。  
-NoArgument が入っても悪さはしないのですが、気になったので消そうとしました。
-以下のコマンドを実行すると秘密鍵は NoArgument 無しで変換できました。  
-証明書はそのテキストを消す方法が見つから無かったのでいったん諦めました。  
-もし分かりましたら追記します。
+This way, however, the file will have text starting with NoArgument at the beginning.  
+NoArgument doesn't do any harm when it's in, but I was curious about it, so I tried to remove it.
+The secret key was converted without NoArgument by executing the following command.  
+I gave up on the certificate because I couldn't find a way to erase the text.  
+I'll post it if I can.
 
 {{< highlight html >}}
 $ openssl pkcs12 -in xxxx.p12 -nodes -nocerts | openssl rsa -out privatekey.pem

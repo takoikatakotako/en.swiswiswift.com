@@ -1,8 +1,8 @@
 +++
-title = "Java で文字列をシャッフルする"
+title = "Shuffling Strings in Java"
 url = "2019-03-15"
 date = "2019-03-15"
-description = "Java で文字列をシャッフルする"
+description = "Shuffling Strings in Java"
 tags = [
     "Java",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-Java での文字列のシャッフル方法です。  
-結構面倒だったので、記事にしました。
-`.suffld` みたいなのが欲しいです。
+How to shuffle a string in Java.  
+It was pretty tedious, so I made an article about it.
+I want a `.suffld` kind of thing.
 
 <!-- Google Ads -->
 {{< google-ads >}}

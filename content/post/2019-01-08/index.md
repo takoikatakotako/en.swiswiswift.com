@@ -1,8 +1,8 @@
 +++
-title = "ListViewを使ってリスト表示する(Kotlin)"
+title = "Using ListView to display a list(Kotlin)"
 url = "2019-01-08"
 date = "2019-01-08"
-description = "ListViewを使ってリスト表示する(Kotlin)"
+description = "Using ListView to display a list(Kotlin)"
 tags = [
   "Android",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ListViewを使ってリストの表示を行います。
-Kotlin 、Android は設定ファイルが多くて難しいです。
+Use ListView to display the list.
+Kotlin and Android are difficult because of the large number of configuration files.
 
 
 ![alt](1.gif)

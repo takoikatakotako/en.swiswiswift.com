@@ -1,8 +1,8 @@
 +++
-title = "UISlider で値を取得する(Swift5.0)"
+title = "Getting a value with UISlider (Swift5.0)"
 url = "2019-06-01"
 date = "2019-06-01"
-description = "UISlider で値を取得する(Swift5.0)"
+description = "Getting a value with UISlider (Swift5.0)"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-UISlider で値を取得するサンプルコードです。
-最小値と最大値を設定することで、その間の任意の値を取ることができます。
+This is the sample code to get the value with UISlider.
+You can take any value in between by setting a minimum and maximum value.
 
 ![alt](1.gif)
 

@@ -1,8 +1,8 @@
 +++
-title = "ログイン時にメッセージを表示する（CentOS7）"
+title = "Display a message at login (CentOS7)"
 url = "2019-04-12"
 date = "2019-04-12"
-description = "ログイン時にメッセージを表示する（CentOS7）"
+description = "Display a message at login (CentOS7)"
 tags = [
     "CentOS",
 ]
@@ -15,9 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-サーバーを複数管理していると間違えて異なるサーバにログインしてしまう事があります。  
-ログイン時に表示したい文字は `$/etc/motd` に記述します。  
-ただのテキストだと気が付きにくいので、figlet コマンドを使ってAAを作成するのがマイブームです。  
+If you are managing multiple servers, you may accidentally log in to a different server.  
+The characters to be displayed at login are written in `$/etc/motd`.  
+It's hard to notice when it's just text, so I use figlet command to create AA.   
 
 <!-- Google Ads -->
 {{< google-ads >}}

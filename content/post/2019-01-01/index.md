@@ -16,7 +16,7 @@ aliases = ["migrate-from-jekyl"]
 <br>
 
 #Swift4.2  
-Swiftの配列です。配列の作成と呼び出しについて記載します。
+It's a Swift array. This section describes the creation and calling of arrays.
 
 #Swift3の記事はこちら  
 Array

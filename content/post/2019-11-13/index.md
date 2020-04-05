@@ -1,8 +1,8 @@
 +++
-title =  "SwiftUIでListを表示する"
+title =  "Displaying a List in SwiftUI"
 url = "2019-11-13"
 date = "2019-11-13"
-description = "SwiftUIでListを表示する"
+description = "Displaying a List in SwiftUI"
 tags = [
     "iOS", "Swift"
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-SwiftUI でList を表示する方法です。
-画面遷移後の画面なので、NavigationBar がいます。
+Here's how to display a list in SwiftUI.
+Since this is the screen after the screen transition, there is a NavigationBar.
 
 ![SwiftUI List](1.png)
 

@@ -14,7 +14,7 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-`tar` コマンドで解答ができずに困りました。
+The `tar` command was not able to solve the problem.
 
 ```
 $ tar -zxvf openjdk-11.0.1_linux-x64_bin.tar.gz
@@ -25,7 +25,7 @@ tar: Child returned status 2
 tar: Error is not recoverable: exiting now
 ```
 
-依存パッケージの `gzip` を入れてあげることで解決しました。
+The problem was solved by including the dependency package `gzip`.
 
 ```
 $ yum install gzip

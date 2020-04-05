@@ -1,8 +1,8 @@
 +++
-title = "ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)"
+title = "Parse a local Json file and display it in table view (Swift4.2)"
 url = "2019-01-27"
 date = "2019-01-27"
-description = "ローカルのJsonファイルをParseしてテーブルビューに表示する(Swift4.2)"
+description = "Parse a local Json file and display it in table view (Swift4.2)"
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-ローカルに追加したJsonファイルをパースし、TableViewに表示するサンプルコードです。  
-SwiftyJsonなどを使うともっと良い感じにかけますが、今回は使わないで書いてみました。
+This is a sample code that parses the locally added JSON file and displays it in TableView.  
+It would be better to use SwiftyJson or something like that, but this time I wrote it without using it.
 
 ![alt](1.png)
 

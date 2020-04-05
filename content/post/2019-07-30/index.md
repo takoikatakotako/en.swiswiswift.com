@@ -1,8 +1,8 @@
 +++
-title = "TableViewのセルの高さを変更する（Swift5.0.1）"
+title = "Changing the height of a TableView cell (Swift5.0.1)"
 url = "2019-07-30"
 date = "2019-07-30"
-description = "TableViewのセルの高さを変更する（Swift5.0.1）"
+description = "Changing the height of a TableView cell (Swift5.0.1)"
 tags = [
     "iOS",
     "Swift5",
@@ -17,10 +17,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-TableView のセルの高さを変更する方法です。  
-一括で帰るときは .rowHeight を使い、個別に変えたいときは　heightForRowAt　を使うと実現できました。
+This is how to change the height of a cell in TableView.  
+I was able to achieve this by using .rowHeight for batch return and heightForRowAt for individual changes.
 
-サンプルコードはこちら。  
 [https://github.com/takoikatakotako/swiswiswift-ios](https://github.com/takoikatakotako/swiswiswift-ios)
 
 

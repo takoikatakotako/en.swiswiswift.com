@@ -1,8 +1,8 @@
 +++
-title =  "インフラエンジニアなりたてで知らなかった単語をまとめ"
+title =  "A summary of words I didn't know when I was an infrastructure engineer"
 url = "2019-11-08"
 date = "2019-11-08"
-description = "インフラエンジニアなりたてで知らなかった単語をまとめ"
+description = "A summary of words I didn't know when I was an infrastructure engineer"
 tags = [
     "AWS",
 ]
@@ -15,55 +15,54 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-インフラの勉強をし始めて分からなくて調べた単語をまとめました。
+I put together a list of words I looked up when I started studying infrastructure and didn't understand them.
 
+### Consolidated Billing
+A bulk billing feature, available in AWS Organizations, that allows you to collectively bill payer accounts for all charges on an organization's consolidated accounts. It will be possible to track the costs of consolidated accounts.
 
-### コンソリデーティッドビリング（Consolidated Billing）
-一括請求機能。AWS Organizations で利用することができ、組織の連結アカウントのすべての料金を支払者アカウントに一括請求することができる。連結アカウントのコストを追跡することが可能となる。
-
-### ルートアカウント
-AWSアカウントを作成するときに使用した Eメールアドレスとパスワードで AWSマネジメントコンソールにサインインするとルートアカウントとしてログインすることができる。
-ルートアカウントはAWSアカウントのすべてのリソースへの完全かつ無制限なアクセスが可能になり、そのアクセス権限を制限することはできない。
-- 普段はルートアカウントでサインインしない
-- AWS アカウント（ルート）のアクセスキーを使用しない
-- AWS 多要素認証（MFA）を有効にする
+### Root Account
+You can log in as the root account by signing in to the AWS Management Console with the email address and password you used to create your AWS account.
+The root account will have full and unrestricted access to all the resources of the AWS account, and its access privileges cannot be restricted.
+- I don't usually sign in with my root account.
+- Do not use AWS account (root) access keys
+- Enabling AWS Multi-Factor Authentication (MFA)
 
 ### IAM: Identity and Access Management
-AWS リソースへのアクセスを安全にコンソールするためのウェブサービス。IAM を使用して、リソースを使用するために認証 (サインイン) され、許可された (アクセス許可を持つ) ユーザーを制御する。
+A web service to securely console access to AWS resources, using IAM to control users who are authenticated (signed in) and allowed (with permissions) to use the resource.
 
-### IAMユーザー
-IAM ユーザーは、AWS を操作するために IAM ユーザーを使用する人物またはサービス。
-IAM ユーザーは主に、ユーザーが対話型タスクを実行するために AWS マネジメントコンソールにサインインする場合や、API または CLI を使用して AWS サービスに対しプログラムによるリクエストを行う場合に使用する。
-GUI用とCLI用の二種類が存在する。
+### IAM User
+An IAM user is a person or service that uses an IAM user to operate AWS.
+IAM users are primarily used when a user signs in to the AWS Management Console to perform an interactive task or when making a programmatic request for an AWS service using the API or CLI.
+There are two types, one for GUI and the other for CLI.
 
-### IAMグループ
-IAM グループとは、IAM ユーザーの集合。
-グループを使用して、ユーザーの集合に対してアクセス権限を指定でき、ユーザーのアクセス権限を容易に管理することができる。
+### IAM Group
+An IAM group is a collection of IAM users.
+Groups can be used to specify access privileges for a set of users, making it easy to manage user access privileges.
 
-### ポリシー
-ポリシーは、ユーザーが実行できるアクションと、アクションが影響を与えることができるリソースを登録したドキュメント。
-IAM ユーザーを IAM グループにまとめ、そのグループにポリシーをアタッチできる。そのグループのすべてのユーザーは、グループにアタッチされているポリシーの内容通りのアクセス許可を持っている。
+### Policy
+A policy is a document that registers the actions that a user can perform and the resources that the actions can affect.
+IAM users can be grouped into IAM groups and policies can be attached to those groups. All users of the group have permissions as per the policy attached to the group.
 
-### リージョン
-物理的なサーバーが置いてある地理的に離れた領域。ap-northeast-1 が日本。us-west-2 がオレゴン。
+### Region
+A geographically remote area where physical servers are located. ap-northeast-1 is Japan. us-west-2 is Oregon.
 
-### アベイラビリティゾーン
-データセンターの場所。ap-northeast-1a が品川、ap-northeast-1c が埼玉にあるという噂を聞いた。
+### Availability Zone
+The location of the data center, I heard a rumor that AP-NORTheast-1A is in Shinagawa and AP-NORTheast-1C is in Saitama.
 
-### ローリングデプロイ（Rolling Deployment）
-複数の稼働中サーバーに対して一定数づつ新しいアプリケーションをデプロイ、リリースしていく方法。 In-Place Deployment と Immutable Deployment がある。
+### Rolling Deployment
+How to deploy and release a new application to multiple running servers in a fixed number of days. There is In-Place Deployment and Immutable Deployment.
 
-### インプレースデプロイ（In-Place Deployment）
-稼働中サーバーに対して直接新しいアプリケーションを配置、再起動する方法。
+### In-Place Deployment
+How to deploy and restart a new application directly against a running server.
 
-### イミュータブルデプロイ（Immutable Deployment）
-稼働中サーバーとは別の新しい環境に新しいアプリケーションをデプロイしてテストし、問題なければ新環境に切り替えを行い、旧環境は削除する。 ロールバックする場合も新環境に古いアプリケーションをリリースして切り替える。
+### Immutable Deployment
+Deploy and test the new application in a new environment separate from the running server, and if all is well, switch to the new environment and delete the old one. If you want to roll back, also release the old application to the new environment and switch.
 
-### ブルーグリーンデプロイ（Blue/Green Deployment）
-稼働中サーバー（ブルー）とは別のサーバー（グリーン）に対して新しいアプリケーションを展開し、動作確認を行う。
+### Blue/Green Deployment
+Deploy a new application to a different server (green) than the running server (blue) and check its operation.
 
-### カナリアデプロイ（Canary Deployment）
-稼働中サーバーの一部だけに新しアプリケーションをデプロイ、リリースする方法。 特定のユーザーだけに新しいアプリケーションを利用してもらうことで新サービスの検証が可能。 デプロイする方法は問わず、デプロイ先の数だけに注目したデプロイ方法。
+### Canary Deployment
+How to deploy and release a new application on only a portion of a running server. New services can be validated by allowing only specific users to use the new application. A deployment method that focuses only on the number of deployments, no matter how you deploy it.
 
 
 

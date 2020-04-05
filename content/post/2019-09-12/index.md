@@ -1,8 +1,8 @@
 +++
-title =  "gem でインストールした cocoapods をアップデートする"
+title =  "Update cocoapods installed with gem."
 url = "2019-09-12"
 date = "2019-09-12"
-description = "gem でインストールした cocoapods をアップデートする"
+description = "gem Update cocoapods installed with gem."
 tags = [
     "iOS",
 ]
@@ -15,8 +15,8 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-gem でインストールした cocoapods のバージョンをアップデートする方法です。
-cocoapods のライバル？の carthage が気になっています。
+How to update the version of cocoapods installed with gem.
+A rival for cocoapods? I'm concerned about the carthage of
 
 {{< highlight html >}}
 gem update cocoapods

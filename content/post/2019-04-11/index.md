@@ -1,8 +1,8 @@
 +++
-title = "iOSでUITest（E2Eテスト）を行う(Swift5.0)"
+title = "Performing UITest (E2E testing) on iOS (Swift5.0)OSでUITest（E2Eテスト）を行う(Swift5.0)"
 url = "2019-04-11"
 date = "2019-04-11"
-description = "iOSでUITest（E2Eテスト）を行う(Swift5.0)"
+description = "Performing UITest (E2E testing) on iOS (Swift5.0)"
 tags = [
     "iOS",
 ]
@@ -14,12 +14,12 @@ aliases = ["migrate-from-jekyl"]
 +++
 
 <br>
-Swift でUITest を行うサンプルコードです。  
-左右のテキストフィールドに数字を入れ、ボタンを押すとその積を計算するアプリを作りました。  
+This is the sample code to do UITest in Swift.  
+I made an app that puts a number in the left and right text fields and calculates the product when you press a button.  
 
-そしてそのアプリのUITest を実装しました。  
+Then I implemented UITest for that app.  
 
-参考: [【Swift】初めてのUITest導入](https://qiita.com/taji-taji/items/c00e5b94376c37f17443)
+Reference: [【Swift】初めてのUITest導入](https://qiita.com/taji-taji/items/c00e5b94376c37f17443)
 
 ![alt](1.gif)
 ![alt](2.gif)

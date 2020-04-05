@@ -15,8 +15,9 @@ aliases = ["migrate-from-jekyl"]
 
 <br>
 
-以下のエラーが出てssh接続ができなくなりました。
-原因は秘密鍵の権限を制限してあげることで解決しました。
+I get the following error and I can no longer connect to SSH.
+The problem was solved by restricting the privileges of the private key.
+
 
 <!-- Google Ads -->
 {{< google-ads >}}
@@ -35,4 +36,4 @@ bad permissions: ignore key: /root/.ssh/id_rsa
 $ chmod 600 /root/.ssh/id_rsa
 ```
 
-参考　Error permission denied through ssh
+Reference:　Error permission denied through ssh
