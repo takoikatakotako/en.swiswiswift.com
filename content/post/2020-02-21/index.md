@@ -1,8 +1,8 @@
 +++
-title =  "Swiftで動画を再生する"
+title =  "Play videos with Swift"
 url = "2020-02-21"
 date = "2020-02-21"
-description = "Swiftで動画を再生する"
+description = "Play videos with Swift"
 tags = [
     "Swift"
 ]
