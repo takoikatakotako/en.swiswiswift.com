@@ -47,7 +47,7 @@ I&#39;m curious about the correlation between the awesomeness of the interaction
       
       <guid>https://en.swiswiswift.com/2018-12-25/</guid>
       <description>For Ansible practice, I wrote this because I wanted an image that can be entered by SSH.
-docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost  </description>
+docker build -t ssh_centos7:latest . --no-cache docker run -d -p 2222:22 ssh_centos7:latest ssh-keygen -R [localhost]:2222 ssh -p 2222 kabigon@localhost    (adsbygoogle = window.</description>
     </item>
     
     <item>

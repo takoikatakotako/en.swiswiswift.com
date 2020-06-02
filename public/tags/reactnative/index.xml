@@ -40,7 +40,7 @@ Tap on an image of Kabigon to get an alert.</description>
       <guid>https://en.swiswiswift.com/2018-08-18/</guid>
       <description>This is a sample of displaying Text with ReactNative.
 react-native: 0.56.0
- </description>
+   (adsbygoogle = window.adsbygoogle || []).push({});   </description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@ npm install -g react-native-cli react-native -v Create a project</description>
       <guid>https://en.swiswiswift.com/2018-08-16/</guid>
       <description>This is a sample to display an indicator in ReactNative.
 react-native: 0.56.0
- </description>
+   (adsbygoogle = window.adsbygoogle || []).push({});   </description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@ The purple, ochre, and light blue views are at a height of 1 : 2 : 3.</descripti
       <guid>https://en.swiswiswift.com/2018-08-13/</guid>
       <description>This is a sample to display FlatList in ReactNative.
 react-native: 0.56.0
- </description>
+   (adsbygoogle = window.adsbygoogle || []).push({});   </description>
     </item>
     
     <item>
@@ -106,7 +106,7 @@ react-native: 0.56.0
       <description>This is a sample of displaying a button in ReactNative.
 Press the button to display the alarm.
 react-native: 0.56.0
- </description>
+   (adsbygoogle = window.adsbygoogle || []).</description>
     </item>
     
   </channel>
